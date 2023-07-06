@@ -39,7 +39,7 @@ set -o pipefail
 awk '/^[0-3]?[0-9].[0-3]?[0-9].(?:[0-9]{2})?[0-9]{2}.*$/{print "\n" $0; next}{print}' "${1}" |
   awk 'BEGIN{RS=""}/java.lang.NullPointerException/'
 ```
-## mix 
+## Mix 
 Get a scpecific network interface
 ```sh
 sudo tcpdump -i $(ip addr | awk -F':' '/^[1-9]/&&/wlp/{print $2})' udp -v
