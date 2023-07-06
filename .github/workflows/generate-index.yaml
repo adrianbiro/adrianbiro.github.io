@@ -8,13 +8,13 @@ env:
 jobs:
   push:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-      deployments: write
-      statuses: write
-      actions: write
-      checks: read
+    #permissions:
+    #  contents: read
+    #  packages: write
+    #  deployments: write
+    # statuses: write
+    #  actions: write
+    #  checks: read
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
