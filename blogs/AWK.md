@@ -1,14 +1,18 @@
 # AWK tips
 
 ## Generate completion
-for `ssh` and `sftp`
+For `ssh` and `sftp`
 ```sh
 complete -W "$(awk '/^Host\s\*/{next}; /^Host/{print $2}' "${HOME}/.ssh/config" 2>'/dev/null')" ssh sftp
 ```
-get specific device for `iostat -p sdX`
+Get specific device for `iostat -p sdX`
 ```sh
 alias ,iostat='iostat -xmdzh 1 -p'
 complete -W "$(lsblk -l | awk '!(/loop/||/NAME/){print $1}')" ,iostat
+```
+Basic competion for yt-dlp
+```sh
+complete -W "$(yt-dlp -h | awk '$1 ~ /--.*/&&!/sponsorblock/{print $1}')" yt-dlp
 ```
 
 ## k8s/ocp
@@ -26,7 +30,15 @@ oc get pods -o wide | awk 'NR==1{print; next} {if($4 > 0) print}'
 # Pods Age
 oc get pods -o wide | awk -v days="${1:-7}" 'NR==1{print; next} $5!~/.*d/{next}; {tmp=$5; gsub("d","",tmp); if(int(tmp) > days ){print}}'
 ```
-
+## Log4J
+Parse the whole log entry, not just the line containing the error string (record in AWK)
+```sh
+#!/bin/bash
+set -o errexit
+set -o pipefail
+awk '/^[0-3]?[0-9].[0-3]?[0-9].(?:[0-9]{2})?[0-9]{2}.*$/{print "\n" $0; next}{print}' "${1}" |
+  awk 'BEGIN{RS=""}/java.lang.NullPointerException/'
+```
 ## mix 
 Get a scpecific network interface
 ```sh
@@ -36,8 +48,13 @@ Kill all detached screens
 ```sh
 screen -ls | awk '/Detached/{print $1}' | xargs -I{} screen -X -S {} quit
 ```
-Validate base64
+Validate `base64` [base64 padding](https://stackoverflow.com/questions/6916805/why-does-a-base64-encoded-string-have-an-sign-at-the-end)
 ```sh
+$ echo YXNkcQo= | base64 -d
+asdq
+$ echo YXNkcQo | base64 -d
+asdq
+base64: invalid input
 $ echo YXNkcQo= | awk '{if (length % 4 == 0){print}}' | base64 -d 
 asdq
 $ echo YXNkcQo | awk '{if (length % 4 == 0){print}}' | base64 -d 
