@@ -24,8 +24,10 @@ jobs:
         shell: pwsh
         run: ./scripts/generate-index.ps1
       - name: "Commit ${{ env.filename }}"
+        if: ! 'git diff --exit-code index.md'
         run: |
           git config --global user.name ${{ github.actor }}
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git commit -am "Adding ${{ env.filename }}"
+          git add ${{ env.filename }}
+          git commit -m "Adding ${{ env.filename }}"
           git push
