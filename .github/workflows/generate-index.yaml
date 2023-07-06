@@ -25,12 +25,13 @@ jobs:
         shell: pwsh
         run: |
           $PSVersionTable
+          Write-Host ""
           ./scripts/generate-index.ps1
       - name: "Commit ${{ env.filename }}"
         shell: bash
-        if: 'git diff --exit-code ${{ env.filename }}' 
         run: |
           bash --version
+          echo "Checking diff for changes in ${{ env.filename }}."
           if (( $(git status -sb | wc -l) > 1 )); then
             git config --global user.name ${{ github.actor }}
             git config --global user.email "${{ github.actor }}@users.noreply.github.com"
