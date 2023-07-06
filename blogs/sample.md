@@ -1,4 +1,0 @@
-# bumbum
-```powershell
-Get-Content
-```
