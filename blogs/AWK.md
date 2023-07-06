@@ -15,7 +15,7 @@ Basic competion for yt-dlp
 complete -W "$(yt-dlp -h | awk '$1 ~ /--.*/&&!/sponsorblock/{print $1}')" yt-dlp
 ```
 
-## k8s/ocp
+## k8s ocp
 Remote to the container without knowing generated suffix
 ```sh
 oc rsh $(oc get pod | awk '/jenkins/&&!/agent/{print $1}')
