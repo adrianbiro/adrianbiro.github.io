@@ -1,3 +1,3 @@
 # adrianbiro.github.io
 
-##  [blog](./index.md#test1) 
+##  [index](./index.md#test1) 
