@@ -20,14 +20,23 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
       - name: "Generate ${{ env.filename }}"
         shell: pwsh
-        run: ./scripts/generate-index.ps1
+        run: |
+          $PSVersionTable
+          ./scripts/generate-index.ps1
       - name: "Commit ${{ env.filename }}"
+        shell: bash
         if: 'git diff --exit-code ${{ env.filename }}' 
         run: |
-          git config --global user.name ${{ github.actor }}
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add ${{ env.filename }}
-          git commit -m "Adding ${{ env.filename }}"
-          git push
+          bash --version
+          if (( $(git status -sb | wc -l) > 1 )); then
+            git config --global user.name ${{ github.actor }}
+            git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+            git add ${{ env.filename }}
+            git commit -m "Adding ${{ env.filename }}"
+            git push
+          else
+            echo "Nothing to commit, working tree clean."
+          fi
