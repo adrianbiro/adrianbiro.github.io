@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: "Generate ${{ env.filename }}"
         shell: pwsh
         run: ./scripts/generate-index.ps1
