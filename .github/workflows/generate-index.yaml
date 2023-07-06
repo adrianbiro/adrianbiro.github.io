@@ -11,10 +11,6 @@ jobs:
     permissions:
       contents: write
       packages: write
-    #  deployments: write
-    #  statuses: write
-    #  actions: write
-    #  checks: read
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
@@ -25,19 +21,19 @@ jobs:
         shell: pwsh
         run: |
           $PSVersionTable
-          Write-Host ""
+          Write-Host "`n`n"
           ./scripts/generate-index.ps1
       - name: "Commit ${{ env.filename }}"
         shell: bash
         run: |
           bash --version
-          echo "Checking diff for changes in ${{ env.filename }}."
-          if (( $(git status -sb | wc -l) > 1 )); then
+          echo -e "\n\nChecking diff for changes in ${{ env.filename }}\n\n."
+          if (( $(git diff ${{ env.filename }} | wc -l) > 0 )); then
             git config --global user.name ${{ github.actor }}
             git config --global user.email "${{ github.actor }}@users.noreply.github.com"
             git add ${{ env.filename }}
             git commit -m "Adding ${{ env.filename }}"
             git push
           else
-            echo "Nothing to commit, working tree clean."
+            echo "\nNothing to commit, working tree clean."
           fi
