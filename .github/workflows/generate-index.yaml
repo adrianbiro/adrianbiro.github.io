@@ -2,6 +2,9 @@ name: Generate index.md
 on:
   push:
 
+env:
+  filename: "index.md"
+
 jobs:
   push:
     runs-on: ubuntu-latest
@@ -11,6 +14,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - name: Generate index.md
+      - name: "Generate ${{ env.filename }}"
         shell: pwsh
         run: ./scripts/generate-index.ps1
+      - name: "Commit ${{ env.filename }}"
+        run: |
+          git config --global user.name ${{ github.actor }}
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git commit -am "Adding ${{ env.filename }}"
+          git push
