@@ -20,7 +20,7 @@ jobs:
       - name: "Generate ${{ env.filename }}"
         shell: pwsh
         run: |
-          $PSVersionTable
+          $PSVersionTable | Select-Object -Property PSVersion,PSEdition,Platform,OS
           Write-Host "`n`n"
           ./scripts/generate-index.ps1
       - name: "Commit ${{ env.filename }}"
