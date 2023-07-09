@@ -1,7 +1,9 @@
 # OpenSSL tips
+
 ## [Certificate after DNS change](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-01-challenge-validation#812038)
 `certbot -d mydomainename.com --manual --preferred-challenges dns certonly`
-## Check validation date
+
+## Check certificate validity (days left)
 ```bash
 #!/bin/bash
 set -o errexit
