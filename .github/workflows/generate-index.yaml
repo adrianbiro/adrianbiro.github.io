@@ -1,6 +1,8 @@
 name: Generate index.md
 on:
   push:
+    branches: [ "main" ] 
+  workflow_dispatch:
 
 env:
   filename: "index.md"
@@ -20,13 +22,14 @@ jobs:
       - name: "Generate ${{ env.filename }}"
         shell: pwsh
         run: |
-          $PSVersionTable | Select-Object -Property PSVersion,PSEdition,Platform,OS
+          Select-Object -InputObject $PSVersionTable -Property PSVersion,PSEdition,Platform,OS
           Write-Host "`n`n"
           ./scripts/generate-index.ps1
       - name: "Commit ${{ env.filename }}"
         shell: bash
         run: |
           bash --version
+          set -euxo pipefail
           echo -e "\n\nChecking diff for changes in ${{ env.filename }}\n\n."
           if (( $(git diff ${{ env.filename }} | wc -l) > 0 )); then
             git config --global user.name ${{ github.actor }}
@@ -35,5 +38,5 @@ jobs:
             git commit -m "Adding ${{ env.filename }}"
             git push
           else
-            echo "\nNothing to commit, working tree clean."
+            echo -e "\nNothing to commit, working tree clean."
           fi

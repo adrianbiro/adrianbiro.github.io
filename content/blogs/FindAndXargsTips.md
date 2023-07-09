@@ -18,7 +18,7 @@ find /app/csops/import/ \( \( -name 'SFDW.HPDWHP.SMAPP1.DA*ERRS' -a -size 31c \)
 In this example there is a few things useful to know:
 
 - conditionals escaped with a backslash to prevent opening subshell `\\( ... \\)`
-- `-print0` print the full file name followed by a null character, instead of the newline. This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output. This option is the same as in `perl -0 sort -z xargs -0 grep -Z`
+- `-print0` print the full file name followed by a null character, instead of the newline. This allows file names that contain newlines or other types of white space to be correctly interpreted by programs that process the find output. This option is the same as in `perl -0 sort -z xargs -0 grep -Z cpio -0`
 - `xargs -n` is for max arguments, to prevent launching separate processes for each input
 
 ## Process arguments in bit complex logic then `-exec` can handle
