@@ -6,3 +6,7 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 * [AWK tips](./content/blogs/AWK.md)
 * [Find And Xargs Tips](./content/blogs/FindAndXargsTips.md)
 * [KQL vs Apache Licene](./content/blogs/KQLvsLucene.md)
+* [LVM And LUKS Notes](./content/blogs/LvmAndLuksNotes.md)
+* [OpenSSL tips](./content/blogs/OpenSslTips.md)
+* [Pandoc Tips](./content/blogs/PandocTips.md)
+* [Randomize IMEI Banana Phone (SK comments with EN links) ](./content/blogs/RandomizeIMEIonBananaPhone.md)
