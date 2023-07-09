@@ -1,6 +1,28 @@
 # OpenSSL tips
 ## [Certificate after DNS change](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-01-challenge-validation#812038)
 `certbot -d mydomainename.com --manual --preferred-challenges dns certonly`
+## Check validation date
+```bash
+#!/bin/bash
+set -o errexit
+set -o nounset
+set -o pipefail
+
+if [[ ${#} -eq 0 ]]; then
+  echo -e "Usage:\v${0##*/} <example.com>\n"
+  exit 1
+fi
+data=$(echo |
+  openssl s_client -servername "${1}" -connect "${1}":443 2>/dev/null |
+  openssl x509 -noout -enddate |
+  sed -e 's#notAfter=##')
+
+ssldate=$(date -d "${data}" '+%s')
+nowdate=$(date '+%s')
+diff="$((ssldate - nowdate))"
+
+echo $((diff / 86400))
+```
 
 ## Command usege
 Generate custom root CA certificate
