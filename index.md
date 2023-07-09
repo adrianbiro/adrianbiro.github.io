@@ -7,6 +7,7 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 * [Find And Xargs Tips](./content/blogs/FindAndXargsTips.md)
 * [KQL vs Apache Licene](./content/blogs/KQLvsLucene.md)
 * [LVM And LUKS Notes](./content/blogs/LvmAndLuksNotes.md)
+* [Notes on Miscelaneus Unix Utils](./content/blogs/NotesOnMiscUnixUtils.md)
 * [OpenSSL tips](./content/blogs/OpenSslTips.md)
 * [Pandoc Tips](./content/blogs/PandocTips.md)
 * [Publish unix socket on localhost](./content/blogs/PublishSocketOnLocalhost.md)
