@@ -64,19 +64,17 @@ $
 ```awk
 #!/usr/bin/awk -f
 BEGIN{
-    FS="=";
     while ("env" | getline) {
         if(/^(WSL|XDG)_.*$/){
-            printf("-e %s\n", $1)
+            printf("-e %s\n", $0)
         }
     }
 }
 ```
 ```bash
 $ ./,insertEnvVars.awk
--e XDG_SESSION_TYPE
--e XDG_SEAT_PATH
--e XDG_SESSION_CLASS
+-e XDG_SEAT=seat0
+-e XDG_SESSION_TYPE=x11
 $ docker run -it $(./,insertEnvVars.awk) --rm alpine env
   ...
 ```
