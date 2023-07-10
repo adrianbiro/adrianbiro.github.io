@@ -13,4 +13,4 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 * [Publish unix socket on localhost](./content/blogs/PublishSocketOnLocalhost.md)
 * [Randomize IMEI Banana Phone (SK comments with EN links)](./content/blogs/RandomizeIMEIonBananaPhone.md)
 * [Storage notes](./content/blogs/StorageNotes.md)
-* [SystemD Notes](./content/blogs/SystemD.md)
+* [SystemD Notes](./content/blogs/SystemDNotes.md)
