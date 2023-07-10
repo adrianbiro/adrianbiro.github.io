@@ -2,12 +2,12 @@
 
 ## file
 ```sh
-$ file firefox_time_2023-07-09_15\:02\:12.230374 
-firefox_time_2023-07-09_15:02:12.230374: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), too many program headers (4210)
+$ file  weblogic-sys_zfin_zfin_time_2023-07-09_15\:02\:12.230374 
+ weblogic-sys_zfin_zfin_time_2023-07-09_15:02:12.230374: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), too many program headers (4210)
 $ ls -lh
--rw-r--r--   1 root   root    21G Jul  9 15:04 firefox_time_2023-07-09_15:02:12.230374
-$ file -Pelf_phnum=10000 firefox_time_2023-07-09_15\:02\:12.230374
-firefox_time_2023-07-09_15:02:12.230374: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), SVR4-style, from '/usr/lib/firefox/irefox'
+-rw-r--r--   1 root   root    21G Jul  9 15:04  weblogic-sys_zfin_zfin_time_2023-07-09_15:02:12.230374
+$ file -Pelf_phnum=10000  weblogic-sys_zfin_zfin_time_2023-07-09_15\:02\:12.230374
+ weblogic-sys_zfin_zfin_time_2023-07-09_15:02:12.230374: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), SVR4-style, from '/usr/lib/firefox/irefox'
 ```
 Look inside compressed files
 ```sh
