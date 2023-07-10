@@ -16,3 +16,8 @@ stage.pcap.zst: Zstandard compressed data (v0.8+), Dictionary ID: None
 $ file stage.pcap.zst --uncompress
 stage.pcap.zst: pcap capture file, microsecond ts (little-endian) - version 2.4 (Ethernet, capture length 262144) (Zstandard compressed data (v0.8+), Dictionary ID: None)
 ```
+## wget
+Download files in batch.
+```sh
+wget --no-verbose --no-parent --recursive --level=1 --no-directories --no-clobber --continue ${URL}
+```
