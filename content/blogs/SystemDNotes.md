@@ -1,5 +1,13 @@
 # SystemD Notes
 
+## Usage
+`systemctl list-units --state=help` 
+
+List the queued jobs `systemctl list-jobs`
+
+`systemctl list-units --type service`
+
+List services enabled on boot `systemctl list-unit-files --state=enabled`
 
 ## Monitor config file for change with Systemd.path
 ```sh
@@ -48,3 +56,8 @@ systemctl daemon-reload
 systemctl enable --now <name>
 systemctl enable --now <name>-rebuild.path
 ```
+
+## Links
+[managing system services with systemctl](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/managing-system-services-with-systemctl_configuring-basic-system-settings)
+
+[optimizing systemd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/optimizing-systemd-to-shorten-the-boot-time_configuring-basic-system-settings#ref_a-guide-to-selecting-services-that-can-be-safely-disabled_optimizing-systemd-to-shorten-the-boot-time)
