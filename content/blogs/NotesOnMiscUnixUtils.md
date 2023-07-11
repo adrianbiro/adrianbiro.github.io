@@ -19,5 +19,18 @@ stage.pcap.zst: pcap capture file, microsecond ts (little-endian) - version 2.4 
 ## wget
 Download files in batch.
 ```sh
-wget --no-verbose --no-parent --recursive --level=1 --no-directories --no-clobber --continue ${URL}
+$ wget --no-verbose --no-parent --recursive --level=1 --no-directories --no-clobber --continue ${URL}
+$ wget -r l 7 --convert-links ${URL}
+```
+Download specific file namese
+```sh
+$ wget -A '*.ps -r ${URL}
+```
+Download full sile.
+```sh
+$ wget --mirror --convert-links ${URL}
+```
+Debug, `-S` server response
+```sh
+$ wget --debug --server-response --max-redirect 0 ${URL}
 ```
