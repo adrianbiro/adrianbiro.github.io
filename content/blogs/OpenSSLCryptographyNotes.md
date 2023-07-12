@@ -1,4 +1,4 @@
-# OpenSSL tips
+# OpenSSL, Cryptography notes
 
 ## [Certificate after DNS change](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-01-challenge-validation#812038)
 `certbot -d mydomainename.com --manual --preferred-challenges dns certonly`
@@ -69,3 +69,4 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 
 ### Cryptography 
 [Cryptographic Best Practices](https://gist.github.com/adrianbiro/a58ba492cb9eeb96c7902dfac6b34fa7)
+[NSA Cybersecurity Information Sheet The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ](https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF)

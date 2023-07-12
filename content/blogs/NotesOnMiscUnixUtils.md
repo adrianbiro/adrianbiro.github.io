@@ -22,7 +22,7 @@ Download files in batch.
 $ wget --no-verbose --no-parent --recursive --level=1 --no-directories --no-clobber --continue ${URL}
 $ wget -r l 7 --convert-links ${URL}
 ```
-Download specific file namese
+Download specific file names.
 ```sh
 $ wget -A '*.ps -r ${URL}
 ```
@@ -34,3 +34,38 @@ Debug, `-S` server response
 ```sh
 $ wget --debug --server-response --max-redirect 0 ${URL}
 ```
+## grep
+Generate `.env` file from `docker-compose.yaml`
+```yaml
+environment:
+  - "INFLUXDB_ADMIN_USER=${INFLUXDB_ADMIN_USER:-admin}"
+```
+```sh
+$ grep -oP '(?<=\${).*(?=})' docker-compose.yaml | sed -E "s/(.*):-(.*)/\1\='\2'/"
+INFLUXDB_ADMIN_USER='admin'
+```
+Select numbers 3 plus digits long, and ignore zero padding, if it is present. Print all matches, on separate lines.
+```sh
+$ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654654' 
+0320
+123
+654654
+```
+[Asciigraph](https://github.com/guptarohit/asciigraph) plus this grep feature is nice when you need to parse and plot the output of monitoring solutions that put all data for one event (like deployments) into one line.
+```sh
+$ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654' --line-buffered  | asciigraph  -h 10 -w 80 
+ 654 ┤                                                                           ╭───
+ 601 ┤                                                                       ╭───╯
+ 548 ┤                                                                   ╭───╯
+ 495 ┤                                                               ╭───╯
+ 443 ┤                                                           ╭───╯
+ 390 ┤                                                       ╭───╯
+ 337 ┼─────╮                                             ╭───╯
+ 284 ┤     ╰──────────╮                               ╭──╯
+ 231 ┤                ╰──────────╮                ╭───╯
+ 178 ┤                           ╰─────────╮  ╭───╯
+ 125 ┤                                     ╰──╯
+```
+* `-o` Print only the matched parts of a matching line.
+* `-w` Select only those lines containing matches that form whole words/regex.
+* `-P` Perl-compatible regular expression
