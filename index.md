@@ -8,7 +8,7 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 * [KQL vs Apache Licene](./content/blogs/KQLvsLucene.md)
 * [LVM And LUKS Notes](./content/blogs/LvmAndLuksNotes.md)
 * [Notes on Miscelaneus Unix Utils](./content/blogs/NotesOnMiscUnixUtils.md)
-* [OpenSSL, Cryptography notes](./content/blogs/OpenSSLCryptographyNotes.md)
+* [OpenSSL, Cryptography, Randomness notes](./content/blogs/OpenSSLCryptographyRandomnessNotes.md)
 * [Pandoc Tips](./content/blogs/PandocTips.md)
 * [Publish unix socket on localhost](./content/blogs/PublishSocketOnLocalhost.md)
 * [Randomize IMEI Banana Phone (SK comments with EN links)](./content/blogs/RandomizeIMEIonBananaPhone.md)
