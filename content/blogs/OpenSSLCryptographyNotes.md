@@ -59,6 +59,19 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 
 `openssl x509 -noout -fingerprint -sha1 -inform pem -in certificate.pem >> fingerprint.txt`
 
+## /proc/sys/kernel/random/
+
+The files in the directory /proc/sys/kernel/random (since 2.3.16) provide an additional interface to the /dev/random device. 
+```sh
+$ man 4 random | less +/proc\ Interface
+$ base64 /proc/sys/kernel/random/uuid
+ZTE2Y2U5ZWQtNDI3My00ZGYyLWI3YTYtZGY2OTdhZmU1MzJkCg==
+```
+
+[linux /dev/random safely generate random numbers](https://sockpuppet.org/blog/2014/02/25/safely-generate-random-numbers/)
+
+[win CryptGenRandom function](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptgenrandom?redirectedfrom=MSDN)
+
 ## Links
 ### OpenSSL 
 [Openssl essentials Digitalocean](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)
