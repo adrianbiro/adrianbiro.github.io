@@ -59,7 +59,7 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 
 `openssl x509 -noout -fingerprint -sha1 -inform pem -in certificate.pem >> fingerprint.txt`
 
-## /proc/sys/kernel/random/
+## /dev/random/ /dev/urandom
 
 The files in the directory /proc/sys/kernel/random (since 2.3.16) provide an additional interface to the /dev/random device. 
 ```sh
@@ -67,6 +67,9 @@ $ man 4 random | less +/proc\ Interface
 $ base64 /proc/sys/kernel/random/uuid
 ZTE2Y2U5ZWQtNDI3My00ZGYyLWI3YTYtZGY2OTdhZmU1MzJkCg==
 ```
+[myths about urandom](https://www.2uo.de/myths-about-urandom/)
+
+[when to use dev random over dev urandom in linux](https://crypto.stackexchange.com/questions/41595/when-to-use-dev-random-over-dev-urandom-in-linux)
 
 [linux /dev/random safely generate random numbers](https://sockpuppet.org/blog/2014/02/25/safely-generate-random-numbers/)
 
