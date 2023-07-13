@@ -1,4 +1,4 @@
-# OpenSSL, Cryptography notes
+# OpenSSL, Cryptography, Randomness notes
 
 ## [Certificate after DNS change](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-01-challenge-validation#812038)
 `certbot -d mydomainename.com --manual --preferred-challenges dns certonly`
@@ -59,13 +59,17 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 
 `openssl x509 -noout -fingerprint -sha1 -inform pem -in certificate.pem >> fingerprint.txt`
 
-## /dev/random/ /dev/urandom
+## `/dev/random/ /dev/urandom`
 
-The files in the directory /proc/sys/kernel/random (since 2.3.16) provide an additional interface to the /dev/random device. 
+The files in the directory `/proc/sys/kernel/random` provide an additional interface to the `/dev/random` device, cf. 
+`man 4 random | less +/proc\ Interface`
 ```sh
-$ man 4 random | less +/proc\ Interface
 $ base64 /proc/sys/kernel/random/uuid
 ZTE2Y2U5ZWQtNDI3My00ZGYyLWI3YTYtZGY2OTdhZmU1MzJkCg==
+$ sed 's/-//g' /proc/sys/kernel/random/uuid 
+73c9c0c65f1c43eab2826d669b9c40b3
+$ head -c 30 /dev/random | base64
+kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 ```
 [myths about urandom](https://www.2uo.de/myths-about-urandom/)
 
