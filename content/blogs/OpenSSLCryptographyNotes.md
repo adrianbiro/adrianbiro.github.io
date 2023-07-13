@@ -69,4 +69,7 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 
 ### Cryptography 
 [Cryptographic Best Practices](https://gist.github.com/adrianbiro/a58ba492cb9eeb96c7902dfac6b34fa7)
+
 [NSA Cybersecurity Information Sheet The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ](https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF)
+
+[Size requirement for security](https://www.keylength.com/en/compare/)
