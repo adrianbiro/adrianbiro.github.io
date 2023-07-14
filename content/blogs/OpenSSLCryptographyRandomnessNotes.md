@@ -68,16 +68,16 @@ $ base64 /proc/sys/kernel/random/uuid
 ZTE2Y2U5ZWQtNDI3My00ZGYyLWI3YTYtZGY2OTdhZmU1MzJkCg==
 $ sed 's/-//g' /proc/sys/kernel/random/uuid 
 73c9c0c65f1c43eab2826d669b9c40b3
-$ head -c 30 /dev/random | base64
+$ head -c 30 /dev/urandom | base64
 kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 ```
-[myths about urandom](https://www.2uo.de/myths-about-urandom/)
+[Myths about urandom](https://www.2uo.de/myths-about-urandom/) In Linux 4.8 the equivalency between `/dev/urandom` and `/dev/random` was given up. Now `/dev/urandom` output does not come from an entropy pool, but directly from a `CSPRNG`.
 
-[when to use dev random over dev urandom in linux](https://crypto.stackexchange.com/questions/41595/when-to-use-dev-random-over-dev-urandom-in-linux)
+[When to use dev random over dev urandom in linux](https://crypto.stackexchange.com/questions/41595/when-to-use-dev-random-over-dev-urandom-in-linux)
 
-[linux /dev/random safely generate random numbers](https://sockpuppet.org/blog/2014/02/25/safely-generate-random-numbers/)
+[Linux /dev/random safely generate random numbers](https://sockpuppet.org/blog/2014/02/25/safely-generate-random-numbers/)
 
-[win CryptGenRandom function](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptgenrandom?redirectedfrom=MSDN)
+[Windows CryptGenRandom function](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptgenrandom?redirectedfrom=MSDN)
 
 ## Links
 ### OpenSSL 
@@ -87,9 +87,13 @@ kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 
 [How to generate a self signed ssl certificate Microsoft](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-create-a-self-signed-certificate-in-azure-using-cloud/ba-p/401403)
 
+[Debian openssl fiasco](https://research.swtch.com/openssl)
+
 ### Cryptography 
 [Cryptographic Best Practices](https://gist.github.com/adrianbiro/a58ba492cb9eeb96c7902dfac6b34fa7)
 
 [NSA Cybersecurity Information Sheet The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ](https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF)
 
 [Size requirement for security](https://www.keylength.com/en/compare/)
+
+[The Physic of brute force](https://pthree.org/2016/06/19/the-physics-of-brute-force/)
