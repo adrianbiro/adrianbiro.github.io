@@ -36,7 +36,7 @@ function main {
 
     foreach ($i in (Get-Content -Path $IndexFile)) {
         $Content.Add($i) | Out-Null
-        if ($i -match "## Content`n") { break }; 
+        if ($i -match "In no sense organized.") { break }; 
     } 
 
     Write-Host "Generating Index"
