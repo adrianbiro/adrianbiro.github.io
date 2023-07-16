@@ -11,3 +11,12 @@ github-pages 228 | Error:  Liquid syntax error (line 8): Variable '{{"ProductKey
 [Fix](https://github.com/alshedivat/al-folio/discussions/864#discussioncomment-3543060) go to repo Settings -> Pages and select the branch as None. Make a small change and push your code again. This would trigger a build and it should succeed this time. You should see the gh-pages branch now. So, go back to the Settings->Pages and select the gh-pages.
 
 Or Settings, Pages, Build and deployment, Source: Github Actions (beta)
+
+Add `Liquid raw` tags
+```
+<!-- {% raw %} -->
+    {% raw %}
+    content containing characters Jekyll usest {{ }} 
+    {% endraw %}
+<!-- {% endraw %} -->
+```
