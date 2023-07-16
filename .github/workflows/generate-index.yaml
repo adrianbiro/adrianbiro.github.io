@@ -30,6 +30,8 @@ jobs:
         shell: bash
         run: |
           bash --version
+          set -euxo pipefail
+          echo -e "\n\nChecking Jekyll's escape tags."
           bash scripts/FixJekyllEscapeTags.sh ${{ env.contentdir }}
           
       - name: "Commit ${{ env.filename }}"
