@@ -17,6 +17,7 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 ### Blogs
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Automation Stuff Jenkins, docker-compose, Githubactions](./content/Blogs/AutomationStuffJenkinsDocker-ComposeGithubactions.md)
+* [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
 * [LVM And LUKS Notes](./content/Blogs/LvmAndLuksNotes.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
 * [Networking and DNS stuff](./content/Blogs/NetworkingAndDNSStuff.md)
