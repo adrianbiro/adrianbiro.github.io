@@ -1,5 +1,5 @@
 #!/bin/bash
-content="${1}"
+content="${1:-content}"
 while IFS= read -r -d '' file; do
     if ! grep -qE '([{]{2}|[}]{2})' "${file}"; then
         continue

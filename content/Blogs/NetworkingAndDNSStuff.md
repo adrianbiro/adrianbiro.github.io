@@ -27,3 +27,11 @@ $ dig github.com TTL
 $ dig github.com CNAME
 $ dig github.com TXT
 ```
+[Access DNS zone data for the different top-level domains](https://github.com/jschauma/tld-zoneinfo)
+
+[IANA domains root files](https://www.iana.org/domains/root/files)
+```bash
+$ dig +noall +answer +noidnout +onesoa @f.root-servers.net . AXFR
+$ dig +short ns edu.
+$ dig +noall +answer +noidnout +onesoa @$(dig +short ns arpa. | head -1) arpa AXFR
+```

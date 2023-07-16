@@ -1,4 +1,4 @@
-# Automation Stuff Jenkins, docker-compose, Githubactions
+# Automation CI/CD Stuff
 
 ## Jenkins
 Copy modules from Jenkins parameters, then in PowerShell run this, search, with the string that will return, in Kibana (Lucene mode). 
@@ -67,4 +67,20 @@ done
 python3 /src/main.py
 
 # docker-compose -f services/docker-compose.yml down
+```
+## Upload Artifact
+
+```bash
+#!/bin/bash
+chmod -c -R +rX "$INPUT_PATH" | while read -r file; do
+    echo "Invalid file permissions fixed for: $file"
+done
+tar \
+    --dereference --hard-dereference \
+    --directory "$INPUT_PATH" \
+    --create --verbose \
+    --file "$RUNNER_TEMP/artifact.tar" \
+    --exclude=.git \
+    --exclude=.github \
+    "${PWD}"
 ```

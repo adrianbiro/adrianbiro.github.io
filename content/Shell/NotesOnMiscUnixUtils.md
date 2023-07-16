@@ -76,3 +76,9 @@ Logging in script.
 $ curl --silent --fail --show-error www.postman-echo.com/delete
 curl: (22) The requested URL returned error: 404
 ```
+
+## date
+```sh
+$ date --iso-8601=seconds
+2023-07-16T19:16:25+02:00
+```
