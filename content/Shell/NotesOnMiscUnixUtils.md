@@ -70,7 +70,6 @@ $ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654' --line-buffered  | asciigr
 * `-w` Select only those lines containing matches that form whole words/regex.
 * `-P` Perl-compatible regular expression
 
-
 ## curl 
 Logging in script.
 ```sh

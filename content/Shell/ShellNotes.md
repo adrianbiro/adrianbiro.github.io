@@ -17,3 +17,23 @@ $ HOME=/home/dbbkp NAME=dbbkp /home/dbbkp/bin/dbbkp.sh
 bash -c "LANGUAGE=sk_SK LANG=sk_SK.UTF-8 /opt/Signal/signal-desktop --no-sandbox %U"
 ```
 
+## Detect import in Bash script 
+Like `__name__ == "__main__"` in python.
+```bash
+#!/bin/bash
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  echo -e "${BASH_SOURCE[0]} == ${0}"
+
+fi
+```
+
+## Detect sudo
+```bash
+function _sudo() {
+    if ((0 == "$(id --user)")); then
+        "$@"
+    else
+        sudo "$@"
+    fi
+}
+```

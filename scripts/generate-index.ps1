@@ -18,7 +18,7 @@ Write-Host "Generating Content"
 
 foreach ($i in (Get-Content -Path $IndexFile)) {
     $Content.Add($i) | Out-Null
-    if ($i -match "# Content") { break }; 
+    if ($i -match "## Content") { break }; 
 } 
 
 Write-Host "Generating Index"
