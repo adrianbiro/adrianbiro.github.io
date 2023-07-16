@@ -1,6 +1,6 @@
 # PowerQuery
 ## Remove Duplicates
-```
+```pq
 let
     Source = Excel.Workbook(File.Contents("C:\Users\AdriánBíro\Downloads\5TablesReport.xlsx"), null, true),
     Sales_Sheet = Source{[Item="Sales",Kind="Sheet"]}[Data],
@@ -14,7 +14,7 @@ in
 ```
 
 ## Get calendar year
-```
+```pq
 //Calendar Year
 let
     Source = List.Dates(StartDate, Length, #duration(1, 0, 0, 0)),
@@ -39,7 +39,7 @@ in
     #"Added Custom1"
 ```
 ## Get Fiscal Year
-```
+```pq
 //Fin Year July to June
 let
     Source = List.Dates(StartDate, Length, #duration(1, 0, 0, 0)),
