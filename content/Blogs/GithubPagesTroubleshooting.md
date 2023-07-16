@@ -1,4 +1,5 @@
 # Github Pages Troubleshooting
+{% raw %}
 
 In failed deploy job.
 ```
@@ -11,3 +12,4 @@ github-pages 228 | Error:  Liquid syntax error (line 8): Variable '{{"ProductKey
 Or in `Settings`, `Pages`, `Build and deployment`, `Source`: `Github Actions (beta)`
 
 Add [`Liquid raw`](https://www.digitalocean.com/community/tutorials/jekyll-escaping-liquid-tags) tags.
+{% endraw %}

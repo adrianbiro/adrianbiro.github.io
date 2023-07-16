@@ -1,4 +1,5 @@
 # PowerQuery
+{% raw %}
 ## Remove Duplicates
 ```pq
 let
@@ -66,3 +67,4 @@ in
     #"Changed Type2"
 ```
 
+{% endraw %}
