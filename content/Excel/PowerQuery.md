@@ -1,6 +1,6 @@
 # PowerQuery
 ## Remove Duplicates
-```PowerQuery
+```
 let
     Source = Excel.Workbook(File.Contents("C:\Users\AdriánBíro\Downloads\5TablesReport.xlsx"), null, true),
     Sales_Sheet = Source{[Item="Sales",Kind="Sheet"]}[Data],
@@ -14,7 +14,7 @@ in
 ```
 
 ## Get calendar year
-```PowerQuery
+```
 //Calendar Year
 let
     Source = List.Dates(StartDate, Length, #duration(1, 0, 0, 0)),
