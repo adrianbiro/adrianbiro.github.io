@@ -8,15 +8,8 @@ github-pages 228 | Error:  Liquid syntax error (line 8): Variable '{{"ProductKey
 ```
 [Troubleshooting Jekyll Build Errors](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)
 
-[Fix](https://github.com/alshedivat/al-folio/discussions/864#discussioncomment-3543060) go to repo Settings -> Pages and select the branch as None. Make a small change and push your code again. This would trigger a build and it should succeed this time. You should see the gh-pages branch now. So, go back to the Settings->Pages and select the gh-pages.
+[Fix](https://github.com/alshedivat/al-folio/discussions/864#discussioncomment-3543060) go to repo `Settings` -> `Pages` and select the branch as `None`. Make a small change and push your code again. This would trigger a build and it should succeed this time. You should see the `gh-pages` branch now. So, go back and select the `gh-pages`.
 
-Or Settings, Pages, Build and deployment, Source: Github Actions (beta)
+Or in `Settings`, `Pages`, `Build and deployment`, `Source`: `Github Actions (beta)`
 
-Add `Liquid raw` tags
-```
-{% raw %}
-    {% raw %}
-    content containing characters Jekyll usest {{ }} 
-    {% endraw %}
-{% endraw %}
-```
+Add [`Liquid raw`](https://www.digitalocean.com/community/tutorials/jekyll-escaping-liquid-tags) tags:
