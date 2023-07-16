@@ -14,9 +14,9 @@ Or Settings, Pages, Build and deployment, Source: Github Actions (beta)
 
 Add `Liquid raw` tags
 ```
-<!-- {% raw %} -->
+{% raw %}
     {% raw %}
     content containing characters Jekyll usest {{ }} 
     {% endraw %}
-<!-- {% endraw %} -->
+{% endraw %}
 ```
