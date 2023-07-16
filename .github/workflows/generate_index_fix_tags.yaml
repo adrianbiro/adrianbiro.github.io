@@ -1,4 +1,4 @@
-name: Generate index.md
+name: Generate index.md and fix Jekyll's escape tags.
 on:
   push:
     branches: [ "main" ] 
@@ -39,8 +39,8 @@ jobs:
         run: |
           bash --version
           set -euxo pipefail
-          echo -e "\n\nChecking diff for changes in ${{ env.filename }}\n\n."
-          if (( $(git diff ${{ env.filename }} | wc -l) > 0 )); then
+          echo -e "\n\nChecking diff for changes\n\n."
+          if (( $(git diff | wc -l) > 0 )); then
             git config --global user.name ${{ github.actor }}
             git config --global user.email "${{ github.actor }}@users.noreply.github.com"
             git add ${{ env.filename }}
