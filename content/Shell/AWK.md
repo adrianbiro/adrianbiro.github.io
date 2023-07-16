@@ -1,4 +1,5 @@
 # AWK tips
+{% raw %}
 
 ## Generate completion
 For `ssh` and `sftp`
@@ -156,3 +157,4 @@ lint: ## Lint Go code with the golint
 	@ echo "gollint"
 	golint $(LINT_TARGETS)
 ```
+{% endraw %}

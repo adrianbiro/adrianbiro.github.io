@@ -6,6 +6,7 @@ on:
 
 env:
   filename: "index.md"
+  contentdir: "content" 
 
 jobs:
   push:
@@ -25,6 +26,12 @@ jobs:
           Select-Object -InputObject $PSVersionTable -Property PSVersion,PSEdition,Platform,OS
           Write-Host "`n`n"
           ./scripts/generate-index.ps1
+      - name: "Fix Jekyll Escape tags in ${{ env.contentdir }}"
+        shell: bash
+        run: |
+          bash --version
+          bash scripts/FixJekyllEscapeTags.sh ${{ env.contentdir }}
+          
       - name: "Commit ${{ env.filename }}"
         shell: bash
         run: |
