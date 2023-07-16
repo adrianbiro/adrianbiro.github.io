@@ -1,6 +1,17 @@
 ﻿# Blogs, Notes, and Stuff
 This page is intended to rescue me in my ongoing struggle to share knowledge in a reusable way, so I will try move it here from emails, gists confluence, Slack, and Teams messages that no-one can find after 2 days.
 ## Content
+### Shell
+* [AWK tips](./content/Shell/AWK.md)
+* [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
+* [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
+* [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
+* [Shell notes](./content/Shell/ShellNotes.md)
+### Powershell
+* [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)
+### Excel
+* [Formulas](./content/Excel/Formulas.md)
+* [PowerQuery](./content/Excel/PowerQuery.md)
 ### AWS
 * [AWS links for demo](./content/AWS/AWSLinksForDemo.md)
 ### Blogs
@@ -17,18 +28,7 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 * [SSH and remoting tips](./content/Blogs/SSHAndRemotingTips.md)
 * [Storage notes](./content/Blogs/StorageNotes.md)
 * [SystemD Notes](./content/Blogs/SystemDNotes.md)
-### Shell
-* [AWK tips](./content/Shell/AWK.md)
-* [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
-* [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
-* [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
-* [Shell notes](./content/Shell/ShellNotes.md)
-### Excel
-* [Formulas](./content/Excel/Formulas.md)
-* [PowerQuery](./content/Excel/PowerQuery.md)
 ### Data
 * [JQL Jira](./content/Data/JQLJira.md)
 * [KQL vs Apache Licene](./content/Data/KQLvsLucene.md)
 * [SQL Notes](./content/Data/SQLnotes.md)
-### Powershell
-* [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)
