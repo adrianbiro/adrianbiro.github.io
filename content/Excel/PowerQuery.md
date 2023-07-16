@@ -1,6 +1,7 @@
 # PowerQuery
 ## Remove Duplicates
 ```pq
+{% raw %}
 let
     Source = Excel.Workbook(File.Contents("C:\Users\AdriánBíro\Downloads\5TablesReport.xlsx"), null, true),
     Sales_Sheet = Source{[Item="Sales",Kind="Sheet"]}[Data],
@@ -11,10 +12,12 @@ let
     #"Sorted Rows1" = Table.Sort(#"Removed Duplicates",{{"CustomerKey", Order.Ascending}})
 in
     #"Sorted Rows1"
+{% endraw %}
 ```
 
 ## Get calendar year
 ```pq
+{% raw %}
 //Calendar Year
 let
     Source = List.Dates(StartDate, Length, #duration(1, 0, 0, 0)),
@@ -37,9 +40,11 @@ let
     #"Added Custom1" = Table.AddColumn(#"Added Custom", "MonthID", each (Date.Year([Date]) - Date.Year(StartDate))*12 + Date.Month([Date]))
 in
     #"Added Custom1"
+{% endraw %}
 ```
 ## Get Fiscal Year
 ```pq
+{% raw %}
 //Fin Year July to June
 let
     Source = List.Dates(StartDate, Length, #duration(1, 0, 0, 0)),
@@ -64,4 +69,5 @@ let
     #"Changed Type2" = Table.TransformColumnTypes(#"Added Custom1",{{"MonthID", Int64.Type}})
 in
     #"Changed Type2"
+{% endraw %}
 ```
