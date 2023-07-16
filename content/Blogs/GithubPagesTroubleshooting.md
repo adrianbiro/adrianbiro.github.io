@@ -1,7 +1,7 @@
 # Github Pages Troubleshooting
 
 In failed deploy job.
-```
+```sh
 github-pages 228 | Error:  Liquid syntax error (line 8): Variable '{{"ProductKey", Int64.Type}' was not properly terminated with regexp: /\}\}/
 ```
 [Troubleshooting Jekyll Build Errors](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)
