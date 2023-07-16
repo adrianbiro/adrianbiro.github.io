@@ -1,17 +1,28 @@
 ﻿# Blogs, Notes, and Stuff
 This page is intended to rescue me in my ongoing struggle to share knowledge in a reusable way, so I will try move it here from emails, gists confluence, Slack, and Teams messages that no-one can find after 2 days.
 # Content
-### blogs
-* [90. Vibes Website With Powershell, Markdown to HTML](./content/blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
-* [AWK tips](./content/blogs/AWK.md)
-* [Find And Xargs Tips](./content/blogs/FindAndXargsTips.md)
-* [KQL vs Apache Licene](./content/blogs/KQLvsLucene.md)
-* [LVM And LUKS Notes](./content/blogs/LvmAndLuksNotes.md)
-* [Networking and DNS stuff](./content/blogs/NetworkingAndDNSStuff.md)
-* [Notes on Miscelaneus Unix Utils](./content/blogs/NotesOnMiscUnixUtils.md)
-* [OpenSSL, Cryptography, Randomness notes](./content/blogs/OpenSSLCryptographyRandomnessNotes.md)
-* [Pandoc Tips](./content/blogs/PandocTips.md)
-* [Publish unix socket on localhost](./content/blogs/PublishSocketOnLocalhost.md)
-* [Randomize IMEI Banana Phone (SK comments with EN links)](./content/blogs/RandomizeIMEIonBananaPhone.md)
-* [Storage notes](./content/blogs/StorageNotes.md)
-* [SystemD Notes](./content/blogs/SystemDNotes.md)
+### AWS
+* [AWS links for demo](./content/AWS/AWSLinksForDemo.md)
+### Blogs
+* [90. Vibes Website With Powershell, Markdown to HTML](./content/Blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
+* [Automation Stuff Jenkins, docker-compose, Githubactions](./content/Blogs/AutomationStuffJenkinsDocker-ComposeGithubactions.md)
+* [KQL vs Apache Licene](./content/Blogs/KQLvsLucene.md)
+* [LVM And LUKS Notes](./content/Blogs/LvmAndLuksNotes.md)
+* [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
+* [Networking and DNS stuff](./content/Blogs/NetworkingAndDNSStuff.md)
+* [OpenSSL, Cryptography, Randomness notes](./content/Blogs/OpenSSLCryptographyRandomnessNotes.md)
+* [Pandoc Tips](./content/Blogs/PandocTips.md)
+* [Proxmox Tips](./content/Blogs/ProxmoxTips.md)
+* [Publish unix socket on localhost](./content/Blogs/PublishSocketOnLocalhost.md)
+* [Randomize IMEI Banana Phone (SK comments with EN links)](./content/Blogs/RandomizeIMEIonBananaPhone.md)
+* [SSH and remoting tips](./content/Blogs/SSHAndRemotingTips.md)
+* [Storage notes](./content/Blogs/StorageNotes.md)
+* [SystemD Notes](./content/Blogs/SystemDNotes.md)
+### Shell
+* [AWK tips](./content/Shell/AWK.md)
+* [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
+* [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
+* [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
+* [Shell notes](./content/Shell/ShellNotes.md)
+### Powershell
+* [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)

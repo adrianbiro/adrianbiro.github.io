@@ -69,3 +69,11 @@ $ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654' --line-buffered  | asciigr
 * `-o` Print only the matched parts of a matching line.
 * `-w` Select only those lines containing matches that form whole words/regex.
 * `-P` Perl-compatible regular expression
+
+
+## curl 
+Logging in script.
+```sh
+$ curl --silent --fail --show-error www.postman-echo.com/delete
+curl: (22) The requested URL returned error: 404
+```
