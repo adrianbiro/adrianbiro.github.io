@@ -1,4 +1,4 @@
-# Blogs, Notes, and Stuff
+﻿# Blogs, Notes, and Stuff
 This page is intended to rescue me in my ongoing struggle to share knowledge in a reusable way, so I will try move it here from emails, gists confluence, Slack, and Teams messages that no-one can find after 2 days.
 ## Content
 ### Shell
@@ -33,4 +33,3 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 * [JQL Jira](./content/Data/JQLJira.md)
 * [KQL vs Apache Licene](./content/Data/KQLvsLucene.md)
 * [SQL Notes](./content/Data/SQLnotes.md)
-
