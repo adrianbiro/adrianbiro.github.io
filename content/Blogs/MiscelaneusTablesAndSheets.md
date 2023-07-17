@@ -45,6 +45,9 @@ Same or 100% (no gain/loss)
 
 [RFC 9110 HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes)
 
+## HTTP headers
+[HTTP headers mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+[HTTP headers wiki](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 ## Order Of Magnitude Units
 
 Decimal 
