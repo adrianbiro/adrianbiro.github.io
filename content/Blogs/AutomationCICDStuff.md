@@ -46,7 +46,8 @@ In case of any problem with the deployment:
 `oc rollout retry dc/jenkins`
 
 `oc rollout cancel dc/jenkins`
-
+### Delete old builds
+`find ./*/builds  -maxdepth 1  -type d -mtime +3 -name "[0-9]*" -exec rm -rf {} \;`
 
 ## Combine `docker-compose` with python app
 ```sh
