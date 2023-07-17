@@ -27,6 +27,13 @@ echo $((diff / 86400))
 ```
 
 ## Command usege
+Encrypt and decrypt a file
+
+```sh
+$ openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in zmaz.txt -out zmaz.txt.enc
+$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -d -in file.txt.enc -out file.txt.dec
+```
+
 Generate custom root CA certificate
 
 `openssl req -x509 -newkey rsa:4096 -keyout customRootCA.key -out customRootCA.cer -days 365`
