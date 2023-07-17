@@ -4,6 +4,7 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 In no sense organized.
 ### AWS
 * [AWS links for demo](./content/AWS/AWSLinksForDemo.md)
+* [AWS Security](./content/AWS/AWSSecurity.md)
 ### Blogs
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Automation CI/CD Stuff](./content/Blogs/AutomationCICDStuff.md)
@@ -33,6 +34,7 @@ In no sense organized.
 ### Shell
 * [AWK tips](./content/Shell/AWK.md)
 * [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
+* [Miscelaneus Shell Links](./content/Shell/MiscelaneusShellLinks.md)
 * [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
 * [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
 * [Shell notes](./content/Shell/ShellNotes.md)

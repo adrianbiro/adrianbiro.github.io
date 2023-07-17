@@ -22,6 +22,9 @@ DNS record
 * SOA Record: Start of authority records like, primary name server, the responsible party, a timestamp for changes, the frequency of zone refreshes, and a series of time limits for retries and abandons.
 * TTL: Time to live in cache each for DNS query. 
 * ANY: Return every type of DNS record it can find.
+[dig + spf](https://www.netmeister.org/blog/spf.html)
+
+[Sender Policy Framework (SPF) definition via a DNS TXT](https://github.com/jschauma/spf)
 ```sh
 $ dig github.com TTL
 $ dig github.com CNAME

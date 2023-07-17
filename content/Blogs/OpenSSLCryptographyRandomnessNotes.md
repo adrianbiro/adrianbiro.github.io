@@ -89,6 +89,7 @@ kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 
 [Debian openssl fiasco](https://research.swtch.com/openssl)
 
+[OpenSSL Command-Line HOWTO Paul Heinlein ](https://www.madboa.com/geek/openssl/)
 ### Cryptography 
 [Cryptographic Best Practices](https://gist.github.com/adrianbiro/a58ba492cb9eeb96c7902dfac6b34fa7)
 
@@ -96,4 +97,8 @@ kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 
 [Size requirement for security](https://www.keylength.com/en/compare/)
 
-[The Physic of brute force](https://pthree.org/2016/06/19/the-physics-of-brute-force/)
+[The Physic of Brute Force](https://pthree.org/2016/06/19/the-physics-of-brute-force/)
+
+[Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
+
+[Security and Cryptography MIT](https://missing.csail.mit.edu/2020/security/)
