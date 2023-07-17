@@ -8,6 +8,7 @@ In no sense organized.
 ### Blogs
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Automation CI/CD Stuff](./content/Blogs/AutomationCICDStuff.md)
+* [Dm-Crypt, LUKS, VeraCrypt](./content/Blogs/Dm-cryptLUKSVeraCrypt.md)
 * [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
 * [Networking and DNS stuff](./content/Blogs/NetworkingAndDNSStuff.md)
