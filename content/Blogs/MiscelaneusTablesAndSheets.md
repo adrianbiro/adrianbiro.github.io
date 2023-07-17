@@ -47,7 +47,10 @@ Same or 100% (no gain/loss)
 
 ## HTTP headers
 [HTTP headers mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
 [HTTP headers wiki](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+
+
 ## Order Of Magnitude Units
 
 Decimal 
