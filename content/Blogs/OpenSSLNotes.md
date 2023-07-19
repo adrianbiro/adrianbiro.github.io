@@ -1,4 +1,4 @@
-# OpenSSL, Cryptography, Randomness notes
+# OpenSSL Notes
 
 ## [Certificate after DNS change](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-01-challenge-validation#812038)
 `certbot -d mydomainename.com --manual --preferred-challenges dns certonly`
@@ -17,7 +17,7 @@ fi
 data=$(echo |
   openssl s_client -servername "${1}" -connect "${1}":443 2>/dev/null |
   openssl x509 -noout -enddate |
-  sed -e 's#notAfter=##')
+  sed -e 's/notAfter=//')
 
 ssldate=$(date -d "${data}" '+%s')
 nowdate=$(date '+%s')
@@ -32,6 +32,11 @@ Encrypt and decrypt a file
 ```sh
 $ openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in zmaz.txt -out zmaz.txt.enc
 $ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -d -in file.txt.enc -out file.txt.dec
+```
+Get content of certificate.
+
+```sh
+$ awk '/-{5}BEGIN/,/-{5}END/' < <(echo | openssl s_client -showcerts -connect google.com:443 2>/dev/null)
 ```
 
 Generate custom root CA certificate
@@ -66,28 +71,7 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 
 `openssl x509 -noout -fingerprint -sha1 -inform pem -in certificate.pem >> fingerprint.txt`
 
-## `/dev/random/ /dev/urandom`
-
-The files in the directory `/proc/sys/kernel/random` provide an additional interface to the `/dev/random` device, cf. 
-`man 4 random | less +/proc\ Interface`
-```sh
-$ base64 /proc/sys/kernel/random/uuid
-ZTE2Y2U5ZWQtNDI3My00ZGYyLWI3YTYtZGY2OTdhZmU1MzJkCg==
-$ sed 's/-//g' /proc/sys/kernel/random/uuid 
-73c9c0c65f1c43eab2826d669b9c40b3
-$ head -c 30 /dev/urandom | base64
-kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
-```
-[Myths about urandom](https://www.2uo.de/myths-about-urandom/) In Linux 4.8 the equivalency between `/dev/urandom` and `/dev/random` was given up. Now `/dev/urandom` output does not come from an entropy pool, but directly from a `CSPRNG`.
-
-[When to use dev random over dev urandom in linux](https://crypto.stackexchange.com/questions/41595/when-to-use-dev-random-over-dev-urandom-in-linux)
-
-[Linux /dev/random safely generate random numbers](https://sockpuppet.org/blog/2014/02/25/safely-generate-random-numbers/)
-
-[Windows CryptGenRandom function](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptgenrandom?redirectedfrom=MSDN)
-
 ## Links
-### OpenSSL 
 [Openssl essentials Digitalocean](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)
 
 [How to generate a self signed ssl certificate Stackoverflow](https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl)
@@ -97,15 +81,17 @@ kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 [Debian openssl fiasco](https://research.swtch.com/openssl)
 
 [OpenSSL Command-Line HOWTO Paul Heinlein ](https://www.madboa.com/geek/openssl/)
-### Cryptography 
-[Cryptographic Best Practices](https://gist.github.com/adrianbiro/a58ba492cb9eeb96c7902dfac6b34fa7)
 
-[NSA Cybersecurity Information Sheet The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ](https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF)
+[Debugging Certificate Errors](https://www.netmeister.org/blog/debugging-certificate-errors.html)
 
-[Size requirement for security](https://www.keylength.com/en/compare/)
+[BadSSL for testing](https://badssl.com/)
 
-[The Physic of Brute Force](https://pthree.org/2016/06/19/the-physics-of-brute-force/)
+[Test Certs Hardenize](https://www.hardenize.com/report/adrianbiro.github.com/1689742492)
 
-[Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
+[SSLlabs Server Test Qualys](https://www.ssllabs.com/ssltest/analyze.html?d=adrianbiro.github.com&latest)
 
-[Security and Cryptography MIT](https://missing.csail.mit.edu/2020/security/)
+[CLI SSLlabs Server Test](https://github.com/ssllabs/ssllabs-scan)
+
+[SSL and TLS Deployment Best Practices](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices)
+
+[SSL Client Test](https://www.howsmyssl.com/)

@@ -72,13 +72,56 @@ $ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654' --line-buffered  | asciigr
 
 ## curl 
 Logging in script.
+
 ```sh
 $ curl --silent --fail --show-error www.postman-echo.com/delete
 curl: (22) The requested URL returned error: 404
 ```
+Make direct requests at a specific server, e.g. at a specific cluster node in a cluster of servers, or to workaround certificate errors, without using `-k --insecure` flags. [Debugging Certificate Errors](https://www.netmeister.org/blog/debugging-certificate-errors.html)
+```sh
+$ $ curl --connect-to www.example.com:443:cname.example.com:443 https://www.example.com
+```
+
 
 ## date
 ```sh
 $ date --iso-8601=seconds
 2023-07-16T19:16:25+02:00
+```
+
+## jar
+Like the [TAR(1)](https://man.freebsd.org/cgi/man.cgi?query=tar&apropos=0&sektion=0&manpath=FreeBSD+13.2-RELEASE+and+Ports&arch=default&format=html).
+```sh
+$ jar -tf file.jar
+```
+```sh
+$ jar --help
+Picked up JAVA_TOOL_OPTIONS:  -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Djavax.net.ssl.trustStore=/etc/pki/java/cacerts -Djavax.net.ssl.trustStorePassword=25bad398-d74f-11ec-aabd-00505693bf45 -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=2
+Illegal option: -
+Usage: jar {ctxui}[vfmn0PMe] [jar-file] [manifest-file] [entry-point] [-C dir] files ...
+Options:
+    -c  create new archive
+    -t  list table of contents for archive
+    -x  extract named (or all) files from archive
+    -u  update existing archive
+    -v  generate verbose output on standard output
+    -f  specify archive file name
+    -m  include manifest information from specified manifest file
+    -n  perform Pack200 normalization after creating a new archive
+    -e  specify application entry point for stand-alone application 
+        bundled into an executable jar file
+    -0  store only; use no ZIP compression
+    -P  preserve leading '/' (absolute path) and ".." (parent directory) components from file names
+    -M  do not create a manifest file for the entries
+    -i  generate index information for the specified jar files
+    -C  change to the specified directory and include the following file
+If any file is a directory then it is processed recursively.
+The manifest file name, the archive file name and the entry point name are
+specified in the same order as the 'm', 'f' and 'e' flags.
+
+Example 1: to archive two class files into an archive called classes.jar: 
+       jar cvf classes.jar Foo.class Bar.class 
+Example 2: use an existing manifest file 'mymanifest' and archive all the
+           files in the foo/ directory into 'classes.jar': 
+       jar cvfm classes.jar mymanifest -C foo/ .
 ```

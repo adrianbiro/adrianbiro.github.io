@@ -8,11 +8,12 @@ In no sense organized.
 ### Blogs
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Automation CI/CD Stuff](./content/Blogs/AutomationCICDStuff.md)
+* [Cryptography And Randomness Notes](./content/Blogs/CryptographyAndRandomnessNotes.md)
 * [Dm-Crypt, LUKS, VeraCrypt](./content/Blogs/Dm-cryptLUKSVeraCrypt.md)
 * [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
 * [Networking and DNS stuff](./content/Blogs/NetworkingAndDNSStuff.md)
-* [OpenSSL, Cryptography, Randomness notes](./content/Blogs/OpenSSLCryptographyRandomnessNotes.md)
+* [OpenSSL Notes](./content/Blogs/OpenSSLNotes.md)
 * [Pandoc Tips](./content/Blogs/PandocTips.md)
 * [Proxmox Tips](./content/Blogs/ProxmoxTips.md)
 * [Publish unix socket on localhost](./content/Blogs/PublishSocketOnLocalhost.md)
@@ -35,6 +36,7 @@ In no sense organized.
 ### Shell
 * [AWK tips](./content/Shell/AWK.md)
 * [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
+* [Git-Bash Notes](./content/Shell/Git-BashNotes.md)
 * [Miscelaneus Shell Links](./content/Shell/MiscelaneusShellLinks.md)
 * [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
 * [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
