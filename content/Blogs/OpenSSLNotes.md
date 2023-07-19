@@ -95,3 +95,7 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 [SSL and TLS Deployment Best Practices](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices)
 
 [SSL Client Test](https://www.howsmyssl.com/)
+
+[Keystore Explorer GUI client](https://github.com/kaikramer/keystore-explorer)
+
+[Whatsthatcert Online Cert Probe Tool](https://www.netmeister.org/whatsthatcert/)

@@ -6,13 +6,12 @@ In no sense organized.
 * [AWS links for demo](./content/AWS/AWSLinksForDemo.md)
 * [AWS Security](./content/AWS/AWSSecurity.md)
 ### Blogs
-* [90. Vibes Website With Powershell, Markdown to HTML](./content/Blogs/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Automation CI/CD Stuff](./content/Blogs/AutomationCICDStuff.md)
 * [Cryptography And Randomness Notes](./content/Blogs/CryptographyAndRandomnessNotes.md)
-* [Dm-Crypt, LUKS, VeraCrypt](./content/Blogs/Dm-cryptLUKSVeraCrypt.md)
+* [DNS stuff](./content/Blogs/DNSStuff.md)
 * [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
-* [Networking and DNS stuff](./content/Blogs/NetworkingAndDNSStuff.md)
+* [Networing Notes](./content/Blogs/NetworkingNotes.md)
 * [OpenSSL Notes](./content/Blogs/OpenSSLNotes.md)
 * [Pandoc Tips](./content/Blogs/PandocTips.md)
 * [Proxmox Tips](./content/Blogs/ProxmoxTips.md)
@@ -20,6 +19,7 @@ In no sense organized.
 * [Randomize IMEI Banana Phone (SK comments with EN links)](./content/Blogs/RandomizeIMEIonBananaPhone.md)
 * [SSH and remoting tips](./content/Blogs/SSHAndRemotingTips.md)
 * [SystemD Notes](./content/Blogs/SystemDNotes.md)
+* [Useful APIs](./content/Blogs/UsefulAPIs.md)
 ### Data
 * [JQL Jira](./content/Data/JQLJira.md)
 * [KQL vs Apache Licene](./content/Data/KQLvsLucene.md)
@@ -32,6 +32,7 @@ In no sense organized.
 * [Storage notes](./content/Hardware/StorageNotes.md)
 * [System Security Stuff](./content/Hardware/SystemSecurityStuff.md)
 ### Powershell
+* [90. Vibes Website With Powershell, Markdown to HTML](./content/Powershell/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)
 ### Shell
 * [AWK tips](./content/Shell/AWK.md)
