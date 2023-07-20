@@ -31,6 +31,8 @@ In no sense organized.
 * [LVM And LUKS Notes](./content/Hardware/LvmAndLuksNotes.md)
 * [Storage notes](./content/Hardware/StorageNotes.md)
 * [System Security Stuff](./content/Hardware/SystemSecurityStuff.md)
+### Hobby
+* [Hobby](./content/Hobby/Hobby.md)
 ### Powershell
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Powershell/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)

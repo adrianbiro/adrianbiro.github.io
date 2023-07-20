@@ -32,13 +32,15 @@ $ dig @1.1.1.1 adrianbiro.github.io +noall +stat
 * SOA Record: Start of authority records like, primary name server, the responsible party, a timestamp for changes, the frequency of zone refreshes, and a series of time limits for retries and abandons.
 * TTL: Time to live in cache each for DNS query. 
 * ANY: Return every type of DNS record it can find.
+
 [dig + spf](https://www.netmeister.org/blog/spf.html)
 
 [Sender Policy Framework (SPF) definition via a DNS TXT](https://github.com/jschauma/spf)
 ```sh
 $ dig github.com TTL
-$ dig github.com CNAME
 $ dig github.com TXT
+$ dig +noall +answer aws.amazon.com CNAME
+aws.amazon.com.         15      IN      CNAME   tp.8e49140c2-frontier.amazon.com.
 ```
 On [windows](https://learn.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname?view=windowsserver2022-ps) or use [dog](https://github.com/ogham/dog)
 ```powershell
