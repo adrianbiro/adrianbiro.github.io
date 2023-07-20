@@ -26,6 +26,7 @@ Jump host
 ```sh
 $ ssh -A -J <user>@<host2> <host1>
 ```
+[Forward Agent problems](https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt)
 ```conf
 Host <host1>
     User <user>
