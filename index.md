@@ -34,6 +34,8 @@ In no sense organized.
 ### Powershell
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Powershell/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)
+### python
+* [Python CLI](./content/python/PythonCLI.md)
 ### Shell
 * [AWK tips](./content/Shell/AWK.md)
 * [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
