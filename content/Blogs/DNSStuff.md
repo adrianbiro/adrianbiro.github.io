@@ -66,4 +66,4 @@ $ host -t a google.com
 
 ## Links
 
-[tranco list](https://tranco-list.eu/)
+Get random domain from [tranco list](https://tranco-list.eu/) `cut -f, -d2 tranco.csv | shuf | head -n1`
