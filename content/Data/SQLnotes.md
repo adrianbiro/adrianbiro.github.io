@@ -23,3 +23,13 @@ SELECT percent_change(NULL, 50);    -- [null]
 SELECT percent_change(num_2020, num_2010) AS "Percent change" FROM table_of_foo;
 */
 ```
+
+## Table size in postgres
+
+```sql
+SELECT relname as "Table",
+       pg_size_pretty(pg_total_relation_size(relid)) As "Size",
+       pg_size_pretty(pg_total_relation_size(relid) - pg_relation_size(relid)) as "External Size"
+  FROM pg_catalog.pg_statio_user_tables 
+ORDER BY pg_total_relation_size(relid) DESC;
+```
