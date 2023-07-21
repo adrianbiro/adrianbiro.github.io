@@ -99,3 +99,8 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 [Keystore Explorer GUI client](https://github.com/kaikramer/keystore-explorer)
 
 [Whatsthatcert Online Cert Probe Tool](https://www.netmeister.org/whatsthatcert/)
+
+[DNS parameters IANA (with rfc)](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml)
+
+[OpenSSl WPA2-Enterprise with FreeRadius](https://forums.freebsd.org/threads/howto-wpa2-enterprise-with-freeradius.28467/)
+
