@@ -6,6 +6,8 @@
 
 [Google DNS API](https://dns.google/query?name=github.com&rr_type=SOA&ecs=), [API Docs](https://developers.google.com/speed/public-dns/docs/doh/json#edns) Endpoint here [https://dns.google/resolve?name=google.com&type=TXT](https://dns.google/resolve?name=google.com&type=TXT)
 
+[DNS Checker](https://dnschecker.org/all-dns-records-of-domain.php?query=google.com&rtype=AAAA&dns=google)
+
 [Causes And Mitigations Of DNS Latency](https://developers.google.com/speed/public-dns/docs/performance#introduction_causes_and_mitigations_of_dns_latency)
 
 ## dig
@@ -15,6 +17,7 @@ $ dig -r ptr 185.199.110.153.in-addr.arpa
 Reverse DNS lookups
 ```sh
 $ dig -x 185.199.110.153
+$ nslookup 185.199.110.153
 ```
 Specify DNS server
 ```sh
@@ -67,3 +70,7 @@ $ host -t a google.com
 ## Links
 
 Get random domain from [tranco list](https://tranco-list.eu/) `cut -f, -d2 tranco.csv | shuf | head -n1`
+
+[IP Geo Location](https://dnschecker.org/ip-location.php?ip=185.199.110.153)
+
+[IP2location](https://www.ip2location.io/)
