@@ -63,3 +63,7 @@ $ host -t a google.com
 
 ## URL
 [URLs: It's complicated...](https://www.netmeister.org/blog/urls.html)
+
+## Links
+
+[tranco list](https://tranco-list.eu/)
