@@ -46,3 +46,7 @@ on client
 #!/bin/sh
 ssh <hostname> 'cat clip' | xclip -selection clipboard #clip on win
 ```
+
+## Links
+
+[Remote Access Policy](https://www.stigviewer.com/stig/remote_access_policy/)

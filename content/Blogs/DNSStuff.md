@@ -10,6 +10,8 @@
 
 [Causes And Mitigations Of DNS Latency](https://developers.google.com/speed/public-dns/docs/performance#introduction_causes_and_mitigations_of_dns_latency)
 
+[Dig gui (web)](https://www.diggui.com/)
+
 ## dig
 ```sh
 $ dig -r ptr 185.199.110.153.in-addr.arpa
@@ -74,3 +76,22 @@ Get random domain from [tranco list](https://tranco-list.eu/) `cut -f, -d2 tranc
 [IP Geo Location](https://dnschecker.org/ip-location.php?ip=185.199.110.153)
 
 [IP2location](https://www.ip2location.io/)
+
+[BIND 9.x Security Technical Implementation Guide for DoD](https://www.stigviewer.com/stig/bind_9.x/)
+
+[BIND DNS Stig recomendations](https://www.stigviewer.com/stig/bind_dns/)
+
+[DNS tools by ISC](https://www.isc.org/dns-tools/#diagnostics)
+
+## Free & Public DNS Servers
+
+| Provider | Primary DNS | Secondary DNS |
+| --- | --- | --- |
+| https://developers.google.com/speed/public-dns/ | 8.8.8.8 | 8.8.4.4 |
+| https://controld.com/free-dns/ | 76.76.2.0 | 76.76.10.0 |
+| https://www.quad9.net/ | 9.9.9.9 | 149.112.112.112 |
+| https://www.opendns.com/ | 208.67.222.222 | 208.67.220.220 |
+| https://1.1.1.1/dns/ | 1.1.1.1 | 1.0.0.1 |
+| https://cleanbrowsing.org/filters/ | 185.228.168.9 | 185.228.169.9 |
+| https://alternate-dns.com/ | 76.76.19.19 | 76.223.122.150 |
+| https://adguard-dns.io/en/public-dns.html | 94.140.14.14 | 94.140.15.15 |

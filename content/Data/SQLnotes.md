@@ -33,3 +33,7 @@ SELECT relname as "Table",
   FROM pg_catalog.pg_statio_user_tables 
 ORDER BY pg_total_relation_size(relid) DESC;
 ```
+
+## Links
+
+[Database security requirements guide for Department of Defense](https://www.stigviewer.com/stig/database_security_requirements_guide/)

@@ -38,6 +38,10 @@ Get content of certificate.
 ```sh
 $ awk '/-{5}BEGIN/,/-{5}END/' < <(echo | openssl s_client -showcerts -connect google.com:443 2>/dev/null)
 ```
+Verify `S/MIME` see [S/MIME in Exchange Online](https://learn.microsoft.com/en-us/exchange/security-and-compliance/smime-exo/configure-smime-exo)
+```sh
+$ openssl smime -verify -inform pem -CAfile cert.pem
+```
 
 Generate custom root CA certificate
 
@@ -70,6 +74,115 @@ Generate SHA256 Fingerprint for Certificate and export to a file
 Generate SHA1 Fingerprint for Certificate and export to a file
 
 `openssl x509 -noout -fingerprint -sha1 -inform pem -in certificate.pem >> fingerprint.txt`
+
+## Certificate Authority With Openssl
+
+**Before you use it, read** `man openssl-ca | less +?WARNINGS`
+
+Tested on OpenSSL [`1.1.1`](https://www.openssl.org/docs/man1.1.1/man1/ca.html) and [`3.0.2`](https://www.openssl.org/docs/man3.0/man1/openssl-ca.html)
+
+OpenSSL root CA configuration file `/root/ca/root.cnf` `man OPENSSL-CMDS` or `man ca` `man openssl-ca`  
+```
+[ ca ]
+default_ca = CA_root
+
+[ CA_root ]
+dir               = /root/ca
+certs             = $dir/certs
+crl_dir           = $dir/crl
+new_certs_dir     = $dir/newcerts
+database          = $dir/index.txt
+serial            = $dir/serial
+RANDFILE          = $dir/private/.rand
+
+private_key       = $dir/root_ca_key
+certificate       = $dir/root_ca.crt
+
+# certificate revocation list
+crlnumber         = $dir/crlnumber
+crl               = $dir/crl/ca.crl.pem
+crl_extensions    = crl_ext
+default_crl_days  = 30
+
+default_md        = sha256
+
+name_opt          = ca_default
+cert_opt          = ca_default
+default_days      = 25202
+preserve          = no
+policy            = policy_strict
+
+[ policy_strict ]
+# The root CA should only sign intermediate certificates that match cf. POLICY FORMAT in man openssl-ca.
+countryName             = match
+organizationName        = match
+commonName              = supplied
+
+[ req ]
+# Options for req tool cf. man openssl-req.
+default_bits        = 4096
+distinguished_name  = req_distinguished_name
+string_mask         = utf8only
+
+default_md          = sha256
+
+x509_extensions     = v3_ca
+
+[ req_distinguished_name ]
+# See <https://en.wikipedia.org/wiki/Certificate_signing_request>.
+commonName                      = Common Name
+countryName                     = Country Name (2 letter code)
+0.organizationName              = Organization Name
+
+[ v3_ca ]
+# man x509v3_config
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints = critical, CA:true
+keyUsage = critical, digitalSignature, cRLSign, keyCertSign
+
+[ v3_intermediate_ca ]
+# man x509v3_config.
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints = critical, CA:true, pathlen:0
+keyUsage = critical, digitalSignature, cRLSign, keyCertSign
+```
+```sh
+$ mkdir -p /root/ca/{certs,crl,newcerts,private}
+$ touch /root/ca/index.txt
+$ echo 1420 > serial
+```
+### Private key 
+```sh
+openssl genrsa -aes256 -out /root/ca/root_ca_key 4096
+```
+Certificate, used mostly by clients
+```sh
+openssl req -config /root/ca/root.cnf -key /root/ca/root_ca_key -days 25202 -new -x509 -sha256 -extensions v3_ca -out /root/ca/root_ca.crt
+```
+Examine the key 
+```sh
+$ openssl x509 -noout -text -in /root/ca/root_ca.crt
+```
+### Intermediate Certificate
+Private key 
+```sh
+$ openssl genrsa -aes256 -out /root/ca/intermediate_ca_key 2048
+```
+Certificate-signing-request (CSR) for the intermediate CA key
+```sh
+$ openssl req -config /root/ca/root.cnf -new -sha256 -key /root/ca/intermediate_ca_key -out /root/ca/intermediate_ca.csr.pem
+```
+Sign the CSR with the root key
+```sh
+$ openssl ca -config /root/ca/root.cnf -keyfile /root/ca/root_ca_key -cert /root/ca/root_ca.crt -extensions v3_intermediate_ca -days 3650 -notext -md sha256 -in /root/ca/intermediate_ca.csr.pem -out /root/ca/intermediate_ca.crt
+```
+Examine with 
+```sh
+$ openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
+```
+
 
 ## Links
 [Openssl essentials Digitalocean](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)
