@@ -183,6 +183,11 @@ Examine with
 $ openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
 ```
 
+[Smallstep](https://smallstep.com/docs/step-ca/#provisioners)
+
+[Smallstep Configure Step CA for ACME](https://smallstep.com/docs/step-ca/acme-basics/#configure-step-ca-for-acme) 
+
+[Small CA Yubikey](https://smallstep.com/docs/step-ca/configuration/#yubikey-piv)
 
 ## Links
 [Openssl essentials Digitalocean](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)

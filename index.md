@@ -35,7 +35,7 @@ In no sense organized.
 ### Hobby
 * [Hobby](./content/Hobby/Hobby.md)
 ### Linux
-* [##Limiting Ptrace and Gdb on Production Systems](./content/Linux/LimitingPtraceAndGdbOnProductionSystems.md)
+* [Limiting Ptrace and Gdb on Production Systems](./content/Linux/LimitingPtraceAndGdbOnProductionSystems.md)
 * [Proxmox Tips](./content/Linux/ProxmoxTips.md)
 * [SystemD Notes](./content/Linux/SystemDNotes.md)
 ### Powershell

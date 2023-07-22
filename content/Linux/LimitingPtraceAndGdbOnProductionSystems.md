@@ -1,4 +1,4 @@
-### Limiting Ptrace and Gdb on Production Systems
+# Limiting Ptrace and Gdb on Production Systems
 
 Since ptrace is not commonly used by non-developers and non-admins, system builders should be allowed the option to disable this debugging system.
 
