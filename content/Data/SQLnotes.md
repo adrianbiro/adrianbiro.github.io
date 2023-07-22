@@ -18,7 +18,7 @@
 
 ## Useful PostgreSQL
 ### Get percent change
-```SQL
+```sql
 CREATE OR REPLACE FUNCTION
 percent_change(new_value numeric,
                old_value numeric,
@@ -126,7 +126,7 @@ FROM
 ORDER BY
     db_size;
 ```
-### uselesscol
+### Uselesscol
 ```sql
 SELECT
     nspname,
@@ -167,7 +167,7 @@ ORDER BY
     relname,
     attname;
 ```
-### uptime 
+### Uptime 
 ```sql
 select
     now() - pg_postmaster_start_time() AS uptime;

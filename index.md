@@ -28,6 +28,7 @@ In no sense organized.
 * [Formulas](./content/Excel/Formulas.md)
 * [PowerQuery](./content/Excel/PowerQuery.md)
 ### Hardware
+* [BIOS Update](./content/Hardware/BIOSUpdate.md)
 * [LVM And LUKS Notes](./content/Hardware/LvmAndLuksNotes.md)
 * [Storage notes](./content/Hardware/StorageNotes.md)
 * [System Security Stuff](./content/Hardware/SystemSecurityStuff.md)
@@ -35,6 +36,7 @@ In no sense organized.
 ### Hobby
 * [Hobby](./content/Hobby/Hobby.md)
 ### Linux
+* [Apt notes](./content/Linux/AptNotes.md)
 * [Limiting Ptrace and Gdb on Production Systems](./content/Linux/LimitingPtraceAndGdbOnProductionSystems.md)
 * [Linux Mint Stuff](./content/Linux/LinuxMintStuff.md)
 * [Proxmox Tips](./content/Linux/ProxmoxTips.md)
