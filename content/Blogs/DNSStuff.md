@@ -95,3 +95,25 @@ Get random domain from [tranco list](https://tranco-list.eu/) `cut -f, -d2 tranc
 | https://cleanbrowsing.org/filters/ | 185.228.168.9 | 185.228.169.9 |
 | https://alternate-dns.com/ | 76.76.19.19 | 76.223.122.150 |
 | https://adguard-dns.io/en/public-dns.html | 94.140.14.14 | 94.140.15.15 |
+
+## Flush DNS
+
+```powershell
+PS C:> Get-DnsClientCache
+PS C:> Clear-DnsServerCache
+PS C:> dnscmd /clearcache
+PS C:> Clear-DnsClientCache
+PS C:> ipconfig /flushdns
+PS C:> ipconfig /displaydns
+```
+
+```sh
+$ systemctl is-active systemd-resolved
+$ resolvectl statistics
+$ sudo journalctl -u systemd-resolved
+$ resolvectl flush-caches 
+$ sudo killall -USR1 systemd-resolved
+```
+```sh
+$ sudo killall -HUP dnsmasq
+```

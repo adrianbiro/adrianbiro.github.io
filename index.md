@@ -28,6 +28,7 @@ In no sense organized.
 * [Formulas](./content/Excel/Formulas.md)
 * [PowerQuery](./content/Excel/PowerQuery.md)
 ### Hardware
+* [Battery Info](./content/Hardware/BatteryInfo.md)
 * [BIOS Update](./content/Hardware/BIOSUpdate.md)
 * [LVM And LUKS Notes](./content/Hardware/LvmAndLuksNotes.md)
 * [Storage notes](./content/Hardware/StorageNotes.md)

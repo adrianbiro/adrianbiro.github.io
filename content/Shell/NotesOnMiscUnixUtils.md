@@ -88,6 +88,11 @@ $ $ curl --connect-to www.example.com:443:cname.example.com:443 https://www.exam
 $ date --iso-8601=seconds
 2023-07-16T19:16:25+02:00
 ```
+Seconds since the last modification time of FILE
+```sh
+$ echo "$(( $(date +%s) - $(date -r ${file} +%s) ))"
+47195
+```
 
 ## jar
 Like the [TAR(1)](https://man.freebsd.org/cgi/man.cgi?query=tar&apropos=0&sektion=0&manpath=FreeBSD+13.2-RELEASE+and+Ports&arch=default&format=html).
