@@ -179,3 +179,31 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 
 #endif /* sysexits.h */
 ```
+
+## Free & Public DNS Servers
+
+| Provider | Primary DNS | Secondary DNS |
+| --- | --- | --- |
+| https://developers.google.com/speed/public-dns/ | 8.8.8.8 | 8.8.4.4 |
+| https://controld.com/free-dns/ | 76.76.2.0 | 76.76.10.0 |
+| https://www.quad9.net/ | 9.9.9.9 | 149.112.112.112 |
+| https://www.opendns.com/ | 208.67.222.222 | 208.67.220.220 |
+| https://1.1.1.1/dns/ | 1.1.1.1 | 1.0.0.1 |
+| https://cleanbrowsing.org/filters/ | 185.228.168.9 | 185.228.169.9 |
+| https://alternate-dns.com/ | 76.76.19.19 | 76.223.122.150 |
+| https://adguard-dns.io/en/public-dns.html | 94.140.14.14 | 94.140.15.15 |
+
+
+## VPN Port Numbers Used for VPN Protocols
+
+
+| VPN  | Full Protocol Name | Port |
+| --- | --- | --- |
+| PPTP | Point-to-Point Tunneling Protocol | 1723 TCP, 47 GRE|
+| L2TP | Layer 2 Tunneling Protocol | 1701 TCP, 500 UDP, 4500 UDP, 50 ESP |
+| [IPsec](https://www.cloudflare.com/learning/network-layer/what-is-ipsec/) | Internet Protocol Security | 500 UDP, 4500 UDP |
+| OpenVPN | - | 1194 TCP/UDP, 443 TCP |
+| IKEv2 | Internet Key Exchange | 500 UDP, 4500 UDP, 50 ESP |
+| SSTP | Secure Socket Tunneling Protocol | 443 TCP |
+| WireGuard | - | 51820 UDP|
+

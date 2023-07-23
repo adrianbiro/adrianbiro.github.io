@@ -25,7 +25,7 @@
 [Network Devices Security Technical Implementation Guide](https://www.stigviewer.com/stig/network_devices/)
 
 ## Firewall
-[inux and FreeBSD Firewalls](https://klarasystems.com/articles/freebsd-linux-and-freebsd-firewalls/)
+[Linux and FreeBSD Firewalls](https://klarasystems.com/articles/freebsd-linux-and-freebsd-firewalls/)
 
 [Firewall Security Requirements Guide](https://www.stigviewer.com/stig/firewall_security_requirements_guide/)
 
