@@ -30,3 +30,39 @@
 [Firewall Security Requirements Guide](https://www.stigviewer.com/stig/firewall_security_requirements_guide/)
 
 [Firewall Security Technical Implementation Guide](https://www.stigviewer.com/stig/firewall/)
+
+## SNMP
+
+### SNMP Messages (protocol data units)
+Requests and responses exchanged between the SNMP manager (Get, GetBextm GetBuld, Set) and the SNMP agents (Trap, Response, Inform).
+1. **Trap:** A trap is an alert message—for example, a trap might alert the SNMP manager to the failure of a device. SNMP trap monitoring is crucial, as it notifies you of issues so you can address them proactively.
+1. **Get:** This is a basic information request. A Get message is the main way the SNMP manager gets information from an agent.
+1. **GetNext:** As the name implies, a GetNext message sends for the next segment of information.
+1. **GetBulk:** This lets the SNMP manager request an array of information via a sequence of GetNext requests, meaning a bigger segment of the MIB can be queried.
+1. **Set:** Set messages allow the SNMP manager to give agent instructions regarding changes to settings on a monitored device.
+1. **Response:** The response is simply the reply from the agent, acknowledging the request.
+1. **Inform:** This is the SNMP manager’s version of the response message, acknowledging receipt of a trap.
+
+[SNMP](https://blog.domotz.com/know-your-networks/snmp-port-number/) uses the `UDP` port `161` of the SNMP Agent for sending and receiving requests. On the other hand, SNMP uses also port `162` of the SNMP Manager for receiving traps from managed devices. 
+
+[An Introduction to SNMP (Simple Network Management Protocol)](https://www.digitalocean.com/community/tutorials/an-introduction-to-snmp-simple-network-management-protocol)
+
+[SNMP Community Strings](https://www.dnsstuff.com/snmp-community-string)
+
+[SNMP v2 vs v3](https://blog.domotz.com/know-your-networks/snmp-v2-vs-v3/)
+
+[SNMP v3](https://blog.domotz.com/know-your-networks/what-is-snmp-v3/)
+
+[How to enable SNMP on your operating system](https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system)
+
+[Securing SNMP](https://www.redhat.com/sysadmin/securing-snmp)
+
+### SNMP tools
+
+[SNMP Tutorial](https://www.ionos.com/digitalguide/server/know-how/snmp-tutorial/)
+
+[SNMP Command Examples Oracle](https://docs.oracle.com/cd/E19201-01/820-6413-13/SNMP_commands_reference_appendix.html)
+
+[Awesome SNMP Github](https://github.com/eozer/awesome-snmp)
+
+[SNMP Monitoring Tools](https://www.dnsstuff.com/snmp-monitoring-tools)

@@ -18,6 +18,7 @@ In no sense organized.
 * [Pandoc Tips](./content/Blogs/PandocTips.md)
 * [Publish unix socket on localhost](./content/Blogs/PublishSocketOnLocalhost.md)
 * [Randomize IMEI Banana Phone (SK comments with EN links)](./content/Blogs/RandomizeIMEIonBananaPhone.md)
+* [Security Acronyms](./content/Blogs/SecurityAcronyms.md)
 * [SSH and remoting tips](./content/Blogs/SSHAndRemotingTips.md)
 * [Useful APIs](./content/Blogs/UsefulAPIs.md)
 ### Data
