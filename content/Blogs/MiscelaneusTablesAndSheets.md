@@ -207,3 +207,8 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 | SSTP | Secure Socket Tunneling Protocol | 443 TCP |
 | WireGuard | - | 51820 UDP|
 
+## Port reference
+[Port Reference Wireshark](https://wiki.wireshark.org/PortReference)
+
+## Protocol Reference
+[Protocol Reference](https://wiki.wireshark.org/ProtocolReference)
