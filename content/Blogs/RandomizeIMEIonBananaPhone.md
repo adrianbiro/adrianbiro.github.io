@@ -1,6 +1,23 @@
 # Randomize IMEI Banana Phone (SK comments with EN links)
 
-**Zdroj je `Wilder`, ja som to len dal dokpy.**
+IMEI consists of 15 digits:
+* The first 8 digits offer information regarding phone manufacturers and telephone models. These digits are also known as TAC ([Type Allocation Code](https://en.wikipedia.org/wiki/Type_Allocation_Code)). [List of TAC numbers](https://deviceatlas.com/blog/list-tac-numbers)
+* The next six digits are the serial number of the device.
+* The last digit is the checksum and is calculated based on the Luhn algorithm.
+
+[Central Equipment Identity Register Wiki](https://en.m.wikipedia.org/wiki/Central_Equipment_Identity_Register)
+
+[IMEI list](https://wiki.lunardao.net/imei_tables/imei_table.html)
+
+[International Mobile Equipment Identity Wiki](https://en.m.wikipedia.org/wiki/International_Mobile_Equipment_Identity)
+
+[Luhn algorithm to verify IMEI](https://en.m.wikipedia.org/wiki/Luhn_algorithm)
+
+[Mobile Equipment Identifier](https://en.m.wikipedia.org/wiki/Mobile_equipment_identifier)
+
+[Random IMEI Generator](https://randommer.io/imei-generator)
+
+**Zdroj je `Wilder`, ja som to len dal na kopu.**
 
 
 [Randomize IMEI](https://wiki.lunardao.net/imei.html)
