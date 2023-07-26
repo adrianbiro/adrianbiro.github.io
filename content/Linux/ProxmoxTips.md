@@ -28,3 +28,7 @@ s3fs#<s3_bucket_name> /mnt/s3-bucket/ fuse _netdev,allow_other,url=https://s3.am
 $ reboot
 ```
 1. In the Datacenter Storage section add a new storage of type Directory and insert your mounted dir `/mnt/s3-bucket``, set a ID like AWS-s3, and select all the content types 
+
+## Monitoring
+
+[External Metric Server](https://pve.proxmox.com/wiki/External_Metric_Server)
