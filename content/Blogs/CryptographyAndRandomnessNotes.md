@@ -34,3 +34,7 @@ kr7T5iC5X3TdxHxizD12NpPUB5wIxipIdfqAN6WY
 [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
 
 [Security and Cryptography MIT](https://missing.csail.mit.edu/2020/security/)
+
+
+### Password
+[PIN analysis](http://www.datagenetics.com/blog/september32012/)

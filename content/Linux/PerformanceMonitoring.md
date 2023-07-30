@@ -67,6 +67,8 @@
 
 [prstat(8)](https://docs.oracle.com/cd/E88353_01/html/E72487/prstat-8.html)
 
+[prstat(8) Illumos](https://illumos.org/man/8/prstat)
+
 [Understanding the Differences Between prstat and vmstat Output in the Solaris OS](https://www.oracle.com/technical-resources/articles/prstat-vs-vmstat-jsp.html#2)
 
 [Utilities to Measure the Performance of an Existing System](https://www.juniper.net/documentation/en_US/sbr-carrier7.6.0/information-products/topic-collections/sw-sbrc-perf-tuning/index.html?jd0e2093.html#psrinfo)
