@@ -10,8 +10,11 @@
 
 [Causes And Mitigations Of DNS Latency](https://developers.google.com/speed/public-dns/docs/performance#introduction_causes_and_mitigations_of_dns_latency)
 
+[Hurricane Electric DNS report](https://bgp.he.net/dns/)
+
 [Dig gui (web)](https://www.diggui.com/)
 
+[DNSdumpster.com is a tool that can discover hosts related to a domain.](https://dnsdumpster.com/)
 ## dig
 ```sh
 $ dig -r ptr 185.199.110.153.in-addr.arpa
@@ -64,6 +67,9 @@ $ nslookup -query=a google.com
 $ dig a +noall +answer google.com
 $ host -t a google.com
 ```
+## Get subdomains
+
+On [Wolframalpha](https://www.wolframalpha.com/input?i=github.com) > `Web statistics for all of <domain>` > `Subdomains`
 
 
 ## URL

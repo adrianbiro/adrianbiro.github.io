@@ -49,6 +49,8 @@
 
 [Open Trace Toolkit](https://github.com/opendtrace/toolkit)
 
+[Dtrace Illumos](https://illumos.org/books/dtrace/preface.html#preface)
+
 ### SystemTap
 
 [SystemTap Beginners Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/systemtap_beginners_guide/index)
