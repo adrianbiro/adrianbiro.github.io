@@ -123,3 +123,10 @@ $ sudo killall -USR1 systemd-resolved
 ```sh
 $ sudo killall -HUP dnsmasq
 ```
+
+## PGP and DNS
+
+[PGP and DNS](https://slxh.nl/blog/2016/pgp-and-dns/)
+
+[The complete guide to publishing PGP keys in DNS](https://www.gushi.org/make-dns-cert/HOWTO.html)
+

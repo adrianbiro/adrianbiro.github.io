@@ -49,6 +49,25 @@ In case of any problem with the deployment:
 ### Delete old builds
 `find ./*/builds  -maxdepth 1  -type d -mtime +3 -name "[0-9]*" -exec rm -rf {} \;`
 
+### Run all Build jobs
+```groovy
+/*Not in Groovy Sandbox*/
+import jenkins.model.*
+import hudson.model.*
+  
+def dirname = "smartcase/Build"
+def allJobs = hudson.model.Hudson.getInstance().getAllItems(Job.class).findAll { it.getFullName().contains(dirname) }
+def matchedJobs =  allJobs.findAll { job ->  job.name =~ /master$/ }
+
+matchedJobs.each { job ->
+   	if(! job.toString().contains('Build all modules')){
+    println "Scheduling matching job ${job.name}"
+    job.scheduleBuild(new Cause.UserIdCause())
+    }
+}
+```
+
+
 ## Combine `docker-compose` with python app
 ```sh
 #!/bin/bash
