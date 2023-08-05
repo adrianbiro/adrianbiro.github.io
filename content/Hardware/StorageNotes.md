@@ -10,5 +10,18 @@ Check `dmesg`
 $ dmesg
 blk_update_request: protection error
 ```
+
+## Convert the Sector Size
+
+```sh
+sg_format -v --format --size=512 /dev/sdX
+```
  
+ ## Get Serial Number for Disks
+
+ ```sh
+$ lsblk --nodeps -o name,serial
+$ lsblk --nodeps -no serial /dev/sdX
+$ udevadm info --query=all --name=/dev/sdX | grep ID_SERIAL
+```
 

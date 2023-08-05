@@ -1,6 +1,5 @@
 # Performance Monitoring
 
-[bcc/tutorial.md at master · iovisor/bcc · GitHub](https://github.com/iovisor/bcc/blob/master/docs/tutorial.md)
 
 ## Linux Performance Monitoring Primer
 
@@ -72,3 +71,19 @@
 [Understanding the Differences Between prstat and vmstat Output in the Solaris OS](https://www.oracle.com/technical-resources/articles/prstat-vs-vmstat-jsp.html#2)
 
 [Utilities to Measure the Performance of an Existing System](https://www.juniper.net/documentation/en_US/sbr-carrier7.6.0/information-products/topic-collections/sw-sbrc-perf-tuning/index.html?jd0e2093.html#psrinfo)
+
+## EBPF
+
+[What is eBPF, anyway, and why should Kubernetes admins care?](https://www.groundcover.com/blog/what-is-ebpf)
+
+[bcc/tutorial.md at master · iovisor/bcc · GitHub](https://github.com/iovisor/bcc/blob/master/docs/tutorial.md)
+
+[BPF CO-RE (Compile Once – Run Everywhere)](https://nakryiko.com/posts/bpf-portability-and-co-re/)
+
+[Learn eBPF Tracing: Tutorial and Examples](https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html)
+
+[EBPF go](https://github.com/cilium/ebpf)
+
+[BPF - the forgotten bytecode cloudflare](https://blog.cloudflare.com/bpf-the-forgotten-bytecode/)
+
+[bpf-helpers(7)](https://www.man7.org/linux/man-pages/man7/bpf-helpers.7.html)
