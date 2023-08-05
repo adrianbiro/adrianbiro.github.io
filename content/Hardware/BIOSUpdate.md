@@ -10,3 +10,9 @@
 
 ## Links
 [fwupd](https://fwupd.org/)
+
+[HP](https://support.hp.com/us-en/drivers/laptops)
+
+[Acer](https://www.acer.com/us-en/support/drivers-and-manuals)
+
+[Asus](https://www.asus.com/support/download-center)

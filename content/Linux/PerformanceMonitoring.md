@@ -1,7 +1,5 @@
 # Performance Monitoring
 
-
-
 [bcc/tutorial.md at master · iovisor/bcc · GitHub](https://github.com/iovisor/bcc/blob/master/docs/tutorial.md)
 
 ## Linux Performance Monitoring Primer
