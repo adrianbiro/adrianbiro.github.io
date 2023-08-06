@@ -1,8 +1,5 @@
 # Miscelaneus Tables And Sheets
 ## Antenna Gain
-<details>
-  <summary>Antenna Gain</summary>
-  <br/>
 
 ```
 -10 dBi
@@ -30,7 +27,6 @@ Same or 100% (no gain/loss)
 +20 dBi
 100x higher
 ```
-</details>
 
 [Gain in dBi Meaning](https://antennatestlab.com/antenna-education-tutorials/what-is-antenna-gain-dbi-scale)
 
@@ -103,9 +99,6 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 ## System Exit Codes
 
 `find /usr -name sysexits.h`
-<details>
-  <summary>SYSEXITS.H</summary>
-  <br/>
 
 ```c
 /*
@@ -189,8 +182,6 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 
 #endif /* sysexits.h */
 ```
-
-</details>
 
 
 ## Free & Public DNS Servers
