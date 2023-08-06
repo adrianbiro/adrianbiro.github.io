@@ -1,5 +1,9 @@
 # Miscelaneus Tables And Sheets
 ## Antenna Gain
+<details>
+  <summary>Antenna Gain</summary>
+  <br/>
+
 ```
 -10 dBi
 One tenth or 10 % (loss)
@@ -26,6 +30,8 @@ Same or 100% (no gain/loss)
 +20 dBi
 100x higher
 ```
+</details>
+
 [Gain in dBi Meaning](https://antennatestlab.com/antenna-education-tutorials/what-is-antenna-gain-dbi-scale)
 
 [UniFi - Introduction to Antenna Radiation Patterns](https://help.ui.com/hc/en-us/articles/115012664088)
@@ -70,7 +76,7 @@ $1000^6$ 	EB 	exabyte
 $1000^7$	ZB 	zettabyte
 
 $1000^8$ 	YB 	yottabyte
-	
+
 Binary
 ---
 $1024$ 	KiB 	kibibyte 	
@@ -89,6 +95,7 @@ $1024^7$ 	ZiB 	zebibyte
 
 $1024^8$ 	YiB 	yobibyte 	
 
+
 ## Screen resolution
 [link](https://gist.github.com/adrianbiro/9b9ea36bb78cbf5a961ea407c94114c5)
 Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/_posts/2021-10-11-screen-resolution.md)
@@ -96,6 +103,9 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 ## System Exit Codes
 
 `find /usr -name sysexits.h`
+<details>
+  <summary>SYSEXITS.H</summary>
+  <br/>
 
 ```c
 /*
@@ -179,6 +189,9 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 
 #endif /* sysexits.h */
 ```
+
+</details>
+
 
 ## Free & Public DNS Servers
 
