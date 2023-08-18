@@ -3,6 +3,11 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+      - 'scripts/**'
+      - '.gitignore'
 
   workflow_dispatch:
 
