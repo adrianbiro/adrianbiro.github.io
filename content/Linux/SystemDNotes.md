@@ -98,6 +98,41 @@ $ systemd-analyze blame
 ```
 [optimizing systemd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/optimizing-systemd-to-shorten-the-boot-time_configuring-basic-system-settings#ref_a-guide-to-selecting-services-that-can-be-safely-disabled_optimizing-systemd-to-shorten-the-boot-time)
 
+## Hardening
+`systemd-analyze security <service_name>`
+
+[Systemd exec (sandboxing)](https://www.freedesktop.org/software/systemd/man/systemd.exec.html)
+
+[Systemd resoruce control](https://www.freedesktop.org/software/systemd/man/systemd.resource-control.html#)
+```ini
+...
+[Service]
+ExecStart=/usr/sbin/<nprogame> -n
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=2
+# Hardening
+CapabilityBoundingSet=
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+NoNewPrivileges=yes
+PrivateDevices=yes
+PrivateTmp=yes
+ProtectClock=yes
+ProtectControlGroups=yes
+ProtectHome=yes
+ProtectKernelLogs=yes
+ProtectKernelModules=yes
+ProtectKernelTunables=yes
+ProtectSystem=strict
+ReadWritePaths=/var/lib
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+StateDirectory=<progname>
+...
+```
+
 ## Links
 [managing system services with systemctl](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/managing-system-services-with-systemctl_configuring-basic-system-settings)
 

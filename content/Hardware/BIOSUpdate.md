@@ -24,3 +24,4 @@ $ sudo dmidecode -t system
 $ sudo cat /sys/devices/virtual/dmi/id/board_serial
 $ sudo dmidecode -s baseboard-serial-number
 ```
+

@@ -24,4 +24,9 @@ $ lsblk --nodeps -o name,serial
 $ lsblk --nodeps -no serial /dev/sdX
 $ udevadm info --query=all --name=/dev/sdX | grep ID_SERIAL
 ```
+##  SSD Health on Windows
+
+```ps1
+Get-PhysicalDisk -DeviceNumber 0 | Get-StorageReliabilityCounter | Select-Object DeviceId, Temperature, Wear
+```
 

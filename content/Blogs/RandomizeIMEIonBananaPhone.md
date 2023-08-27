@@ -17,6 +17,8 @@ IMEI consists of 15 digits:
 
 [Random IMEI Generator](https://randommer.io/imei-generator)
 
+[Your Hardware Identifiers: Your IMEI and IMSI (and by extension, your phone number)](https://anonymousplanet.org/guide.html#your-imei-and-imsi-and-by-extension-your-phone-number)
+
 **Zdroj je `Wilder`, ja som to len dal na kopu.**
 
 

@@ -47,6 +47,24 @@ on client
 ssh <hostname> 'cat clip' | xclip -selection clipboard #clip on win
 ```
 
+Ignore pre-authentication banner message from server:
+```sh
+$ ssh -o LogLevel=error <user@host>
+```
+Limits the used bandwidth for csp, specified in Kbit/s.
+```sh
+$ scp -l 8500 server:/file .
+```
+
+Tunel db via socket to localhost 
+```sh
+$ ssh -N -L 1234:/var/run/mysqld/mysqld.sock user@dbhost
+```
+
 ## Links
 
 [Remote Access Policy](https://www.stigviewer.com/stig/remote_access_policy/)
+
+[Hardening OpenSSH server Mozilla](https://infosec.mozilla.org/guidelines/openssh)
+
+[Hardening OpenSSH client Digitalocean](https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-client-on-ubuntu-18-04)

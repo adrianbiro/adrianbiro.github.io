@@ -28,6 +28,7 @@ In no sense organized.
 * [SQL Notes](./content/Data/SQLnotes.md)
 ### Excel
 * [Formulas](./content/Excel/Formulas.md)
+* [Keyboard Shorcuts](./content/Excel/KeyboardShorcuts.md)
 * [PowerQuery](./content/Excel/PowerQuery.md)
 ### Hardware
 * [Battery Info](./content/Hardware/BatteryInfo.md)
@@ -43,6 +44,7 @@ In no sense organized.
 * [Limiting Ptrace and Gdb on Production Systems](./content/Linux/LimitingPtraceAndGdbOnProductionSystems.md)
 * [Linux Mint Stuff](./content/Linux/LinuxMintStuff.md)
 * [Performance Monitoring](./content/Linux/PerformanceMonitoring.md)
+* [/proc notes](./content/Linux/ProcNotes.md)
 * [Proxmox Tips](./content/Linux/ProxmoxTips.md)
 * [SystemD Notes](./content/Linux/SystemDNotes.md)
 ### Powershell
@@ -59,3 +61,5 @@ In no sense organized.
 * [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
 * [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
 * [Shell notes](./content/Shell/ShellNotes.md)
+### Windows
+* [Cmd notes](./content/Windows/CmdNotes.md)
