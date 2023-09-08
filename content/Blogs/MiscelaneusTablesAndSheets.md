@@ -225,3 +225,11 @@ Source in [link](https://github.com/basujindal/basujindal.github.io/blob/master/
 [User-Agent_Request_Headers.txt](../../images_files/User-Agent_Request_Headers.txt)
 
 ## [Family Security Review](https://github.com/gabefair/Family-Security-Review)
+
+## Magic Numbers
+
+[File Sigs Gary Kessler](https://www.garykessler.net/library/file_sigs.html)
+
+[File Signatures wiki](https://en.wikipedia.org/wiki/List_of_file_signatures)
+
+Use [Format-Hex](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-hex?view=powershell-7.3) on Windows, [xxd](https://linux.die.net/man/1/xxd) on Unix
