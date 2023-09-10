@@ -68,3 +68,9 @@ $ ssh -N -L 1234:/var/run/mysqld/mysqld.sock user@dbhost
 [Hardening OpenSSH server Mozilla](https://infosec.mozilla.org/guidelines/openssh)
 
 [Hardening OpenSSH client Digitalocean](https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-client-on-ubuntu-18-04)
+
+[Sshaudit online](https://www.sshaudit.com/)
+
+[SSH hardening guides](https://www.sshaudit.com/hardening_guides.html)
+
+[Sshaudit Github](https://github.com/jtesta/ssh-audit)
