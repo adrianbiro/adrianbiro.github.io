@@ -12,6 +12,7 @@ In no sense organized.
 * [Device Management notes](./content/Blogs/DeviceManagementNotes.md)
 * [DNS stuff](./content/Blogs/DNSStuff.md)
 * [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
+* [Google tips](./content/Blogs/GoogleTips.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
 * [Networing Notes](./content/Blogs/NetworkingNotes.md)
 * [Network Security](./content/Blogs/NetworkSecurity.md)
@@ -55,6 +56,7 @@ In no sense organized.
 * [Python CLI](./content/python/PythonCLI.md)
 ### Shell
 * [AWK tips](./content/Shell/AWK.md)
+* [Deploy the program in one line](./content/Shell/Deploy-program-in-one-line.md)
 * [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
 * [Git-Bash Notes](./content/Shell/Git-BashNotes.md)
 * [Miscelaneus Shell Links](./content/Shell/MiscelaneusShellLinks.md)

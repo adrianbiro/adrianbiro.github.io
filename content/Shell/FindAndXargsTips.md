@@ -1,4 +1,5 @@
 # Find And Xargs Tips
+
 Find broken links `find /usr/bin/ -type l -xtype l`
 
 Select a file based on multiple conditions
@@ -61,3 +62,11 @@ $ find /srv/log/xp/openshift/appdata/smart-prod-applogs -newermt "$(date -d "2 d
 $ du -sh
 5.8T    .
 ```
+
+## Stop xargs iteration after error
+
+```bash
+echo -e '/boot\nqwe\npoi' | xargs -I{} bash -xc 'ls {} || exit 255'
+```
+
+> If any invocation of the command exits with a status of 255, xargs will stop  immediately  without reading any further input.  An error message is issued on stderr when this happens.

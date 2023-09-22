@@ -1,9 +1,11 @@
 # OpenSSL Notes
 
 ## [Certificate after DNS change](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-01-challenge-validation#812038)
+
 `certbot -d mydomainename.com --manual --preferred-challenges dns certonly`
 
 ## Check certificate validity (days left)
+
 ```bash
 #!/bin/bash
 set -o errexit
@@ -27,20 +29,24 @@ echo $((diff / 86400))
 ```
 
 ## Command usege
+
 Encrypt and decrypt a file
 
 ```sh
-$ openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in zmaz.txt -out zmaz.txt.enc
-$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -d -in file.txt.enc -out file.txt.dec
+openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in zmaz.txt -out zmaz.txt.enc
+openssl aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -d -in file.txt.enc -out file.txt.dec
 ```
+
 Get content of certificate.
 
 ```sh
-$ awk '/-{5}BEGIN/,/-{5}END/' < <(echo | openssl s_client -showcerts -connect google.com:443 2>/dev/null)
+awk '/-{5}BEGIN/,/-{5}END/' < <(echo | openssl s_client -showcerts -connect google.com:443 2>/dev/null)
 ```
+
 Verify `S/MIME` see [S/MIME in Exchange Online](https://learn.microsoft.com/en-us/exchange/security-and-compliance/smime-exo/configure-smime-exo)
+
 ```sh
-$ openssl smime -verify -inform pem -CAfile cert.pem
+openssl smime -verify -inform pem -CAfile cert.pem
 ```
 
 Generate custom root CA certificate
@@ -82,6 +88,7 @@ Generate SHA1 Fingerprint for Certificate and export to a file
 Tested on OpenSSL [`1.1.1`](https://www.openssl.org/docs/man1.1.1/man1/ca.html) and [`3.0.2`](https://www.openssl.org/docs/man3.0/man1/openssl-ca.html)
 
 OpenSSL root CA configuration file `/root/ca/root.cnf` `man OPENSSL-CMDS` or `man ca` `man openssl-ca`  
+
 ```
 [ ca ]
 default_ca = CA_root
@@ -148,48 +155,65 @@ authorityKeyIdentifier = keyid:always,issuer
 basicConstraints = critical, CA:true, pathlen:0
 keyUsage = critical, digitalSignature, cRLSign, keyCertSign
 ```
+
 ```sh
-$ mkdir -p /root/ca/{certs,crl,newcerts,private}
-$ touch /root/ca/index.txt
-$ echo 1420 > serial
+mkdir -p /root/ca/{certs,crl,newcerts,private}
+touch /root/ca/index.txt
+echo 1420 > serial
 ```
-### Private key 
+
+### Private key
+
 ```sh
 openssl genrsa -aes256 -out /root/ca/root_ca_key 4096
 ```
+
 Certificate, used mostly by clients
+
 ```sh
 openssl req -config /root/ca/root.cnf -key /root/ca/root_ca_key -days 25202 -new -x509 -sha256 -extensions v3_ca -out /root/ca/root_ca.crt
 ```
-Examine the key 
+
+Examine the key
+
 ```sh
-$ openssl x509 -noout -text -in /root/ca/root_ca.crt
+openssl x509 -noout -text -in /root/ca/root_ca.crt
 ```
+
 ### Intermediate Certificate
-Private key 
+
+Private key
+
 ```sh
-$ openssl genrsa -aes256 -out /root/ca/intermediate_ca_key 2048
+openssl genrsa -aes256 -out /root/ca/intermediate_ca_key 2048
 ```
+
 Certificate-signing-request (CSR) for the intermediate CA key
+
 ```sh
-$ openssl req -config /root/ca/root.cnf -new -sha256 -key /root/ca/intermediate_ca_key -out /root/ca/intermediate_ca.csr.pem
+openssl req -config /root/ca/root.cnf -new -sha256 -key /root/ca/intermediate_ca_key -out /root/ca/intermediate_ca.csr.pem
 ```
+
 Sign the CSR with the root key
+
 ```sh
-$ openssl ca -config /root/ca/root.cnf -keyfile /root/ca/root_ca_key -cert /root/ca/root_ca.crt -extensions v3_intermediate_ca -days 3650 -notext -md sha256 -in /root/ca/intermediate_ca.csr.pem -out /root/ca/intermediate_ca.crt
+openssl ca -config /root/ca/root.cnf -keyfile /root/ca/root_ca_key -cert /root/ca/root_ca.crt -extensions v3_intermediate_ca -days 3650 -notext -md sha256 -in /root/ca/intermediate_ca.csr.pem -out /root/ca/intermediate_ca.crt
 ```
-Examine with 
+
+Examine with
+
 ```sh
-$ openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
+openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
 ```
 
 [Smallstep](https://smallstep.com/docs/step-ca/#provisioners)
 
-[Smallstep Configure Step CA for ACME](https://smallstep.com/docs/step-ca/acme-basics/#configure-step-ca-for-acme) 
+[Smallstep Configure Step CA for ACME](https://smallstep.com/docs/step-ca/acme-basics/#configure-step-ca-for-acme)
 
 [Small CA Yubikey](https://smallstep.com/docs/step-ca/configuration/#yubikey-piv)
 
 ## Links
+
 [Openssl essentials Digitalocean](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)
 
 [How to generate a self signed ssl certificate Stackoverflow](https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl)
@@ -198,7 +222,7 @@ $ openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
 
 [Debian openssl fiasco](https://research.swtch.com/openssl)
 
-[OpenSSL Command-Line HOWTO Paul Heinlein ](https://www.madboa.com/geek/openssl/)
+[OpenSSL Command-Line HOWTO Paul Heinlein](https://www.madboa.com/geek/openssl/)
 
 [Debugging Certificate Errors](https://www.netmeister.org/blog/debugging-certificate-errors.html)
 
@@ -223,4 +247,3 @@ $ openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
 [OpenSSl WPA2-Enterprise with FreeRadius](https://forums.freebsd.org/threads/howto-wpa2-enterprise-with-freeradius.28467/)
 
 [Key management Mozilla](https://infosec.mozilla.org/guidelines/key_management)
-
