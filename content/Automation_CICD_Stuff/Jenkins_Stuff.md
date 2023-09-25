@@ -1,14 +1,17 @@
-# Automation CI/CD Stuff
+# Jenkins Stuff
 
-## Jenkins
-Copy modules from Jenkins parameters, then in PowerShell run this, search, with the string that will return, in Kibana (Lucene mode). 
+Copy modules from Jenkins parameters, then in PowerShell run this, search, with the string that will return, in Kibana (Lucene mode).
+
 ```powershell
 "http.response.status_code: [499 TO 600] AND container.name : (" + $((Get-Clipboard -Raw) -replace "\n", "* OR ") + "*)"
 ```
-### Backup Jenkins metadata
+
+## Backup Jenkins metadata
+
 There is a better way to do it, yes, but when you are in a strangely setup environment, where you cant acces manage jenkins session, but you have control over claster where is runs, it is what you can do.
 
 First run this as free style pipeline periodicaly.
+
 ```sh
 #!/bin/bash
 set -euxo pipefail
@@ -19,37 +22,43 @@ echo -e "---------------------------------------------------------------\nGIT"
 cd "$(git rev-parse --show-toplevel)"
 git status -sb
 if (( $(git diff | wc -l) > 0 )); then
-	git add --all
-	git commit --allow-empty -m "jenkins bkp"
-	git push origin HEAD:master
+ git add --all
+ git commit --allow-empty -m "jenkins bkp"
+ git push origin HEAD:master
 else
-	echo -e "\nNothing to commit, working tree clean."
+ echo -e "\nNothing to commit, working tree clean."
 fi
 ```
-Prepare Jenkins for the restart without full admin access. 
+
+Prepare Jenkins for the restart without full admin access.
 
 Delete Jenkins job queue with `java -jar jenkins-cli.jar -s https://jenkins-<org>/ -webSocket clear-queue` or `Groovy`
+
 ```groovy
 /*
 https://jenkins-<org>/script
 */
 Jenkins.instance.queue.clear()
 ```
+
 Delete all agents: `oc delete pod $(oc get pod -o wide | awk '/jenkins-ocp3-agent/{print $1}')`
 
 Restore backup created by free style pipeline to `/var/lib/jenkins/jobs/<namespace>/jobs`
 
 Deploy jenkins: `oc rollout latest dc/jenkins`
 
-In case of any problem with the deployment: 
+In case of any problem with the deployment:
 
 `oc rollout retry dc/jenkins`
 
 `oc rollout cancel dc/jenkins`
-### Delete old builds
+
+## Delete old builds
+
 `find ./*/builds  -maxdepth 1  -type d -mtime +3 -name "[0-9]*" -exec rm -rf {} \;`
 
-### Run all Build jobs
+## Run all Build jobs
+
 ```groovy
 /*Not in Groovy Sandbox*/
 import jenkins.model.*
@@ -60,47 +69,9 @@ def allJobs = hudson.model.Hudson.getInstance().getAllItems(Job.class).findAll {
 def matchedJobs =  allJobs.findAll { job ->  job.name =~ /master$/ }
 
 matchedJobs.each { job ->
-   	if(! job.toString().contains('Build all modules')){
+    if(! job.toString().contains('Build all modules')){
     println "Scheduling matching job ${job.name}"
     job.scheduleBuild(new Cause.UserIdCause())
     }
 }
-```
-
-
-## Combine `docker-compose` with python app
-```sh
-#!/bin/bash
-docker-compose -f services/docker-compose.yml up --build -d
-if [[ ! -d /tmp/venv ]]; then
-    echo "Creating venv in /tmp/venv"
-    python3 -m venv /tmp/venv
-fi
-source /tmp/venv/bin/activate
-pip install -r /src/requirements.txt
-
-while [[ "$(curl -s -o /dev/null -w ''%{http_code}'' localhost:9070/health)" != "200" ]]; do
-    sleep 5
-    echo "waiting for service to come online"
-done
-
-python3 /src/main.py
-
-# docker-compose -f services/docker-compose.yml down
-```
-## Upload Artifact
-
-```bash
-#!/bin/bash
-chmod -c -R +rX "$INPUT_PATH" | while read -r file; do
-    echo "Invalid file permissions fixed for: $file"
-done
-tar \
-    --dereference --hard-dereference \
-    --directory "$INPUT_PATH" \
-    --create --verbose \
-    --file "$RUNNER_TEMP/artifact.tar" \
-    --exclude=.git \
-    --exclude=.github \
-    "${PWD}"
 ```

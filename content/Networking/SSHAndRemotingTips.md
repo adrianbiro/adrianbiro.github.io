@@ -103,3 +103,5 @@ no-port-forwarding,no-agent-forwarding,command="echo 'Please login as the user \
 [SSH hardening guides](https://www.sshaudit.com/hardening_guides.html)
 
 [Sshaudit Github](https://github.com/jtesta/ssh-audit)
+
+[2FA with ssh](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)

@@ -15,20 +15,27 @@
 [Dig gui (web)](https://www.diggui.com/)
 
 [DNSdumpster.com is a tool that can discover hosts related to a domain.](https://dnsdumpster.com/)
+
 ## dig
+
 ```sh
-$ dig -r ptr 185.199.110.153.in-addr.arpa
+dig -r ptr 185.199.110.153.in-addr.arpa
 ```
+
 Reverse DNS lookups
+
 ```sh
-$ dig -x 185.199.110.153
-$ nslookup 185.199.110.153
+dig -x 185.199.110.153
+nslookup 185.199.110.153
 ```
+
 Specify DNS server
+
 ```sh
-$ dig adrianbiro.github.io +noall +stat
-$ dig @1.1.1.1 adrianbiro.github.io +noall +stat
+dig adrianbiro.github.io +noall +stat
+dig @1.1.1.1 adrianbiro.github.io +noall +stat
 ```
+
 [DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
 
 [DNS Records Cloudflare](https://www.cloudflare.com/learning/dns/dns-records/)
@@ -36,43 +43,50 @@ $ dig @1.1.1.1 adrianbiro.github.io +noall +stat
 * A Record: Links the domain to an IPv4.
 * MX Record: Mail exchange records direct emails sent to domains to the correct mail server.
 * NS Record: Name server records to a set of DNS servers.
-* TXT Record: Text records store. 
+* TXT Record: Text records store.
 * SOA Record: Start of authority records like, primary name server, the responsible party, a timestamp for changes, the frequency of zone refreshes, and a series of time limits for retries and abandons.
-* TTL: Time to live in cache each for DNS query. 
+* TTL: Time to live in cache each for DNS query.
 * ANY: Return every type of DNS record it can find.
 
 [dig + spf](https://www.netmeister.org/blog/spf.html)
 
 [Sender Policy Framework (SPF) definition via a DNS TXT](https://github.com/jschauma/spf)
+
 ```sh
 $ dig github.com TTL
 $ dig github.com TXT
 $ dig +noall +answer aws.amazon.com CNAME
 aws.amazon.com.         15      IN      CNAME   tp.8e49140c2-frontier.amazon.com.
 ```
+
 On [windows](https://learn.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname?view=windowsserver2022-ps) or use [dog](https://github.com/ogham/dog)
+
 ```powershell
 Resolve-DnsName -Name google.com -Type a
 ```
+
 [Access DNS zone data for the different top-level domains](https://github.com/jschauma/tld-zoneinfo)
 
 [IANA domains root files](https://www.iana.org/domains/root/files)
+
 ```bash
-$ dig +noall +answer +noidnout +onesoa @f.root-servers.net . AXFR
-$ dig +short ns edu.
-$ dig +noall +answer +noidnout +onesoa @$(dig +short ns arpa. | head -1) arpa AXFR
+dig +noall +answer +noidnout +onesoa @f.root-servers.net . AXFR
+dig +short ns edu.
+dig +noall +answer +noidnout +onesoa @$(dig +short ns arpa. | head -1) arpa AXFR
 ```
+
 ```sh
-$ nslookup -query=a google.com
-$ dig a +noall +answer google.com
-$ host -t a google.com
+nslookup -query=a google.com
+dig a +noall +answer google.com
+host -t a google.com
 ```
+
 ## Get subdomains
 
 On [Wolframalpha](https://www.wolframalpha.com/input?i=github.com) > `Web statistics for all of <domain>` > `Subdomains`
 
-
 ## URL
+
 [URLs: It's complicated...](https://www.netmeister.org/blog/urls.html)
 
 ## Links
@@ -89,18 +103,20 @@ Get random domain from [tranco list](https://tranco-list.eu/) `cut -f, -d2 tranc
 
 [DNS tools by ISC](https://www.isc.org/dns-tools/#diagnostics)
 
+[ASN Lookup](https://whois.cymru.com/) [asn arin](https://www.arin.net/resources/guide/asn/)
+
 ## Free & Public DNS Servers
 
 | Provider | Primary DNS | Secondary DNS |
 | --- | --- | --- |
-| https://developers.google.com/speed/public-dns/ | 8.8.8.8 | 8.8.4.4 |
-| https://controld.com/free-dns/ | 76.76.2.0 | 76.76.10.0 |
-| https://www.quad9.net/ | 9.9.9.9 | 149.112.112.112 |
-| https://www.opendns.com/ | 208.67.222.222 | 208.67.220.220 |
-| https://1.1.1.1/dns/ | 1.1.1.1 | 1.0.0.1 |
-| https://cleanbrowsing.org/filters/ | 185.228.168.9 | 185.228.169.9 |
-| https://alternate-dns.com/ | 76.76.19.19 | 76.223.122.150 |
-| https://adguard-dns.io/en/public-dns.html | 94.140.14.14 | 94.140.15.15 |
+| <https://developers.google.com/speed/public-dns/> | 8.8.8.8 | 8.8.4.4 |
+| <https://controld.com/free-dns/> | 76.76.2.0 | 76.76.10.0 |
+| <https://www.quad9.net/> | 9.9.9.9 | 149.112.112.112 |
+| <https://www.opendns.com/> | 208.67.222.222 | 208.67.220.220 |
+| <https://1.1.1.1/dns/> | 1.1.1.1 | 1.0.0.1 |
+| <https://cleanbrowsing.org/filters/> | 185.228.168.9 | 185.228.169.9 |
+| <https://alternate-dns.com/> | 76.76.19.19 | 76.223.122.150 |
+| <https://adguard-dns.io/en/public-dns.html> | 94.140.14.14 | 94.140.15.15 |
 
 ## Flush DNS
 
@@ -114,14 +130,15 @@ PS C:> ipconfig /displaydns
 ```
 
 ```sh
-$ systemctl is-active systemd-resolved
-$ resolvectl statistics
-$ sudo journalctl -u systemd-resolved
-$ resolvectl flush-caches 
-$ sudo killall -USR1 systemd-resolved
+systemctl is-active systemd-resolved
+resolvectl statistics
+sudo journalctl -u systemd-resolved
+resolvectl flush-caches 
+sudo killall -USR1 systemd-resolved
 ```
+
 ```sh
-$ sudo killall -HUP dnsmasq
+sudo killall -HUP dnsmasq
 ```
 
 ## PGP and DNS
@@ -130,3 +147,6 @@ $ sudo killall -HUP dnsmasq
 
 [The complete guide to publishing PGP keys in DNS](https://www.gushi.org/make-dns-cert/HOWTO.html)
 
+## Misc
+
+Show my IP `dig +short myip.opendns.com @resolver1.opendns.com`

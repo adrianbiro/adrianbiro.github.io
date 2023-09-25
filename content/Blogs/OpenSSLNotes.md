@@ -212,6 +212,10 @@ openssl x509 -noout -text -in /root/ca/intermediate_ca.crt
 
 [Small CA Yubikey](https://smallstep.com/docs/step-ca/configuration/#yubikey-piv)
 
+## Connect to SSL
+
+`openssl s_client -connect smtp.gmail.com:465`
+
 ## Links
 
 [Openssl essentials Digitalocean](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)

@@ -1,6 +1,7 @@
 # Pandoc Tips
 
 ## Generate **EPUB3** from **markdown** file
+
 ```bash
 pandoc --from markdown --to epub3 go_performance.md \
     --output go-perfbook.epub \
@@ -8,7 +9,9 @@ pandoc --from markdown --to epub3 go_performance.md \
     --epub-cover-image=Golang-3.jpg \
     --metadata-file=metadata.yaml
 ```
+
 `metadata.yaml` or with CLI flags `--metadata title='title of book' --metadata author='author name'`
+
 ```yaml
 ---
 title: 'Go-perfbook'

@@ -2,26 +2,25 @@
 This page is intended to rescue me in my ongoing struggle to share knowledge in a reusable way, so I will try move it here from emails, gists confluence, Slack, and Teams messages that no-one can find after 2 days.
 ## Content
 In no sense organized.
+### Automation_CICD_Stuff
+* [Docker-Compose](./content/Automation_CICD_Stuff/Docker-Compose.md)
+* [Git Tips](./content/Automation_CICD_Stuff/Git_Tips.md)
+* [Jenkins Stuff](./content/Automation_CICD_Stuff/Jenkins_Stuff.md)
+* [Upload Artifact](./content/Automation_CICD_Stuff/Upload_Artifact.md)
 ### AWS
 * [AWS links for demo](./content/AWS/AWSLinksForDemo.md)
 * [AWS Security](./content/AWS/AWSSecurity.md)
 * [S3](./content/AWS/S3.md)
 ### Blogs
-* [Automation CI/CD Stuff](./content/Blogs/AutomationCICDStuff.md)
 * [Cryptography And Randomness Notes](./content/Blogs/CryptographyAndRandomnessNotes.md)
 * [Device Management notes](./content/Blogs/DeviceManagementNotes.md)
-* [DNS stuff](./content/Blogs/DNSStuff.md)
 * [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
 * [Google tips](./content/Blogs/GoogleTips.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
-* [Networing Notes](./content/Blogs/NetworkingNotes.md)
-* [Network Security](./content/Blogs/NetworkSecurity.md)
 * [OpenSSL Notes](./content/Blogs/OpenSSLNotes.md)
 * [Pandoc Tips](./content/Blogs/PandocTips.md)
-* [Publish unix socket on localhost](./content/Blogs/PublishSocketOnLocalhost.md)
 * [Randomize IMEI Banana Phone (SK comments with EN links)](./content/Blogs/RandomizeIMEIonBananaPhone.md)
 * [Security Acronyms](./content/Blogs/SecurityAcronyms.md)
-* [SSH and remoting tips](./content/Blogs/SSHAndRemotingTips.md)
 * [Useful APIs](./content/Blogs/UsefulAPIs.md)
 ### Data
 * [JQL Jira](./content/Data/JQLJira.md)
@@ -48,6 +47,14 @@ In no sense organized.
 * [/proc notes](./content/Linux/ProcNotes.md)
 * [Proxmox Tips](./content/Linux/ProxmoxTips.md)
 * [SystemD Notes](./content/Linux/SystemDNotes.md)
+### Networking
+* [DNS stuff](./content/Networking/DNSStuff.md)
+* [MAC Adress Notes](./content/Networking/MAC_Address_Notes.md)
+* [Networing Notes](./content/Networking/NetworkingNotes.md)
+* [Network Security](./content/Networking/NetworkSecurity.md)
+* [Publish unix socket on localhost](./content/Networking/PublishSocketOnLocalhost.md)
+* [SNMP Notes](./content/Networking/SNMP_Notes.md)
+* [SSH and remoting tips](./content/Networking/SSHAndRemotingTips.md)
 ### Powershell
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Powershell/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)
