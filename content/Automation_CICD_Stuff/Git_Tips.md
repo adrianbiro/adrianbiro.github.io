@@ -18,3 +18,9 @@ git config --global --add safe.directory /home/path/to/git
 git config --local --name-only --get-regexp core\.sshCommand
 git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
 ```
+
+## Sync git submodules
+
+`git submodule sync --recursive`
+
+<https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-sync--recursive--ltpathgt82308203>

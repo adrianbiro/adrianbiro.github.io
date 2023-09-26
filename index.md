@@ -1,10 +1,11 @@
 ﻿# Blogs, Notes, and Stuff
-This page is intended to rescue me in my ongoing struggle to share knowledge in a reusable way, so I will try move it here from emails, gists confluence, Slack, and Teams messages that no-one can find after 2 days.
+This page is intended to rescue me in my ongoing struggle to share knowledge in a reusable way, so I will try move it here from emails, gists, confluence, Slack, and Teams messages that no-one can find after 2 days.
 ## Content
 In no sense organized.
 ### Automation_CICD_Stuff
 * [Docker-Compose](./content/Automation_CICD_Stuff/Docker-Compose.md)
 * [Git Tips](./content/Automation_CICD_Stuff/Git_Tips.md)
+* [Githubaction backend](./content/Automation_CICD_Stuff/Githubactions_Backend.md)
 * [Jenkins Stuff](./content/Automation_CICD_Stuff/Jenkins_Stuff.md)
 * [Upload Artifact](./content/Automation_CICD_Stuff/Upload_Artifact.md)
 ### AWS
@@ -58,9 +59,9 @@ In no sense organized.
 ### Powershell
 * [90. Vibes Website With Powershell, Markdown to HTML](./content/Powershell/90.VibeWebsiteWithPowershellMarkdown2HTML.md)
 * [Miscelaneus Tips](./content/Powershell/MiscelaneusTips.md)
-### python
-* [Disable IPv6, to fix slow pip install.](./content/python/DisableIPv6ToFixSlowPipInstall.md)
-* [Python CLI](./content/python/PythonCLI.md)
+### Python
+* [Disable IPv6, to fix slow pip install.](./content/Python/DisableIPv6ToFixSlowPipInstall.md)
+* [Python CLI](./content/Python/PythonCLI.md)
 ### Shell
 * [AWK tips](./content/Shell/AWK.md)
 * [Deploy the program in one line](./content/Shell/Deploy-program-in-one-line.md)
