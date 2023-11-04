@@ -1,6 +1,7 @@
 # Notes on Miscelaneus Unix Utils
 
 ## file
+
 ```sh
 $ file  weblogic-sys_zfin_zfin_time_2023-07-09_15\:02\:12.230374 
  weblogic-sys_zfin_zfin_time_2023-07-09_15:02:12.230374: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), too many program headers (4210)
@@ -9,49 +10,68 @@ $ ls -lh
 $ file -Pelf_phnum=10000  weblogic-sys_zfin_zfin_time_2023-07-09_15\:02\:12.230374
  weblogic-sys_zfin_zfin_time_2023-07-09_15:02:12.230374: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), SVR4-style, from '/usr/lib/firefox/irefox'
 ```
+
 Look inside compressed files
+
 ```sh
 $ file stage.pcap.zst 
 stage.pcap.zst: Zstandard compressed data (v0.8+), Dictionary ID: None
 $ file stage.pcap.zst --uncompress
 stage.pcap.zst: pcap capture file, microsecond ts (little-endian) - version 2.4 (Ethernet, capture length 262144) (Zstandard compressed data (v0.8+), Dictionary ID: None)
 ```
+
 ## wget
+
 Download files in batch.
+
 ```sh
-$ wget --no-verbose --no-parent --recursive --level=1 --no-directories --no-clobber --continue ${URL}
-$ wget -r l 7 --convert-links ${URL}
+wget --no-verbose --no-parent --recursive --level=1 --no-directories --no-clobber --continue ${URL}
+wget -r l 7 --convert-links ${URL}
 ```
+
 Download specific file names.
+
 ```sh
-$ wget -A '*.ps -r ${URL}
+wget -A '*.ps' -r ${URL}
 ```
+
 Download full sile.
+
 ```sh
-$ wget --mirror --convert-links ${URL}
+wget --mirror --convert-links ${URL}
 ```
+
 Debug, `-S` server response
+
 ```sh
-$ wget --debug --server-response --max-redirect 0 ${URL}
+wget --debug --server-response --max-redirect 0 ${URL}
 ```
+
 ## grep
+
 Generate `.env` file from `docker-compose.yaml`
+
 ```yaml
 environment:
   - "INFLUXDB_ADMIN_USER=${INFLUXDB_ADMIN_USER:-admin}"
 ```
+
 ```sh
 $ grep -oP '(?<=\${).*(?=})' docker-compose.yaml | sed -E "s/(.*):-(.*)/\1\='\2'/"
 INFLUXDB_ADMIN_USER='admin'
 ```
+
 Select numbers 3 plus digits long, and ignore zero padding, if it is present. Print all matches, on separate lines.
+
 ```sh
 $ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654654' 
 0320
 123
 654654
 ```
+
 [Asciigraph](https://github.com/guptarohit/asciigraph) plus this grep feature is nice when you need to parse and plot the output of monitoring solutions that put all data for one event (like deployments) into one line.
+
 ```sh
 $ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654' --line-buffered  | asciigraph  -h 10 -w 80 
  654 ┤                                                                           ╭───
@@ -66,39 +86,48 @@ $ grep -woP '0*+\d{3,}' <<< '0320 0045 123 45 89 654' --line-buffered  | asciigr
  178 ┤                           ╰─────────╮  ╭───╯
  125 ┤                                     ╰──╯
 ```
+
 * `-o` Print only the matched parts of a matching line.
 * `-w` Select only those lines containing matches that form whole words/regex.
 * `-P` Perl-compatible regular expression
 
-## curl 
+## curl
+
 Logging in script.
 
 ```sh
 $ curl --silent --fail --show-error www.postman-echo.com/delete
 curl: (22) The requested URL returned error: 404
 ```
+
 Make direct requests at a specific server, e.g. at a specific cluster node in a cluster of servers, or to workaround certificate errors, without using `-k --insecure` flags. [Debugging Certificate Errors](https://www.netmeister.org/blog/debugging-certificate-errors.html)
+
 ```sh
-$ $ curl --connect-to www.example.com:443:cname.example.com:443 https://www.example.com
+curl --connect-to www.example.com:443:cname.example.com:443 https://www.example.com
 ```
 
-
 ## date
+
 ```sh
 $ date --iso-8601=seconds
 2023-07-16T19:16:25+02:00
 ```
+
 Seconds since the last modification time of FILE
+
 ```sh
 $ echo "$(( $(date +%s) - $(date -r ${file} +%s) ))"
 47195
 ```
 
 ## jar
+
 Like the [TAR(1)](https://man.freebsd.org/cgi/man.cgi?query=tar&apropos=0&sektion=0&manpath=FreeBSD+13.2-RELEASE+and+Ports&arch=default&format=html).
+
 ```sh
-$ jar -tf file.jar
+jar -tf file.jar
 ```
+
 ```sh
 $ jar --help
 Picked up JAVA_TOOL_OPTIONS:  -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Djavax.net.ssl.trustStore=/etc/pki/java/cacerts -Djavax.net.ssl.trustStorePassword=25bad398-d74f-11ec-aabd-00505693bf45 -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=2
@@ -129,4 +158,13 @@ Example 1: to archive two class files into an archive called classes.jar:
 Example 2: use an existing manifest file 'mymanifest' and archive all the
            files in the foo/ directory into 'classes.jar': 
        jar cvfm classes.jar mymanifest -C foo/ .
+```
+
+## numfmt
+
+Convert bytes to Human readable format
+
+```bash
+$ numfmt --to=iec --suffix=B --padding=7 1048576
+  1,0MB
 ```

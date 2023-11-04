@@ -105,3 +105,5 @@ no-port-forwarding,no-agent-forwarding,command="echo 'Please login as the user \
 [Sshaudit Github](https://github.com/jtesta/ssh-audit)
 
 [2FA with ssh](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
+
+[2FA with ssh on OpenBSD](https://chown.me/blog/2FA-with-ssh-on-OpenBSD)

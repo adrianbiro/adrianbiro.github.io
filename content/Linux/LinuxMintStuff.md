@@ -13,3 +13,17 @@ $ sudo apt-get update
 $ sudo apt-get dist-upgrade
 $ sudo systemctl reboot
 ```
+
+## Skylink `Přehrávání videa je zakázáno. (W823)`
+
+```bash
+sudo apt install ubuntu-restricted-extras chromium-codecs-ffmpeg-extra
+```
+
+DRM in chrome
+
+`chrome://settings/content/protectedContent`
+
+<https://www.parabola.cz/forum/topic-105617/>
+
+<https://forum.ubuntu.cz/index.php?topic=83870.0>
