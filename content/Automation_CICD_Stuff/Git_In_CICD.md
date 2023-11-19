@@ -1,4 +1,4 @@
-# Git Tips
+# Git in CICD
 
 ## Fix git permission problems on shared repo
 

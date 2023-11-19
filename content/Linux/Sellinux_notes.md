@@ -38,7 +38,7 @@ or `semanage -a -e /var/www/html /foo`
 
 Run `restorecon` `restorecon -vR /foo`
 
-## modules
+## Modules
 
 To create a module, you need to set selinux in permissive mode and test the application with all its features `setenforce 0`
 then check the journalctl log `journalctl` and search for `sealert`, then run `sealert -l <uuid>`

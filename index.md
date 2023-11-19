@@ -3,8 +3,9 @@ This page is intended to rescue me in my ongoing struggle to share knowledge in 
 ## Content
 In no sense organized.
 ### Automation_CICD_Stuff
+* [Docker and Podman Notes](./content/Automation_CICD_Stuff/Docker_and_Podman_notes.md)
 * [Docker-Compose](./content/Automation_CICD_Stuff/Docker-Compose.md)
-* [Git Tips](./content/Automation_CICD_Stuff/Git_Tips.md)
+* [Git in CICD](./content/Automation_CICD_Stuff/Git_In_CICD.md)
 * [Githubaction backend](./content/Automation_CICD_Stuff/Githubactions_Backend.md)
 * [Jenkins Stuff](./content/Automation_CICD_Stuff/Jenkins_Stuff.md)
 * [Upload Artifact](./content/Automation_CICD_Stuff/Upload_Artifact.md)
@@ -16,9 +17,9 @@ In no sense organized.
 * [Cryptography And Randomness Notes](./content/Blogs/CryptographyAndRandomnessNotes.md)
 * [Device Management notes](./content/Blogs/DeviceManagementNotes.md)
 * [Github Pages Troubleshooting](./content/Blogs/GithubPagesTroubleshooting.md)
-* [Google tips](./content/Blogs/GoogleTips.md)
 * [Miscelaneus Tables And Sheets](./content/Blogs/MiscelaneusTablesAndSheets.md)
 * [OpenSSL Notes](./content/Blogs/OpenSSLNotes.md)
+* [Operation Notes](./content/Blogs/Operation_Notes.md)
 * [Pandoc Tips](./content/Blogs/PandocTips.md)
 * [Randomize IMEI Banana Phone (SK comments with EN links)](./content/Blogs/RandomizeIMEIonBananaPhone.md)
 * [Security Acronyms](./content/Blogs/SecurityAcronyms.md)
@@ -31,6 +32,8 @@ In no sense organized.
 * [Formulas](./content/Excel/Formulas.md)
 * [Keyboard Shorcuts](./content/Excel/KeyboardShorcuts.md)
 * [PowerQuery](./content/Excel/PowerQuery.md)
+### Google
+* [Google tips](./content/Google/GoogleTips.md)
 ### Hardware
 * [Battery Info](./content/Hardware/BatteryInfo.md)
 * [BIOS Update](./content/Hardware/BIOSUpdate.md)
@@ -45,6 +48,7 @@ In no sense organized.
 * [Apt notes](./content/Linux/AptNotes.md)
 * [Limiting Ptrace and Gdb on Production Systems](./content/Linux/LimitingPtraceAndGdbOnProductionSystems.md)
 * [Linux Mint Stuff](./content/Linux/LinuxMintStuff.md)
+* [Logging Notes](./content/Linux/Logging_notes.md)
 * [Performance Monitoring](./content/Linux/PerformanceMonitoring.md)
 * [/proc notes](./content/Linux/ProcNotes.md)
 * [Proxmox Tips](./content/Linux/ProxmoxTips.md)
@@ -70,11 +74,13 @@ In no sense organized.
 * [AWK tips](./content/Shell/AWK.md)
 * [Deploy the program in one line](./content/Shell/Deploy-program-in-one-line.md)
 * [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
+* [Git Tips](./content/Shell/Git_Tips.md)
 * [Git-Bash Notes](./content/Shell/Git-BashNotes.md)
 * [Miscelaneus Shell Links](./content/Shell/MiscelaneusShellLinks.md)
 * [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
 * [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
 * [Shell notes](./content/Shell/ShellNotes.md)
+* [Vim notes](./content/Shell/Vim_notes.md)
 ### Windows
 * [Cmd notes](./content/Windows/CmdNotes.md)
 * [](./content/Windows/Windows_Links.md)
