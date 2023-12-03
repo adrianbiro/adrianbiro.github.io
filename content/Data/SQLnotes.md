@@ -1,6 +1,7 @@
 # SQL Notes
 
 ## .psqlrc
+
 ```
 \set ON_ERROR_ROLLBACK interactive
 \set COMP_KEYWORD_CASE upper
@@ -17,7 +18,9 @@
 ```
 
 ## Useful PostgreSQL
+
 ### Get percent change
+
 ```sql
 CREATE OR REPLACE FUNCTION
 percent_change(new_value numeric,
@@ -50,7 +53,9 @@ SELECT relname as "Table",
   FROM pg_catalog.pg_statio_user_tables 
 ORDER BY pg_total_relation_size(relid) DESC;
 ```
+
 ### Settings
+
 ```sql
 select
     name,
@@ -60,7 +65,9 @@ select
 from
     pg_settings;
 ```
+
 ### Locks
+
 ```sql
 SELECT
     bl.pid AS blocked_pid,
@@ -77,7 +84,9 @@ FROM
 WHERE
     NOT bl.granted;
 ```
+
 ### Connection info
+
 ```sql
 select
     usename,
@@ -87,7 +96,9 @@ from
 group by
     usename;
 ```
+
 ### Show Activity
+
 ```sql
 select
     datname,
@@ -102,7 +113,9 @@ select
 from
     pg_stat_activity;
 ```
+
 ### Waits
+
 ```sql
 SELECT
     pg_stat_activity.pid,
@@ -116,7 +129,9 @@ WHERE
     pg_stat_activity.query !~ '%IDLE%' :: text
     AND pg_stat_activity.waiting = true;
 ```
+
 ### Dbsize
+
 ```sql
 SELECT
     datname,
@@ -126,7 +141,9 @@ FROM
 ORDER BY
     db_size;
 ```
+
 ### Uselesscol
+
 ```sql
 SELECT
     nspname,
@@ -167,12 +184,16 @@ ORDER BY
     relname,
     attname;
 ```
-### Uptime 
+
+### Uptime
+
 ```sql
 select
     now() - pg_postmaster_start_time() AS uptime;
 ```
+
 ### Show running queries
+
 ```sql
 SELECT
     pid,
@@ -188,14 +209,18 @@ WHERE
 ORDER BY
     query_start desc;
 ```
+
 ### Kill query
+
 ```sql
 -- Kill running query
 SELECT pg_cancel_backend(pid);
 --- Kill idle query
 SELECT pg_terminate_backend(pid);
 ```
+
 ### Show SSL details
+
 ```sql
 SELECT
     name,
@@ -213,7 +238,9 @@ WHERE
     OR category ILIKE '%SSL%'
     OR short_desc ILIKE '%SSL%';
 ```
+
 ### Show resources
+
 ```sql
   SELECT
     name,
@@ -234,6 +261,14 @@ WHERE
     category ILIKE '%Resource%';
 ```
 
+## Miscelaneus SQL snipets
+
+```sql
+select count(1), foo, bar 
+    from db_name 
+    group by foo, bar 
+    order by count(1) desc
+```
 
 ## Links
 

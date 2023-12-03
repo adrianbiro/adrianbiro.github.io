@@ -37,3 +37,13 @@ Git config on Windows corporate machine with the WPAD Proxy and bandwidth restri
 [http]
     proxy = http://<user>:<passwd>@wpadweb.d<omain.org>/wpad.pac:3128 #8080
 ```
+
+## Git-Bash on windows
+
+Fix python path
+
+```sh
+cat /usr/bin/python
+#!/bin/bash
+"$ProgramW6432/Python3109/python" "${@}"
+```

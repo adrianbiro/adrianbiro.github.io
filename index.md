@@ -75,7 +75,6 @@ In no sense organized.
 * [Deploy the program in one line](./content/Shell/Deploy-program-in-one-line.md)
 * [Find And Xargs Tips](./content/Shell/FindAndXargsTips.md)
 * [Git Tips](./content/Shell/Git_Tips.md)
-* [Git-Bash Notes](./content/Shell/Git-BashNotes.md)
 * [Miscelaneus Shell Links](./content/Shell/MiscelaneusShellLinks.md)
 * [Notes on Miscelaneus Unix Utils](./content/Shell/NotesOnMiscUnixUtils.md)
 * [Readline Key Bindings](./content/Shell/ReadlineKeyBindings.md)
