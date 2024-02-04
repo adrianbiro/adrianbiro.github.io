@@ -25,6 +25,16 @@ GitHub,gh,https://github.com/search?q=%s&ref=opensearch
 "Google Maps",gmaps,https://www.google.com/maps/search/%s?hl=en&source=opensearch
 ```
 
+### Clear DNS cache
+
+`chrome://net-internals/#dns`
+
+### Change User Agent in Google Chrome
+
+1. `CTR+Shift+I`
+1. More Tools > Network Conditions. ...
+1. Uncheck Select Automatically Checkbox.
+
 ## Search
 
 Search for document

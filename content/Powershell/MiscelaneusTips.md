@@ -26,3 +26,20 @@ Similar to the python [inspect](https://docs.python.org/3/library/inspect.html) 
 ```powershell
 Get-ChildItem -Path '.' -Recurse -Include '*.ps1','*.psm1','*.psd1' | Unblock-File -Verbose
 ```
+
+## Enable Debug or Verbose output
+
+```powershell
+PS /home/adrian> function foo {
+ [CmdletBinding()]
+  Param([parameter(ValueFromRemainingArguments=$true)][String[]] $args)       
+ Write-Verbose 'VVVVVVV'
+  Write-Debug 'DDDDDDD'  
+  Write-Host "host"    
+}
+PS /home/adrian> foo -Debug -Verbose
+VERBOSE: VVVVVVV
+DEBUG: DDDDDDD
+host
+PS /home/adrian>
+```

@@ -1,13 +1,16 @@
 # Performance Monitoring
 
 ## Usefull commands
+
 ```sh
-$ dmesg --human --follow --ctime 
+dmesg --human --follow --ctime 
 ```
+
 ```sh
 iostat -xmdzh 1 # -p sda
 # lsblk -l | awk '!(/loop/||/NAME/){print $1}'
 ```
+
 ```
 CPU statistics and input/output statistics for devices and partitions
 -x     Display extended statistics.
@@ -16,49 +19,67 @@ CPU statistics and input/output statistics for devices and partitions
 -z     Omit output for any devices for which there was no activity during the sample period.
 -h     --human
 ```
-#### Meminfo to MB
+
+### Meminfo to MB
+
 ```sh
 awk '{printf("%-20s %.2f MB\n", $1, ($2/1024))}' /proc/meminfo | sed 's/\.00//'
 ```
-#### Processors related statistics
+
+### Processors related statistics
+
 ```sh
 mpstat -P ALL 1
 ```
-#### Statistics for threads associated with selected tasks
+
+### Statistics for threads associated with selected tasks
+
 ```sh
 pidstat -t 1
 ```
+
 ```
 Report statistics for Linux tasks.
 -t     Also display statistics for threads associated with selected tasks.
 Report I/O statistics (kernels 2.6.20 and later only)
 pidstat -d 1
 ```
+
 ```sh
 pmap -x # pgrep <prog>
 ```
+
 ```
 report memory map of a process
 -x, --extended
 less -S /proc/stat
 ```
-#### ps
+
+### ps
+
 ```sh
 ps -ef f
 ps -eo user,sz,rss,minflt,majflt,pcpu,args
 ```
+
 cpu
+
 ```sh
 ps -eo pcpu,pid,args | sort -k 1,1 -r 
 ```
+
 rss
+
 ```sh
 ps -eo user,rss,pid,args | sort -r -n -k 2,2
 ```
+
 threads
+
 ```
 ps -eo nlwp,pid,args | sort -nr -k 1,1
 ```
+
 ```
 Report a snapshot of the current processes.
 -e     Select all processes.
@@ -82,34 +103,45 @@ RSS is not an accurate measure of the total memory processes are consuming, beca
 that were swapped out. On the other hand, the same shared libraries may be duplicated and counted in different processes. 
 However, RSS is a reliable estimate.
 ```
-#### sar
+
+### sar
+
 ```sh
 sar -n DEV 1
 ```
+
 ```
 Collect, report, or save system activity information.
 -n { keyword[,...] | ALL }
     Report network statistics.
     With  the DEV keyword, statistics from the network devices are reported.
 ```
-#### Sort slabinfo to see what objects taking the most space [slabinfo(5)](https://man7.org/linux/man-pages/man5/slabinfo.5.html) [linux OOM](https://linux-mm.org/OOM)
+
+### Sort slabinfo to see what objects taking the most space [slabinfo(5)](https://man7.org/linux/man-pages/man5/slabinfo.5.html) [linux OOM](https://linux-mm.org/OOM)
+
 ```sh
 awk '{printf "%-30s %5d MB\n", $1 ,$3*$4/(1024*1024)}' < /proc/slabinfo | sort -nr -k2
 ```
-#### smem
+
+### smem
+
 ```sh
 smem -s swap -r | awk 'NR==1{print; next};int($4) > 0'
 ```
+
 ```
 Report memory usage with shared memory divided proportionally.
 -s SORT, --sort=SORT
 -r, --reverse
 AWK print header and non-zero swap usage
 ```
-#### Top one program show individual threads
+
+### Top one program show individual threads
+
 ```sh
 top -b -d 1 -p "$(pgrep "${1}" | head -1)" -H
-``` 
+```
+
 ```
 -b  Batch-mode operation
 -d  Delay-time interval between screen updates
@@ -118,10 +150,13 @@ top -b -d 1 -p "$(pgrep "${1}" | head -1)" -H
     Instructs  top  to  display  individual  threads. Without this command-line option a summation of all threads in each
     process is shown.  Later this can be changed with the `H' interactive command.
 ```
-#### vmstat
+
+### vmstat
+
 ```sh
 vmstat  -Sm 1
 ```
+
 ```
 Report virtual memory statistics
 -S, --unit character
@@ -130,10 +165,12 @@ Report virtual memory statistics
 -m, --slabs
     Displays slabinfo.
 ```
-#### Core freq [cpuinfo flags](https://www.baeldung.com/linux/proc-cpuinfo-flags)
+
+### Core freq [cpuinfo flags](https://www.baeldung.com/linux/proc-cpuinfo-flags)
+
 ```sh
 awk '
-BEGIN {	FS = ":" }
+BEGIN { FS = ":" }
 
 $1 ~ /^processor[[:space:]]+$/ { Processor = $2 }
 
@@ -143,20 +180,23 @@ END { for (Processor in Cores) { printf("CORE_%d: %d\n", Processor + 1, Cores[Pr
 }' /proc/cpuinfo
 
 ```
-#### Cpu temperature
+
+### Cpu temperature
+
 ```sh
 
 find /sys/class/thermal/thermal_zone*/ -maxdepth 0 -print0 | while IFS= read -r -d '' dir; do
     echo "$(cat "${dir}"/type): $(sed 's/\(.\)..$/.\1°C/' "${dir}/temp")"
 done
 ```
+
 temp stores 54000 millidegree Celsius, that means 54°C
-https://www.kernel.org/doc/Documentation/thermal/x86_pkg_temperature_thermal
-https://www.kernel.org/doc/Documentation/thermal/sysfs-api.txt
-
+<https://www.kernel.org/doc/Documentation/thermal/x86_pkg_temperature_thermal>
+<https://www.kernel.org/doc/Documentation/thermal/sysfs-api.txt>
 
 ----
 ----
+
 ## Linux Performance Monitoring Primer
 
 [Linux Performance Monitoring Tools - YouTube](https://www.youtube.com/watch?v=2OsTSD5z1SU)
@@ -188,7 +228,8 @@ https://www.kernel.org/doc/Documentation/thermal/sysfs-api.txt
 [Difference Between Resident Set Size and Virtual Memory Size](https://www.baeldung.com/linux/resident-set-vs-virtual-memory-size)
 
 [Prstat on Linux with Top](http://javaeesupportpatterns.blogspot.com/2012/02/prstat-linux-how-to-pinpoint-high-cpu.html)
-## Tools 
+
+## Tools
 
 ### Flame Graphs
 

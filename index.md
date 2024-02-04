@@ -82,4 +82,5 @@ In no sense organized.
 * [Vim notes](./content/Shell/Vim_notes.md)
 ### Windows
 * [Cmd notes](./content/Windows/CmdNotes.md)
-* [](./content/Windows/Windows_Links.md)
+* [MS Edge Tips](./content/Windows/MS_Edge_Tips.md)
+* [Windows Links](./content/Windows/Windows_Links.md)

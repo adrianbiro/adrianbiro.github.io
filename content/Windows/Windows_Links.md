@@ -1,4 +1,3 @@
-
 # Windows Links
 
 [Caching Windows Updates With Squid](https://wiki.squid-cache.org/ConfigExamples/Caching/WindowsUpdates)

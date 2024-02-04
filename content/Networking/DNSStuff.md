@@ -141,6 +141,8 @@ sudo killall -USR1 systemd-resolved
 sudo killall -HUP dnsmasq
 ```
 
+In *Google Chrome* `chrome://net-internals/#dns` in *Mozilla Firefox* `about:networking#dns`
+
 ## PGP and DNS
 
 [PGP and DNS](https://slxh.nl/blog/2016/pgp-and-dns/)

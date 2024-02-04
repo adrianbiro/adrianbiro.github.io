@@ -20,6 +20,8 @@ IMEI consists of 15 digits:
 
 [Your Hardware Identifiers: Your IMEI and IMSI (and by extension, your phone number)](https://anonymousplanet.org/guide.html#your-imei-and-imsi-and-by-extension-your-phone-number)
 
+[**(Do not work)** How to change IMEI on Snapdragon devices](https://gist.github.com/uragiristereo/7668e067e3b0525d6e4d4b12d9f71344)
+
 **Zdroj je `Wilder`, ja som to len dal na kopu.**
 
 [Randomize IMEI](https://wiki.lunardao.net/imei.html)

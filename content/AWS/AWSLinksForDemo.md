@@ -1,5 +1,7 @@
 # AWS links for demo
+
 ## Ferrari use case
+
 [Ferrari use case video](https://www.youtube.com/watch?v=1qYBEcG-fV4&list=WL&index=13&t=300s)
 
 [Cognito user authentification](https://aws.amazon.com/cognito/)
@@ -34,7 +36,8 @@
 
 [CloudWatch](https://aws.amazon.com/cloudwatch/)
 
-## Generator prep.
+## Generator prep
+
 [Stored Procedures MySQL to Aurora](https://docs.aws.amazon.com/dms/latest/sql-server-to-aurora-mysql-migration-playbook/chap-sql-server-aurora-mysql.tsql.storedprocedures.html#chap-sql-server-aurora-mysql.tsql.storedprocedures.mysql)
 
 [Periodically Start a State Machine Execution Using EventBridge](https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-cloudwatch-events-target.html) (At Mon. 00:30)

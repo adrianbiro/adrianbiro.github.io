@@ -168,3 +168,68 @@ Convert bytes to Human readable format
 $ numfmt --to=iec --suffix=B --padding=7 1048576
   1,0MB
 ```
+
+## brotli
+
+[Brotli Compressed Data Format RFC](https://datatracker.ietf.org/doc/html/rfc7932)
+
+[Brotli Wiki](https://en.wikipedia.org/wiki/Brotli)
+
+[Blorli Github](https://github.com/google/brotli)
+
+1. Compress a file, creating a compressed version next to the file:
+
+`# brotli file.txt`
+
+1. Decompress a file, creating an uncompressed version next to the file:
+
+`# brotli -d file.txt.br`
+
+1. Compress a file specifying the output filename:
+
+`# brotli file.txt -o compressed_file.txt.br`
+
+1. Decompress a Brotli file specifying the output filename:
+
+`# brotli -d compressed_file.txt.br -o file.txt`
+
+1. Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best):
+
+`# brotli -q 11 file.ext -o compressed_file.ext.br`
+
+## logger
+
+[man(1) logger](https://www.man7.org/linux/man-pages/man1/logger.1.html)
+
+`--server remoteIP`
+
+`--priority user.err`
+
+| Facility Name | Level Name |
+|--------------|------------|
+| auth         | emerg      |
+| authpriv     | alert      |
+| cron         | crit       |
+| daemon       | err        |
+| ftp          | warning    |
+| kern         | notice     |
+| lpr          | info       |
+| mail         | debug      |
+| news         | panic      |
+| syslog       | error      |
+| user         | warn       |
+| uucp         |            |
+| local0       |            |
+| ...          |            |
+| local7       |            |
+| security     |            |
+
+```bash
+$ for i in {1..50};do logger $i --id=$$; done
+% sudo tail /var/log/syslog -f
+Dec  1 18:14:34 wbl5 adrian[12802]: 1
+Dec  1 18:14:34 wbl5 adrian[12802]: 2
+Dec  1 18:14:34 wbl5 adrian[12802]: 3
+Dec  1 18:14:34 wbl5 adrian[12802]: 4
+Dec  1 18:14:34 wbl5 adrian[12802]: 5
+```
