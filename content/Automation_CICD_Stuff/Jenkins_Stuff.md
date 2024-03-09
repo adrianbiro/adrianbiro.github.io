@@ -8,7 +8,7 @@ Copy modules from Jenkins parameters, then in PowerShell run this, search, with 
 
 ## Backup Jenkins metadata
 
-There is a better way to do it, yes, but when you are in a strangely setup environment, where you cant acces manage jenkins session, but you have control over claster where is runs, it is what you can do.
+There is a better way to do it, but when you are in a strangely setup environment, where you can't acces jenkins session, but you have control over the cluster, this is what you can do.
 
 First run this as free style pipeline periodicaly.
 
