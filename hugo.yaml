@@ -3,6 +3,27 @@ languageCode: 'en-us'
 title: 'Blogs, Notes, and Stuff'
 theme: 'hugo-theme-zen'
 
+menus:
+  main:
+  - name: "Posts"
+    weight: 10
+    identifier: "post"
+    url: "/post/"
+  - name: "Tags"
+    weight: 22
+    identifier: "tag"
+    url: "/tags/"
+
+markup:
+  asciidocExt:
+    #attributes: {}
+    #backend: html5
+    #extensions: []
+    #failureLevel: fatal
+    #noHeaderOrFooter: true
+    #preserveTOC: false
+    safeMode: unsafe
+
 pagination:
   pagerSize: 3
 
@@ -14,10 +35,12 @@ params:
   author:
     name: 'Adrián Bíro' # Your Name
     url: 'https://adrianbiro.github.io/' # https://example.org/somepage
-    avatar: "static/avatar.jpg" # path/to/some-image.jpg
-  #blogSections:             # Sections whose <schema.org> `JSON+LD` in the page `<head>`
-  #  - blog                  # will be `@type: BlogPosting`.
-  #  - post                  # Defaults to a list including only 'post' and 'blog'.
+  #  avatar: "static/avatar.jpg" # path/to/some-image.jpg
+  blogSections:
+  # Sections whose <schema.org> `JSON+LD` in the page `<head>`
+  - blog # will be `@type: BlogPosting`.
+  - post # Defaults to a list including only 'post' and 'blog'.
+  - tags
   #breadcrumbSections:       # Sections in which pages will have a `BreadcrumbListing`
   #  - section2              # in the <schema.org> `JSON+LD` in the page's `<head>`.
   #  - section3              # This theme requires Hugo `v0.109.0` or higher to

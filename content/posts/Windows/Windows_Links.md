@@ -1,3 +1,9 @@
++++
+title = 'Windows Links'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['windows']
++++
 # Windows Links
 
 [Caching Windows Updates With Squid](https://wiki.squid-cache.org/ConfigExamples/Caching/WindowsUpdates)

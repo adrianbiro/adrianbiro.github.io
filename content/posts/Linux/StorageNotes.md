@@ -1,3 +1,9 @@
++++
+title = 'Storage notes'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['hardware', 'storage', 'linux']
++++
 # Storage notes
 
 ## [SCSI disk format](https://linux.die.net/man/8/sg_format)

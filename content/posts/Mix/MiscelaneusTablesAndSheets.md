@@ -2,7 +2,7 @@
 title = 'Miscelaneus Tables And Sheets'
 date = 2023-01-15T09:00:00-07:00
 draft = false
-tags = ['anthena', 'http', 'magic numbers', 'exit codes', 'ports']
+tags = ['anthena', 'http', 'magic numbers', 'system exit codes', 'networking']
 +++
 
 # Miscelaneus Tables And Sheets

@@ -1,3 +1,9 @@
++++
+title = 'SNMP Notes'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['networking']
++++
 # SNMP Notes
 
 * *Trap:* A trap is an alert message—for example, a trap might alert the SNMP manager to the failure of a device. SNMP trap monitoring is crucial, as it notifies you of issues so you can address them proactively.

@@ -1,3 +1,9 @@
++++
+title = 'LVM And LUKS Notes'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['encryption', 'linux', 'luks']
++++
 # LVM And LUKS Notes
 
 ## Dm-Crypt, LUKS, VeraCrypt

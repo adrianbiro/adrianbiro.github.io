@@ -1,3 +1,9 @@
++++
+title = 'Proxmox Tips'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['linux', 'AWS', 'monitoring']
++++
 # Proxmox Tips
 
 Remove Proxmox Subscription Notice. It is open source, yes, but if you use it, you shall pay for it. In case you just learning the platform, here how you do it. 

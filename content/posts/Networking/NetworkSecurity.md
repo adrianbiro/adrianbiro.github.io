@@ -1,3 +1,9 @@
++++
+title = 'Networing Security'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['networking', 'security']
++++
 # Network Security
 
 [Network WLAN AP-NIPR Platform Recomendations for Department of Defense](https://www.stigviewer.com/stig/_network_wlan_ap-nipr_platform/) 

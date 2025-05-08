@@ -1,3 +1,9 @@
++++
+title = 'Hobby'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['hobby']
++++
 # Hobby
 
 [academia.edu/Bíro](https://independent.academia.edu/B%C3%ADro)

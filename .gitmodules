@@ -4,3 +4,22 @@
 [submodule "themes/Ardeidae"]
 	path = themes/Ardeidae
 	url = https://github.com/LuisSousaRego/Ardeidae
+[submodule "themes/tailbliss"]
+	path = themes/tailbliss
+	url = https://github.com/nusserstudios/tailbliss
+[submodule "themes/black-and-light"]
+	path = themes/black-and-light
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git
+[submodule "themes/re-terminal"]
+	path = themes/re-terminal
+	url = https://github.com/mirus-ua/hugo-theme-re-terminal.git
+[submodule "themes/magnolia-free-hugo-theme"]
+	path = themes/magnolia-free-hugo-theme
+	url = https://github.com/ololiuhqui/magnolia-free-hugo-theme
+[submodule "themes/hugo-theme-tokiwa"]
+	path = themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+[submodule "themes/paperesque"]
+	path = themes/paperesque
+	url = https://github.com/capnfabs/paperesque
+	branch = mainline

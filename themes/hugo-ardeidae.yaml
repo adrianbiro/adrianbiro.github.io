@@ -4,3 +4,5 @@ title: 'Blogs, Notes, and Stuff'
 theme: 'Ardeidae'
 dateform: "" #"2006-01-02"
 github: "https://github.com/adrianbiro"
+pagination:
+  pagerSize: 3

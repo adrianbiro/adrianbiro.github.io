@@ -1,3 +1,9 @@
++++
+title = 'Find And Xargs Tips'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['shell', 'bash']
++++
 # Find And Xargs Tips
 
 Find broken links `find /usr/bin/ -type l -xtype l`

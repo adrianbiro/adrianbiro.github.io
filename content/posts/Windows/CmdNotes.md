@@ -1,3 +1,9 @@
++++
+title = 'Cmd notes'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['windows', 'cmd']
++++
 # Cmd notes
 * COPY - cp 
 * DIR - ls 

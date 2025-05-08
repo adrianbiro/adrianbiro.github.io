@@ -1,3 +1,9 @@
++++
+title = 'Readline Key Bindings'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['shell', 'bash']
++++
 # Readline Key Bindings
 
 ![visual cheetsheet](../../images_files/moving_cli.png)

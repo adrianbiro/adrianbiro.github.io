@@ -1,3 +1,9 @@
++++
+title = 'Publish unix socket on localhost'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['networking', 'docker']
++++
 # Publish unix socket on localhost
 To make docker API REST calls on `0.0.0.0:2376` run `sudo ncat -kl -p 2376 -c 'ncat -U /run/docker.sock'`
 

@@ -1,3 +1,9 @@
++++
+title = 'Deploy the program in one line'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['shell', 'bash']
++++
 # Deploy the program in one line
 
 _Use case:_  From time to time  I need to split large CSV files from a pod, This line will deploy a utility script to do the job.

@@ -1,3 +1,9 @@
++++
+title = 'Disable IPv6, to fix slow pip install'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['python']
++++
 # Disable IPv6, to fix slow pip install.
 
 List current values.

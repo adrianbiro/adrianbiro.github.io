@@ -1,3 +1,9 @@
++++
+title = 'Networing Notes'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['networking']
++++
 # Networing Notes
 
 [Basic Network Troubleshooting](https://www.netmeister.org/blog/basic-network-troubleshooting.html)

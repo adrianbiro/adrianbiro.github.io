@@ -1,3 +1,9 @@
++++
+title = 'System Security Stuff'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['hardware', 'TPM', 'security']
++++
 # System Security Stuff
 
 ## [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)
@@ -11,7 +17,7 @@ $ cat /sys/class/tpm/tpm0/device/caps
 
 ## UEFI
 
-[CSI UEFI lockdown](https://www.nsa.gov/portals/75/documents/what-we-do/cybersecurity/professional-resources/csi-uefi-lockdown.pdf)
+[CSI UEFI lockdown](https://www.nsa.gov/portals/75/documents/what-we-do/cybersecurity/professional-resources/csi-uefi-lockdown.pdf)b
 
 [Microsoft UEFI benefits](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-uefi#boot-and-miminum-security-requirements)
 

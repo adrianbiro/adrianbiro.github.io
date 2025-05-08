@@ -1,3 +1,9 @@
++++
+title = 'SSH and remoting tips'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['networking', 'ssh']
++++
 # SSH and remoting tips
 
 ## RDP

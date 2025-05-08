@@ -1,3 +1,9 @@
++++
+title = 'Linux Mint Stuff'
+date = 2023-01-15T09:00:00-07:00
+draft = false
+tags = ['linux','mint']
++++
 # Linux Mint Stuff
 
 ## Upgrade from Vera to Victoria
