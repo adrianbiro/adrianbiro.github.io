@@ -1,0 +1,17 @@
+{{ define "content" }}
+<section id="main" class="content-container article-pad-v">
+  <div>
+    <h1 id="title" style="margin-bottom: 0.75em">{{.Title}}</h1>
+    <ul id="list" class="list-unstyled list-of-titles">
+      {{ range $.Site.Taxonomies.tags.ByCount }}
+        {{ if gt .Count 1 }}
+          <li>
+            <a href="/tags/{{ .Name }}"> 
+              <span class="post-title">{{ .Name }} <small>({{ .Count }})</small></span>
+            </a>
+          </li>
+        {{ end }}
+      {{end}}
+  </div>
+</section>
+{{ end }}
