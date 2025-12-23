@@ -1,6 +1,6 @@
 baseURL: 'https://adrianbiro.github.io/'
 languageCode: 'en-us'
-title: 'Blogs, Notes, and Stuff'
+title: 'Adrián Bíro'
 theme: paperesque
 
 outputs:
@@ -26,9 +26,15 @@ params:
   - name: rss
     url: "posts/index.xml"
     weight: 40
-  #- name: github
-  #  params:
-  #    rel: external
-  #  pre: <i class="fa fa-heart"></i>
-  #  url: https://github.com/adrianbiro
-  #  weight: 50
+  #  - name: github
+  #    params:
+  #      rel: external
+  #    pre: <i class="fa fa-heart"></i>
+  #    url: https://github.com/adrianbiro
+  #    weight: 50
+  - name: linkedin
+    params:
+      rel: external
+    pre: <i class="fa fa-heart"></i>
+    url: https://www.linkedin.com/in/adrianbiro/
+    weight: 50

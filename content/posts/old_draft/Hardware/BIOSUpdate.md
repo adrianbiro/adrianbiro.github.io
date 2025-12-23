@@ -1,0 +1,33 @@
++++
+title = 'BIOS Update'
+date = 2023-01-15T09:00:00-07:00
+draft = true
+tags = ['hardware', 'BIOS']
++++
+# BIOS Update
+
+## Thinkpad t470
+[Thinkpad t470 drivers](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t470/downloads/driver-list)
+1. Make sure the AC adapter is connected.
+1. `sudo fwupdmgr install <drive>.cab`
+1. Restart the system.
+1. The computer will be restarted and the EFI BIOS will be updated.
+
+
+## Links
+[fwupd](https://fwupd.org/)
+
+[HP](https://support.hp.com/us-en/drivers/laptops)
+
+[Acer](https://www.acer.com/us-en/support/drivers-and-manuals)
+
+[Asus](https://www.asus.com/support/download-center)
+
+## Get Serial Number
+
+```sh
+$ sudo dmidecode -t system
+$ sudo cat /sys/devices/virtual/dmi/id/board_serial
+$ sudo dmidecode -s baseboard-serial-number
+```
+
