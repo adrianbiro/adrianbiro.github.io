@@ -2,7 +2,7 @@ baseURL: 'https://adrianbiro.github.io/'
 languageCode: 'en-us'
 title: 'Adrián Bíro'
 theme: paperesque
-
+copyright: '© 2026. Adrián Bíro'
 outputs:
   page: [ "HTML", "droplist", "rss" ]
 
