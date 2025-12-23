@@ -5,6 +5,8 @@ draft = false
 tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure']
 +++
 
+{{< figure src="/posts/_images_files/InfrastructureUnderFire.png" title="Infrastructure Under Fire Securing OT In a Weaponized World"title="Infrastructure Under Fire Securing OT In a Weaponized World" alt="alt text string" width="auto" >}}
+
 ## **When Infrastructure Becomes the Frontline**
 
 In a recent [*60 Minutes interview*](https://www.youtube.com/watch?v=43vxbytjDSM),

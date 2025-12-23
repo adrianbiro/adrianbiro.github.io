@@ -5,6 +5,8 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'DigitalTransformation', 'Inovation', 'TimeToMarket']
 +++
 
+{{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+
 The traditional perception of cybersecurity as a necessary 
 constraint on business operations is evolving. Organizations across 
 different sectors are discovering that modern security architectures can
