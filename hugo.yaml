@@ -6,6 +6,10 @@ theme: paperesque
 outputs:
   page: [ "HTML", "droplist", "rss" ]
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 markup:
   goldmark:
     renderer:
