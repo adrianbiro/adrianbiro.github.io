@@ -4,6 +4,10 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
+I specialize in the enterprise and security architecture. Helping businesses navigate automation, security, and cloud cost reduction.
+
+<https://www.linkedin.com/in/adrianbiro/>
+
 ## Securing the Future of Global Enterprise
 
 **Strategic guidance for senior leadership navigating the complexities of cyber security, digital transformation, operational resilience, and the evolving regulatory landscape.**
@@ -20,4 +24,4 @@ Leaders today must navigate the tension between agility and the stringent requir
 
 This platform provides the prescriptive guidance necessary for VPs, CISOs, and CTOs to translate technical complexity into strategic clarity and measurable ROI.
 
-**[Adrián Bíro](https://www.linkedin.com/in/adrianbiro/)**
+

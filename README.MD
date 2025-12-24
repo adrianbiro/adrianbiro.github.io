@@ -4,6 +4,5 @@
 
 ### TODOs
 
-* favicon
-* about
+* favicon visibility in dark mode
 * copyright
