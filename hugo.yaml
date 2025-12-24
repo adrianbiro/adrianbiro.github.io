@@ -16,7 +16,6 @@ markup:
       unsafe: true
 
 params:
-  favicon: 'static/favicon.ico'
   topmenu:
   #- name: 'home'
   #  url: '/'
