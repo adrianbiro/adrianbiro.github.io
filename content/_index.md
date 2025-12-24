@@ -1,11 +1,12 @@
 +++
-title = 'Securing the Future of Global Enterprise'
+title = 'Adrián Bíro'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
+## Securing the Future of Global Enterprise
 
-**Strategic guidance for senior leadership navigating the complexities of digital transformation, operational resilience, and the evolving regulatory landscape in banking, defense, and manufacturing.**
+**Strategic guidance for senior leadership navigating the complexities of cyber security, digital transformation, operational resilience, and the evolving regulatory landscape.**
 
 {{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
 
@@ -15,9 +16,8 @@ The current landscape for global organizations is defined by a paradox of rapid 
 
 ### Security must function as a core pillar of operational excellence
 
-Leaders today must navigate the tension between agility and the stringent requirements of frameworks like NIS2, NIST CSF 2.0, and DORA, ensuring that every architectural decision reinforces the organization’s competitive advantage.
+Leaders today must navigate the tension between agility and the stringent requirements of regulatory frameworks, ensuring that every technological decision reinforces the organization’s competitive advantage.
 
 This platform provides the prescriptive guidance necessary for VPs, CISOs, and CTOs to translate technical complexity into strategic clarity and measurable ROI.
-
 
 **[Adrián Bíro](https://www.linkedin.com/in/adrianbiro/)**
