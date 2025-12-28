@@ -23,7 +23,7 @@ params:
   - name: blog
     url: "/posts/"
     weight: 20
-  - name: topisc
+  - name: topics
     url: "/tags/"
     weight: 30
   #menu:
