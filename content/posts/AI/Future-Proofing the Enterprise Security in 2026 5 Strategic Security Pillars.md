@@ -1,8 +1,8 @@
 +++
 title = 'Future-Proofing the Enterprise Security in 2026: 5 Strategic Security Pillars'
-date = 2026-01-06T08:00:00-07:00
-draft = true
-tags = ['CyberSecurity', 'SecurityStrategy', 'AgenticAI', 'FutureReady', 'AI', 'BusinessResilience', 'ZeroTrust']
+date = 2026-01-01T08:00:00-07:00
+draft = false
+tags = ['CyberSecurity', 'SecurityStrategy', 'AgenticAI', 'AI', 'BusinessResilience', 'ZeroTrust']
 +++
 
 {{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
