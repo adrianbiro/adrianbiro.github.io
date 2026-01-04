@@ -1,5 +1,6 @@
 +++
 title = 'Debates about the ROI of AI often lack a real-world perspective'
+summary = 'While the data samples from large GCP accounts are valuable, those are often engineering-focused enterprises with a willingness and expertise for in-house tinkering, it is important to add a caveat, these insights might not universally apply.'
 date = 2025-09-15T08:00:00-07:00
 draft = false
 tags = ['Technology', 'FutureOfWork', 'ROI', 'AI', 'CloudStrategy']

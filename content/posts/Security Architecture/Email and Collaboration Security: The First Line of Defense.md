@@ -1,6 +1,7 @@
 +++
 title = 'Email and Collaboration Security: The First Line of Defense'
 date = 2025-09-10T08:00:00-07:00
+summary = 'Most cyberattacks begin not with sophisticated hacks, but with straightforward social engineering tactics.'
 draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Phishing', 'Microsoft', 'SecurityArchitecture', 'EmailSecurity']
 +++

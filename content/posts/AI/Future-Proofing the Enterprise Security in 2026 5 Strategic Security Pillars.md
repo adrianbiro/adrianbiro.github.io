@@ -1,5 +1,6 @@
 +++
 title = 'Future-Proofing the Enterprise Security in 2026: 5 Strategic Security Pillars'
+summary = 'The speed of change demands a strategic shift from risk management to building true resilience.'
 date = 2026-01-01T08:00:00-07:00
 draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'AgenticAI', 'AI', 'BusinessResilience', 'ZeroTrust']

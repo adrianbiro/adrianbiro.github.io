@@ -1,5 +1,6 @@
 +++
 title = 'The AI×Cyber boom looks less like a rocket and more like a stress test for your P&L'
+summary = 'If or when valuations reset, the winners will be the teams that already moved from AI theatre to measurable resilience.'
 date = 2025-12-15T08:00:00-07:00
 draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'AI', 'RiskManagement', 'BusinessResilience', 'CloudStrategy']

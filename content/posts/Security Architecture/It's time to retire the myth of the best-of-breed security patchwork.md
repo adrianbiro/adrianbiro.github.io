@@ -1,6 +1,7 @@
 +++
 title = 'It is time to retire the myth of the best-of-breed security patchwork'
 date = 2025-10-01T08:00:00-07:00
+summary = 'The advantage lies with the well-integrated platform, which reallocates resources and delivers tangible outcomes.'
 draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'XDR', 'EDR', 'SecurityArchitecture', 'DigitalTransformation']
 +++

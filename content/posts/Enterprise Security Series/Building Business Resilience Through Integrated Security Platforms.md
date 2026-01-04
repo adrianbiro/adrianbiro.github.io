@@ -1,6 +1,7 @@
 +++
 title = 'Building Business Resilience Through Integrated Security Platforms (Enterprise Security Series II.)'
 date = 2025-11-10T09:00:00-07:00
+summary = 'Stop managing fragmented security tools. Transform to integrated platforms that minimize business disruption and turn security into competitive advantage.'
 draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'RiskManagement', 'BusinessResilience']
 +++

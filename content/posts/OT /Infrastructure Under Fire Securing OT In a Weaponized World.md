@@ -1,7 +1,7 @@
 +++
 title = 'Infrastructure Under Fire Securing OT In a Weaponized World'
 date = 2025-10-24T09:00:00-07:00
-draft = false
+summary = 'In this geopolitical landscape, your factory floor could be the first target.'
 tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure']
 +++
 

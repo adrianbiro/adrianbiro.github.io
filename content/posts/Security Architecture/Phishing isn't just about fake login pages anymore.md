@@ -1,6 +1,7 @@
 +++
 title = 'Phishing is not just about fake login pages anymore'
 date = 2025-09-20T08:00:00-07:00
+summary = 'Modern attacks are designed to overcome our most common defenses, including traditional MFA.'
 draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Phishing', 'Microsoft', 'SecurityArchitecture', 'EntraID', 'MFA']
 +++
