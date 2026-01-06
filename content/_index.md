@@ -9,7 +9,7 @@ draft = false
 
 ## Mission
 
-Helping VPs, CISOs, and CTOs translate cyber security and digital complexity into strategic clarity and operational resilience, bridging the gap between technical risk and measurable business value.
+Helping VPs, CISOs, and CTOs with cybersecurity, cloud, and operational resilience. Bridging the gap between technical risk and measurable business value.
 
 {{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
 
