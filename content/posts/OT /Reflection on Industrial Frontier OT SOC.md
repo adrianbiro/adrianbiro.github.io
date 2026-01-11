@@ -1,5 +1,5 @@
 +++
-title = 'Refelection on Industrial Frontier OT SOC'
+title = 'Reflection on Industrial Frontier OT SOC'
 date = 2026-01-10T09:00:00-07:00
 summary = 'What happens when your critical infrastructure is 30 years old, but the cyber threats are from today?'
 tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement']
