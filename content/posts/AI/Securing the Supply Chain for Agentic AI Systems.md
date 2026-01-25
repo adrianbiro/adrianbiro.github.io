@@ -1,5 +1,5 @@
 +++
-title = 'Securing the Software Supply Chain for Agentic AI Systems'
+title = 'Securing the Supply Chain for Agentic AI Systems'
 summary = 'As organizations adopt increasingly autonomous and interconnected AI systems, securing the software supply chain takes on a new level of importance. Traditional practices, such as dependency scanning, SBOMs, and version control remain essential, but they are no longer sufficient on their own.'
 date = 2026-01-24T08:00:00-07:00
 draft = false
