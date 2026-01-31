@@ -1,5 +1,5 @@
 +++
-title = 'Building Trust in Low‑Code AI A Security Readiness Blueprint for Copilot Studio'
+title = 'Building Trust in Low‑Code AI Platforms: A Security Readiness Blueprint for Copilot Studio'
 summary = 'Guide to securing low‑code agentic platforms with Copilot Studio, covering governance, data protection, testing and safe AI deployment.'
 date = 2026-01-30T08:00:00-07:00
 draft = false

@@ -6,7 +6,7 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'AI', 'RiskManagement', 'BusinessResilience', 'CloudStrategy']
 +++
 
-{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
 
 
 If or when valuations reset, the winners will be the teams that already moved from AI theatre to measurable resilience.
