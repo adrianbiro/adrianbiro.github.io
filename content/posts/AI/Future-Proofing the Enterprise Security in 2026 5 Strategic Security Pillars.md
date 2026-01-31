@@ -6,7 +6,7 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'AgenticAI', 'AI', 'BusinessResilience', 'ZeroTrust']
 +++
 
-{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
 
 The speed of change demands a strategic shift from risk management to building true resilience.
 

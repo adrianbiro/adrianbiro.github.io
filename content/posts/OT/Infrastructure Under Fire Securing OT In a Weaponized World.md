@@ -5,7 +5,7 @@ summary = 'In this geopolitical landscape, your factory floor could be the first
 tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure']
 +++
 
-{{< figure src="/posts/_images_files/InfrastructureUnderFire.png" title="Infrastructure Under Fire Securing OT In a Weaponized World"title="Infrastructure Under Fire Securing OT In a Weaponized World" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/InfrastructureUnderFire.png" title="Infrastructure Under Fire Securing OT In a Weaponized World" alt="Infrastructure Under Fire Securing OT In a Weaponized World" width="auto" >}}
 
 ## **When Infrastructure Becomes the Frontline**
 

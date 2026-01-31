@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'FutureOfWork', 'ROI', 'AI', 'CloudStrategy']
 +++
 
-{{< figure src="/posts/_images_files/googleAI2025report.jpeg" title="Google AI Report"title="Google AI Report" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/googleAI2025report.jpeg" title="Google AI Report" alt="Google AI Report" width="auto" >}}
 
 Debates about the ROI of AI often lack a real-world perspective. [Google's recent report, "The ROI of AI 2025,"](https://www.linkedin.com/posts/neilhoyne_the-roi-of-ai-2025-ugcPost-7369617275248590848-b32s/?rcm=ACoAADv4klABrRnvnjf-0mv7vi5IgdjyAD9np9w) prompts deeper reflection.
 

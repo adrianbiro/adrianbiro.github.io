@@ -6,7 +6,7 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'AI', 'RiskManagement', 'DataGovernance', 'MosaicAI', 'Azure', 'Databricks', 'AIGovernance', 'ResponsibleAI', 'EUAIAct']
 +++
 
-{{< figure src="/posts/_images_files/IDC MarketScape Wordwide Unified AI Governance Platforms 2025-2026.png" title="IDC MarketScape Wordwide Unified AI Governance Platforms 2025-2026"title="IDC MarketScape Wordwide Unified AI Governance Platforms 2025-2026" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/IDC MarketScape Wordwide Unified AI Governance Platforms 2025-2026.png" title="IDC MarketScape Wordwide Unified AI Governance Platforms 2025-2026" alt="IDC MarketScape Wordwide Unified AI Governance Platforms 2025-2026" width="auto" >}}
 
 **Trust is the new uptime.** At enterprise scale, AI without governance is just technical debt in disguise.
 

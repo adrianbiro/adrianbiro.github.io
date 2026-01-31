@@ -5,7 +5,7 @@ summary = 'What happens when your critical infrastructure is 30 years old, but t
 tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement']
 +++
 
-{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
 
 What happens when your critical infrastructure is 30 years old, but the cyber threats are from today?
 

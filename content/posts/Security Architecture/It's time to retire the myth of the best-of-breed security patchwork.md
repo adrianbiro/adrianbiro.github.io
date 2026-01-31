@@ -6,7 +6,7 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'XDR', 'EDR', 'SecurityArchitecture', 'DigitalTransformation']
 +++
 
-{{< figure src="/posts/_images_files/IDC-EDR-2025.jpeg" title="IDC EDR 2025"title="IDC EDR 2025" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/IDC-EDR-2025.jpeg" title="IDC EDR 2025" alt="IDC EDR 2025" width="auto" >}}
 
 In most enterprises, security is a cost center, and businesses can't afford to be bogged down by complexity and bespoke integrations. The advantage lies with the well-integrated platform, which reallocates resources and delivers tangible outcomes.
 Microsoft is positioned in the Leaders category in the [2025 IDC MarketScape](https://idcdocserv.com/US52997325e_Microsoft) for enterprise XDR software because it gets this right by focusing on native integration and operational efficiency.

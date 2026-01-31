@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'SupplyChain', 'AI', 'CloudStrategy', 'CyberResilience']
 +++
 
-{{< figure src="/posts/_images_files/futuristic_towers_blue.jpeg" title="AI Towers"title="AI Towers" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/futuristic_towers_blue.jpeg" title="AI Towers" alt="AI Towers" width="auto" >}}
 
 As organizations adopt increasingly autonomous and interconnected AI systems, securing the software supply chain takes on a new level of importance. Traditional practices, such as dependency scanning, Software Bills of Materials (SBOM), and version control remain essential, but they are no longer sufficient on their own. Agentic AI systems introduce new sources of risk: dynamic code execution, autonomous decision‑making, integration with external registries, and interactions between agents, tools, and runtime environments.
 

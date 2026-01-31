@@ -6,7 +6,7 @@ summary = 'Transform compliance from burden to advantage. Automated GDPR, HIPAA,
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'RiskManagement', 'Compliance', 'RegulatoryTech', 'CxOLeadership']
 +++
 
-{{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
 
 The traditional approach to compliance management often resembles a
  patchwork of disconnected systems, manual processes, and fragmented 

@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOLeadership', 'ROI', 'CloudStrategy']
 +++
 
-{{< figure src="/posts/_images_files/futuristic_city_pencil.jpeg" title="Futuristic City"title="Futuristic City" alt="Futuristic City" width="auto" >}}
+{{< figure src="/posts/_images_files/futuristic_city_pencil.jpeg" title="Futuristic City" alt="Futuristic City" width="auto" >}}
 
 Cloud has changed everything. What used to be a world of predictable capital expenditure has become a fast-moving landscape of consumption-based spending. This shift brings incredible flexibility, but it also introduces a simple truth: if no one pays attention, cloud costs grow silently and relentlessly.
 

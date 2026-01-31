@@ -9,7 +9,7 @@ tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Phishing', 'Microsoft', 'Se
 ## The Unseen Threat: Social Engineering
 
 Most cyberattacks begin not with sophisticated hacks, but with straightforward social engineering tactics. [Data](https://www.youtube.com/watch?v=REdzIV2zbTw) shows that 87% of initial access vectors are a result of social engineering, primarily through phishing, malicious attachments, and fraudulent URLs
-{{< figure src="/posts/_images_files/Initial Access Vecrots graph.png" title="Initial Access Vectors"title="Initial Access Vectors" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/Initial Access Vecrots graph.png" title="Initial Access Vectors" alt="Initial Access Vectors" width="auto" >}}
 
 ## Misguided Investments
 

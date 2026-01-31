@@ -11,7 +11,7 @@ draft = false
 
 Helping VPs, CISOs, and CTOs with cybersecurity, cloud, and operational resilience. Bridging the gap between technical risk and measurable business value.
 
-{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/abstract-me.jpeg" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
 
 ## You can follow me here
 

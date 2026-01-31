@@ -6,7 +6,7 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'RiskManagement', 'BusinessResilience']
 +++
 
-{{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro"title="Adrián Bíro" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
 
 Business resilience has become the defining characteristic that 
 separates thriving organizations from those struggling to maintain 

@@ -6,7 +6,7 @@ draft = false
 tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Phishing', 'Microsoft', 'SecurityArchitecture', 'EntraID', 'MFA']
 +++
 
-{{< figure src="/posts/_images_files/zerotrust.jpeg" title="IDC EDR 2025"title="IDC EDR 2025" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/zerotrust.jpeg" title="IDC EDR 2025" alt="IDC EDR 2025" width="auto" >}}
 
 Phishing isn't just about fake login pages anymore. Modern attacks are designed to overcome our most common defenses, including traditional MFA.
 

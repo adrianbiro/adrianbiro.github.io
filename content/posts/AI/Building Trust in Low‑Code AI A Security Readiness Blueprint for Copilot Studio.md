@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'CopilotStudio', 'AI', 'CyberSecurity', 'AgenticAI', 'Governance', 'DataProtection']
 +++
 
-{{< figure src="/posts/_images_files/futuristic_towers_beige.jpeg" title="AI Towers"title="AI Towers" alt="alt text string" width="auto" >}}
+{{< figure src="/posts/_images_files/futuristic_towers_beige.jpeg" title="AI Towers" alt="AI Towers" width="auto" >}}
 
 As organizations accelerate their adoption of AI, low‑code agentic platforms like **Microsoft Copilot Studio** are becoming central to digital transformation. They allow teams to rapidly build intelligent agents that automate processes and integrate with business systems without needing deep engineering expertise. However, as these agents gain autonomy and access sensitive data, the risk profile changes.
 
