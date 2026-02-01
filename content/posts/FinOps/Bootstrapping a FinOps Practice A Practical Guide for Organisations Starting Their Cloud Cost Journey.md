@@ -3,7 +3,7 @@ title = 'Bootstrapping a FinOps Practice: A Practical Guide for Organisations St
 summary = 'Kickstart FinOps with a bold Crawl‑Walk‑Run framework that boosts cloud visibility, slashes waste, and drives smarter, high‑value cloud spend.'
 date = 2026-01-31T00:00:00-00:00
 draft = false
-tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOLeadership', 'ROI', 'CloudStrategy']
+tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy']
 +++
 
 {{< figure src="/posts/_images_files/futuristic_city_pencil.jpeg" title="Futuristic City" alt="Futuristic City" width="auto" >}}
