@@ -15,7 +15,7 @@ title = 'TODO'
 summary = 'TODO 140 char long'
 date = 2026-01-31T00:00:00-00:00
 draft = false
-tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOLeadership', 'ROI', 'CloudStrategy']
+tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy']
 +++
 
 {{< figure src="/posts/_images_files/TODO" title="TODO" alt="TODO" width="auto" >}}

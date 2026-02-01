@@ -3,7 +3,7 @@ title = 'Streamlining Compliance and Governance Through Unified Security Platfor
 date = 2025-11-17T09:00:00-07:00
 draft = false
 summary = 'Transform compliance from burden to advantage. Automated GDPR, HIPAA, PCI DSS reporting for banking, , defense, finance & manufacturing executives.'
-tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'RiskManagement', 'Compliance', 'RegulatoryTech', 'CxOLeadership']
+tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'RiskManagement', 'Compliance', 'RegulatoryTech', 'CxOAgenda']
 +++
 
 {{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
