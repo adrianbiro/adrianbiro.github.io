@@ -12,7 +12,7 @@ Cloud has changed everything. What used to be a world of predictable capital exp
 
 FinOps exists to stop that from happening. It introduces financial accountability, shared ownership, and a culture where engineering, finance, and business teams work together with the same goal. It is not just about reducing spend. It is about making better decisions that maximise the value of every euro invested in cloud.
 
-This guide walks you through the essential steps for bootstrapping a FinOps practice, using a iterative Crawl-Walk-Run approach that scales with your organisation’s maturity.
+This guide walks you through the essential steps for bootstrapping a FinOps practice, using a extended iterative Crawl-Walk-Run approach that scales with your organisation’s maturity.
 
 ## What FinOps Really Is
 
