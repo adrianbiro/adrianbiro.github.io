@@ -3,7 +3,7 @@ title = 'Understanding the Hidden Financial Impact of Security Patchwork (Enterp
 date = 2025-11-03T09:00:00-07:00
 summary = 'Discover the hidden costs of fragmented cybersecurity systems draining enterprise budgets. Learn how patchwork security creates operational overhead.'
 draft = false
-tags = ['CyberSecurity', 'SecurityArchitecture', 'ROI', 'Enterprise Security Series']
+tags = ['CyberSecurity', 'SecurityArchitecture', 'ROI', 'Enterprise Security']
 +++
 
 {{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}

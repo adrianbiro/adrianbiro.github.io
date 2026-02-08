@@ -3,7 +3,7 @@ title = 'Building Business Resilience Through Integrated Security Platforms (Ent
 date = 2025-11-10T09:00:00-07:00
 summary = 'Stop managing fragmented security tools. Transform to integrated platforms that minimize business disruption and turn security into competitive advantage.'
 draft = false
-tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security Series', 'RiskManagement', 'BusinessResilience']
+tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security', 'RiskManagement', 'BusinessResilience']
 +++
 
 {{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}

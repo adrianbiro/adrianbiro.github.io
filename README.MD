@@ -27,3 +27,16 @@ tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Go
 ```bash
 grep -oP '(?<=tags = \[).*(?=\])' --no-filename  -- content/posts/**/*.md |sed 's/, /\n/g' | sort --unique | column
 ```
+
+### Get image links
+
+```bash
+grep -oP '(?<=figure src=").*?(?=" )' -- content/posts/**/*.md | cut -d: -f2 | sort -u
+```
+
+### Images to use
+
+```txt
+futuristic_city_beige.jpeg
+nachman_chabad_ai.jpeg
+```

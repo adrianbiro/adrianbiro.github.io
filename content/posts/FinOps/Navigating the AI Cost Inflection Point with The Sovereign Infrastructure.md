@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'AI', 'DataSovereignty' , 'EnterpriseArchitecture', 'FinOps', 'CostOptimization', 'CxOAgenda', 'ROI', 'CloudStrategy']
 +++
 
-{{< figure src="/posts/_images_files/futuristic_city_sepia.jpeg" title="Towers" alt="Towers" width="auto" >}}
+{{< figure src="/posts/_images_files/futuristic_city_sepia.jpeg" title="City" alt="City" width="auto" >}}
 
 In the current enterprise climate, Cloud First is no longer a mandate, it's a variable. For the last decade, the narrative was simple: move everything to the public cloud to gain agility and reduce overhead. However, as Generative AI moves from experimental PoCs to massive production rollouts, a new economic reality is setting in.
 
