@@ -60,7 +60,6 @@ nature/early_romantic_english_park_ruins_animals.png
 art_deco/art_deco_abstract_collor.png
 art_deco/art_deco_abstract_cross‑hatching_sepia.png
 art_deco/art_deco_abstract_pencil.png
-art_deco/art_deco_futuristic_street_color.png
 art_deco/art_deco_futuristic_street_pencil.png
 art_deco/art_deco_high_gotic_fusion_charcoal.png
 art_deco/art_deco_high_gotic_fusion_monochrome.png

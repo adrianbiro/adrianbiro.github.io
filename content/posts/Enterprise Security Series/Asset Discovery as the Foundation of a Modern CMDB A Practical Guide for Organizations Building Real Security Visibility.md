@@ -167,7 +167,7 @@ The issues most frequently seen:
 - Standardise identifiers across systems to prevent mismatches.
 - Automate validation and reconciliation for sustainable quality.
 - Integrate discovery into workflows
-![[Asset Discovery.canvas]]
+{{< figure src="/posts/_images_files/diagrams/Asset_Discovery.png" title="Asset Discovery Flow" alt="Asset Discovery Flow" width="auto" >}}
 
 ## Final Thoughts
 
