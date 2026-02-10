@@ -38,7 +38,7 @@ grep -oP '(?<=figure src=").*?(?=" )' -- content/posts/**/*.md | cut -d: -f2 | s
 
 ```txt
 futuristic_city_beige.jpeg
-nachman_chabad_ai.jpeg
+
 tolkien/elven_futuristic_city_pencil.png
 tolkien/elven_futuristic_city_sepia.png
 tolkien/minas_morgul_charcoal.jpeg
@@ -52,8 +52,8 @@ tolkien/osgiliath_ruins_charcoal.jpeg
 personas/english_african_hunter_safary_art_nouveau_pencil.png
 personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
-personas/rusalka_nude_sepia.png
 personas/rusalka_pencil.png
+personas/nachman_chabad_ai.jpeg
 nature/early_romantic_english_park_detailed.png
 nature/early_romantic_english_park_quick_sketch.png
 nature/early_romantic_english_park_ruins_animals.png
