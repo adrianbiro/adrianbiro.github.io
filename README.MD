@@ -41,13 +41,9 @@ futuristic_city_beige.jpeg
 
 tolkien/elven_futuristic_city_pencil.png
 tolkien/elven_futuristic_city_sepia.png
-tolkien/minas_morgul_charcoal.jpeg
 tolkien/minas_tirith_abstract_night_carcoal.jpeg
 tolkien/minas_tirith_charcoal.jpeg
-tolkien/minas_tirits_night_light_circle_carcoal.jpeg
 tolkien/moorgoth_ink_sketch.jpeg
-tolkien/morgoth_charcoal.jpeg
-tolkien/osgiliath_charcoal.jpeg
 tolkien/osgiliath_ruins_charcoal.jpeg
 personas/english_african_hunter_safary_art_nouveau_pencil.png
 personas/english_african_hunter_safary.png

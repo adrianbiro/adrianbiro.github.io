@@ -6,6 +6,8 @@ copyright: '© 2026. Adrián Bíro'
 outputs:
   page: [ "HTML", "droplist", "rss" ]
 
+#pagination.pagerSize: 10 TODO fix https://gohugo.io/configuration/pagination/
+
 caches:
   images:
     dir: :cacheDir/images

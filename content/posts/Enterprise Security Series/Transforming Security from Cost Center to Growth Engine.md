@@ -3,7 +3,7 @@ title = 'Transforming Security from Cost Center to Growth Engine (Enterprise Sec
 date = 2025-11-24T09:00:00-07:00
 draft = false
 summary = 'Modern security platforms boost operational efficiency, break down silos, and accelerate digital transformation in banking, finance, defense, and manufacturing.'
-tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security', 'DigitalTransformation', 'Inovation', 'TimeToMarket']
+tags = ['CyberSecurity', 'SecurityStrategy', 'ROI', 'Enterprise Security', 'DigitalTransformation', 'Inovation']
 +++
 
 {{< figure src="/posts/_images_files/ghibi.png" title="Adrián Bíro" alt="Adrián Bíro" width="auto" >}}
