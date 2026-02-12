@@ -1,15 +1,15 @@
 +++
 title = 'Secure‑by‑Design for Modern Manufacturing: How Machinery Directive and CRA Will Reshape OT Projects'
-date = 2026-02-11T00:00:00-00:00
+date = 2026-02-12T00:00:00-00:00
 summary = 'Cybersecurity is no longer a bolt-on. Learn how the CRA and Machinery Directive make secure-by-design mandatory for modern manufacturing.'
 draft = false
-tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement']
+tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement', 'CxOAgenda', 'AI' ]
 +++
 
 {{< figure src="/posts/_images_files/tolkien/osgiliath_charcoal.jpeg" title="Osgiliath - Charcoal" alt="Osgiliath - Charcoal" width="auto" >}}
 
-
-> Modern Manufacturing is no longer just about connectivity, it’s about secure‑by‑design engineering from the first line on the P&ID.
+> Modern Manufacturing is no longer just about connectivity, it’s about secure‑by‑design engineering from the first line on the P&ID[^1].
+[^1]: Piping and Instrumentation Diagram
 
 Manufacturers planning new production lines, greenfield sites, or Industry 4.0 modernization are about to face a regulatory shift with real architectural impact.  
 Two forces are driving this:
@@ -17,8 +17,9 @@ Two forces are driving this:
 - **Machinery Directive:** forcing cyber‑safety into machine design
 - **Cyber Resilience Act (CRA):** embedding security requirements across the lifecycle of digital components, software, and IoT/IIoT devices
 
-For the first time, cybersecurity is no longer an IT concern tacked onto the end of a project.  It becomes a design constraint, similar to safety, CE marking, or functional performance. 
+For the first time, cybersecurity is no longer an IT concern tacked onto the end of a project.  It becomes a design constraint, similar to safety, CE marking[^2], or functional performance.
 This doesn’t mean more paperwork.  It means your future machines, cells, and smart‑factory systems must be engineered differently from day zero.
+[^2]: Mandatory conformity marking for products sold in the European Economic Area.
 
 ## Why Secure‑by‑Design Is Now Mandatory
 
@@ -28,7 +29,7 @@ Historically, OT environments were built on the principle:
 
 Modern regulations flip that completely.
 
-### Machinery Directive 2023 requires machines to:
+### Machinery Directive requires machines to
 
 - Identify safety‑critical software & ensure its integrity
 - Detect and record legitimate/illegitimate intervention
@@ -37,37 +38,37 @@ Modern regulations flip that completely.
 - Demonstrate secure control‑system behavior by design
 - Provide traceability of modifications and installed software
 
-### CRA requires digital products to have:
+### CRA requires digital products to have
 
 - Vulnerability management processes
 - Security updates throughout their lifecycle
 - Software transparency (SBOM)
 - Documented configurations
 - Compliance with harmonized cybersecurity standards
-- Secure‑by‑design engineering _before_ market entry
+- Secure‑by‑design engineering before market entry
 
-Together, these regulations push manufacturers toward a world where cybersecurity is a product requirement, not a bolt‑on service.**
+Together, these regulations push manufacturers toward a world where cybersecurity is a product requirement, not a bolt‑on service.
 
 This affects:
 
 - Machine builders
-- OEMs
+- OEMs[^3]
 - Systems integrators
 - Plant owners
 - Automation engineers
 - MES/SCADA vendors
 - OT networking providers
-
+[^3]: original equipment manufacturer
 And it will fundamentally reshape how Industry 4.0 projects are scoped, budgeted, and delivered.
 
-
-##  The New Design Rules for Smart Factories
+## The New Design Rules for Smart Factories
 
 Industry 4.0 initiatives, robotics, AI‑enabled vision systems, digital twins, automated logistics, cloud connectivity, will now be evaluated against their cyber‑safety posture, not just throughput and availability.
 
 ### Machines must be built to detect unsafe software changes
 
 Safety‑critical PLC logic, firmware, or AI models must provide:
+
 - Tamper evidence
 - Version visibility
 - Traceability of configuration changes
@@ -77,7 +78,8 @@ This aligns OT with functional safety principles but extends them to software in
 
 ### Every connected component must withstand cyber interference
 
-If a sensor, camera, robot, PLC, or soft PLC can be influenced through the network, the manufacturer must:
+If a sensor, camera, robot, PLC, or soft PLC[^4] can be influenced through the network, the manufacturer must:
+[^4]: Software-based programmable logic controllers.
 
 - Prove it does not enter a dangerous state
 - Demonstrate resilience to malformed commands or malicious packets
@@ -117,13 +119,11 @@ Before these regulations, the architecture of a new machine or line was driven b
 - Throughput
 - Safety
 - Cost
-- Cycle times
+- Cycle times[^5]
 - Integration complexity
 
+[^5]: Cycle time in manufacturing refers to the total time taken to complete a single manufacturing operation, from the start of production to the finished product.
 Now, cybersecurity architecture becomes a mandatory design dimension.
-
-Here’s how.
-
 
 ### OT Networking Will Never Be “Flat” Again
 
@@ -135,7 +135,7 @@ Secure‑by‑design requires segmentation baked into project plans:
 - Enforcement of safe communication paths
 - DMZs for cloud/IT interconnectivity
 
-Network diagrams become regulatory artifacts, not “nice‑to‑have” drawings.
+Network diagrams become regulatory artifacts, not just nice‑to‑have drawings.
 
 ### PLC Programming Must Include Integrity Validation
 
@@ -189,8 +189,6 @@ Industry 4.0 innovations are now security obligations:
 
 This shifts Industry 4.0 away from add tech for efficiency to add tech safely, transparently, and with life-cycle controls.
 
-
-
 ## Secure‑by‑Design as a Competitive Advantage
 
 Most manufacturers view new regulations as compliance burdens.  
@@ -207,8 +205,8 @@ But strategic plants will leverage them as capability upgrades:
 
 Secure‑by‑design reduces both security risk and business risk.
 
-
 ## The New OT Project Lifecycle
+
 Here is how you will design Industry 4.0 projects going forward.
 **Concept Phase**
 
@@ -253,10 +251,9 @@ Here is how you will design Industry 4.0 projects going forward.
 
 This lifecycle becomes standard practice, not a special project.
 
-
 # Conclusion
 
-Machinery Directive 2023 and the Cyber Resilience Act fundamentally change how future OT systems are designed, deployed, and maintained.
+Machinery Directive and the Cyber Resilience Act fundamentally change how future OT systems are designed, deployed, and maintained.
 
 The message is clear:
 

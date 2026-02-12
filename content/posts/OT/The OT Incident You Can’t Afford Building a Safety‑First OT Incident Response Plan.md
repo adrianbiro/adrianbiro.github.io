@@ -35,7 +35,8 @@ OT requires a different mindset:
 ## Why IT IR Plans Fail on the Plant Floor
 
 OT environments have different priorities, different risks, and different constraints.
- **IT focuses on:**
+
+**IT focuses on:**
 
 - Eradication
 - Containment
@@ -100,9 +101,10 @@ Define exactly:
 - Who can order a controlled shutdown
 - Who approves changes to PLC/HMI configurations
 - Who contacts  original equipment manufacturer (OEM)
-- Who communicates with IT, operations, EHS, safety, and leadership
+- Who communicates with IT, operations, EHS[^1], safety, and leadership  
 - Who decides when it's safe to resume operations
 - Who must be notified for regulatory reporting (NIS2 requirement)
+[^1]: environmental health, and safety
 
 This reduces panic and finger‑pointing during real crises.
 
@@ -149,7 +151,7 @@ A realistic OT recovery plan includes:
 - Known‑good configurations of HMI/SCADA systems
 - Steps to verify safe process startup (EHS + production + OT)
 - Rules for when to escalate to OEM support
-- Documentation for NIS2 reporting (required under Article 23)
+- Documentation for NIS2 reporting
 
 This makes recovery structured instead of improvisational.
 
@@ -219,8 +221,7 @@ This is how plants reduce downtime, mitigate insider risks, and comply with NIS2
 
 ## Conclusion: In OT, Incident Response Is Operational Survival
 
-A safety‑first incident response plan does more than check a box.  
-It:
+A safety‑first incident response plan does more than check a box, it:
 
 - Prevents unnecessary shutdowns
 - Protects people

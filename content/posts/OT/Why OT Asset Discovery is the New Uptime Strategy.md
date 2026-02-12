@@ -3,7 +3,7 @@ title = 'Why OT Asset Discovery is the New Uptime Strategy'
 date = 2026-02-11T00:00:00-00:00
 summary = 'Stop relying on "tribal knowledge." Discover how passive OT asset discovery secures critical infrastructure and prevents costly outages'
 draft = false
-tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement']
+tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement', 'CMDB']
 +++
 
 {{< figure src="/posts/_images_files/tolkien/minas_tirits_night_light_circle_charcoal.jpeg" title="Minas Tirith - Charcoal" alt="Minas Tirith - Charcoal" width="auto" >}}
@@ -18,12 +18,10 @@ tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'Critical
 
 ## Context & Stakes
 
-Most manufacturing environments still run on _tribal knowledge_.  
-Ask for the list of PLCs, HMIs, firmware versions, or who has admin rights, and you’ll often get the same answer:  **“Peter knows that.”**
+Most manufacturing environments still run on tribal knowledge.  
+Ask for the list of PLCs, HMIs, firmware versions, or who has admin rights, and you’ll often get the same answer:  “Peter knows that.”
 
-This is not an edge case, it’s the norm.
-
-Here is what many plants lack:
+This is not an edge case, it’s the norm. Here is what many plants lack:
 
 - Any centralized inventory
 - Network diagrams
@@ -51,17 +49,17 @@ Without visibility, you can’t secure or sustain production. And without sustai
 
 An effective OT discovery program produces:
 
-- **A complete hardware & software inventory** Every PLC, HMI, robot, RTU, sensor, engineering workstation, server, and switch.
-- **Known firmware versions & vulnerabilities** For legacy systems that cannot be patched, compensating controls become part of the plan.
-- **Mapped communication patterns** OT devices behave predictably, baselining normal traffic makes anomaly detection simple.
-- **Identified risky connections**:
+- **A complete hardware & software inventory:** Every PLC, HMI, robot, RTU, sensor, engineering workstation, server, and switch.
+- **Known firmware versions & vulnerabilities:** For legacy systems that cannot be patched, compensating controls become part of the plan.
+- **Mapped communication patterns:** OT devices behave predictably, baselining normal traffic makes anomaly detection simple.
+- **Identified risky connections:**
   - Direct internet exposure
   - Vendor laptops with admin rights
   - IoT devices deployed without approval
   - Shadow HMIs or engineering stations
-- **Ownership for every asset** Someone must be accountable for configuration, updates, and change control.
+- **Ownership for every asset:** Someone must be accountable for configuration, updates, and change control.
 
-When plants reach this state, uptime, safety, and troubleshooting all improve immediately.
+When plants reach this state, uptime, safety, and troubleshooting will all improve immediately.
 
 ## Practical Path
 
@@ -98,7 +96,7 @@ Based on your maturity model you should utilize  Crawl - Walk - Run approach.
 
 ### Manual discovery becomes obsolete in weeks
 
-Plants change constantly, new vendor panels, replaced PLCs, reconfigured lines. Excel dies on day one.
+Plants tend to change, new vendor panels, replaced PLCs, reconfigured lines. Excel dies on day one.
 
 ### Active scanning can break devices
 
