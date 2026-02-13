@@ -9,7 +9,7 @@ tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'Critical
 {{< figure src="/posts/_images_files/tolkien/osgiliath_charcoal.jpeg" title="Osgiliath - Charcoal" alt="Osgiliath - Charcoal" width="auto" >}}
 
 > Modern Manufacturing is no longer just about connectivity, it’s about secure‑by‑design engineering from the first line on the P&ID[^1].
-[^1]: Piping and Instrumentation Diagram
+
 
 Manufacturers planning new production lines, greenfield sites, or Industry 4.0 modernization are about to face a regulatory shift with real architectural impact.  
 Two forces are driving this:
@@ -19,7 +19,7 @@ Two forces are driving this:
 
 For the first time, cybersecurity is no longer an IT concern tacked onto the end of a project.  It becomes a design constraint, similar to safety, CE marking[^2], or functional performance.
 This doesn’t mean more paperwork.  It means your future machines, cells, and smart‑factory systems must be engineered differently from day zero.
-[^2]: Mandatory conformity marking for products sold in the European Economic Area.
+
 
 ## Why Secure‑by‑Design Is Now Mandatory
 
@@ -58,7 +58,7 @@ This affects:
 - Automation engineers
 - MES/SCADA vendors
 - OT networking providers
-[^3]: original equipment manufacturer
+
 And it will fundamentally reshape how Industry 4.0 projects are scoped, budgeted, and delivered.
 
 ## The New Design Rules for Smart Factories
@@ -79,7 +79,7 @@ This aligns OT with functional safety principles but extends them to software in
 ### Every connected component must withstand cyber interference
 
 If a sensor, camera, robot, PLC, or soft PLC[^4] can be influenced through the network, the manufacturer must:
-[^4]: Software-based programmable logic controllers.
+
 
 - Prove it does not enter a dangerous state
 - Demonstrate resilience to malformed commands or malicious packets
@@ -122,7 +122,6 @@ Before these regulations, the architecture of a new machine or line was driven b
 - Cycle times[^5]
 - Integration complexity
 
-[^5]: Cycle time in manufacturing refers to the total time taken to complete a single manufacturing operation, from the start of production to the finished product.
 Now, cybersecurity architecture becomes a mandatory design dimension.
 
 ### OT Networking Will Never Be “Flat” Again
@@ -268,3 +267,9 @@ Secure‑by‑design becomes a strategic capability, enabling:
 - Predictable, resilient production
 
 Manufacturers who embrace this shift early will build smarter, safer, and future‑proof plants, while everyone else is scrambling for retrofit fixes.
+
+[^1]: Piping and Instrumentation Diagram
+[^2]: Mandatory conformity marking for products sold in the European Economic Area.
+[^3]: original equipment manufacturer
+[^4]: Software-based programmable logic controllers.
+[^5]: Cycle time in manufacturing refers to the total time taken to complete a single manufacturing operation, from the start of production to the finished product.

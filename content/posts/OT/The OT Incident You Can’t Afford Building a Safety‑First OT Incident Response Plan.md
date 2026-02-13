@@ -1,6 +1,6 @@
 +++
 title = 'The OT Incident You Can’t Afford: Building a Safety‑First OT Incident Response Plan'
-date = 2026-02-11T00:00:00-00:00
+date = 2026-02-14T00:00:00-00:00
 summary = 'Traditional IT IR fails on the plant floor. Discover the 5 components of a resilient OT response plan to ensure uptime and NIS2 compliance.'
 draft = false
 tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement']
@@ -104,7 +104,7 @@ Define exactly:
 - Who communicates with IT, operations, EHS[^1], safety, and leadership  
 - Who decides when it's safe to resume operations
 - Who must be notified for regulatory reporting (NIS2 requirement)
-[^1]: environmental health, and safety
+
 
 This reduces panic and finger‑pointing during real crises.
 
@@ -235,3 +235,5 @@ A safety‑first incident response plan does more than check a box, it:
 Every OT incident has physical consequences.  
 Every OT response must prioritize safety.  
 Every plant needs a playbook designed for reality, not just for IT.
+
+[^1]: environmental health, and safety
