@@ -19,7 +19,7 @@ Not from APTs, not from nation‑statesn, but from everyday operational fragilit
 - A single engineer holding the only copy of a critical configuration
 - An undocumented system no one else knows how to navigate
 - A technician applying a quick fix that unexpectedly stops a line
-- A disgruntled employee with admin access
+- A disgruntled employee with admin access 
 - An accidental firewall change that isolates a PLC
 - A vendor laptop directly connected to the wrong switch
 
