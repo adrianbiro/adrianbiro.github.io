@@ -44,3 +44,6 @@ params:
     pre: <i class="fa fa-heart"></i>
     url: https://www.linkedin.com/in/adrianbiro/
     weight: 50
+  #- name: sk/cz
+  #  url: "/SK-CZ/"
+  #  weight: 60
