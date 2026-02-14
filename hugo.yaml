@@ -17,6 +17,8 @@ markup:
     renderer:
       unsafe: true
 
+buildFuture: true
+
 params:
   topmenu:
   #- name: 'home'
