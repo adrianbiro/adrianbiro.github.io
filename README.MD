@@ -47,9 +47,6 @@ personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
 personas/nachman_chabad_ai.jpeg
-nature/early_romantic_english_park_detailed.png
-nature/early_romantic_english_park_quick_sketch.png
-nature/early_romantic_english_park_ruins_animals.png
 art_deco/art_deco_abstract_cross‑hatching_sepia.png
 art_deco/art_deco_abstract_pencil.png
 art_deco/art_deco_futuristic_street_pencil.png
