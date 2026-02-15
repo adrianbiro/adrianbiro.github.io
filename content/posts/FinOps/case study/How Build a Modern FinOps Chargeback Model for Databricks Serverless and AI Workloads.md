@@ -3,7 +3,7 @@ title = 'How Build a Modern FinOps Chargeback Model for Databricks Serverless an
 summary = 'Build a modern FinOps chargeback model for Databricks with tagging, serverless budgets, and cost visibility for AI and serverless workloads.'
 date = 2026-02-16T00:00:00-00:00
 draft = false
-tags = ['Databricks', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy', 'AI', 'MosaicAI', 'Azure', 'AIGovernnce']
+tags = ['Databricks', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy', 'AI', 'MosaicAI', 'Azure', 'AIGovernance']
 +++
 > *This anonymized case study stems from a broader transformation initiative within a multinational insurance company. The challenges encountered mirror patterns I have consistently seen across other large organizations adopting cloud at scale.*
 
