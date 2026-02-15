@@ -50,7 +50,6 @@ personas/nachman_chabad_ai.jpeg
 nature/early_romantic_english_park_detailed.png
 nature/early_romantic_english_park_quick_sketch.png
 nature/early_romantic_english_park_ruins_animals.png
-art_deco/art_deco_abstract_collor.png
 art_deco/art_deco_abstract_cross‑hatching_sepia.png
 art_deco/art_deco_abstract_pencil.png
 art_deco/art_deco_futuristic_street_pencil.png
