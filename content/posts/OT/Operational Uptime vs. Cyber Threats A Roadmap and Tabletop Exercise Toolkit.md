@@ -3,7 +3,7 @@ title = 'Operational Uptime vs. Cyber Threats: A Roadmap and Tabletop Exercise T
 date = 2026-02-18T00:00:00-00:00
 summary = 'Master OT security with this guide & toolkit: featuring the critical controls, a tabletop scenario, and an incident response kit for resilient.'
 draft = false
-tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement', 'SecurityArchitecture']
+tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'IndustrialCybersecurity', 'RiskManagement', 'SecurityArchitecture', 'DigitalTransformation']
 +++
 
 {{< figure src="/posts/_images_files/tolkien/minas_tirith_abstract_night_carcoal.jpeg" title="Minas Tirith" alt="Minas Tirith" width="auto" >}}
