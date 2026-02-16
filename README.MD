@@ -37,7 +37,6 @@ grep -oP '(?<=figure src=").*?(?=" )' -- content/posts/**/*.md | cut -d: -f2 | s
 ### Images to use
 
 ```txt
-futuristic_city_beige.jpeg
 tolkien/elven_futuristic_city_pencil.png
 tolkien/minas_tirith_abstract_night_carcoal.jpeg
 tolkien/minas_tirith_charcoal.jpeg
