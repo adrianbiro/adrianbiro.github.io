@@ -3,7 +3,7 @@ title = 'Navigating the AI Cost Inflection Point with The Sovereign Infrastructu
 summary = 'Learn to navigate the AI cost inflection point and regain financial sovereignty through repatriation, edge computing, and optimized TCO.'
 date = 2026-02-06T00:00:00-00:00
 draft = false
-tags = ['Technology', 'AI', 'DataSovereignty' , 'EnterpriseArchitecture', 'FinOps', 'CostOptimization', 'CxOAgenda', 'ROI', 'CloudStrategy']
+tags = ['Technology', 'AI', 'DataSovereignty' , 'EnterpriseArchitecture', 'FinOps', 'CostOptimization', 'CxOAgenda', 'ROI', 'CloudStrategy', 'Onprem']
 +++
 
 {{< figure src="/posts/_images_files/futuristic_city_sepia.jpeg" title="City" alt="City" width="auto" >}}
