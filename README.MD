@@ -88,4 +88,8 @@ coat_of_arms/cloat_of_arms_lilac_bird_detailed.jpeg
 coat_of_arms/coat_of_ arms_helmet.jpeg 
 coat_of_arms/coat_of_arms_owl_bees_roses.jpeg 
 coat_of_arms/coat_of_arms_owl_lilac.jpeg
+castles/castle.jpeg 
+castles/castle_ruin.jpeg 
+castles/castle_ruin_dark.jpeg 
+castles/castle_ruin_dark_mist.jpeg
 ```
