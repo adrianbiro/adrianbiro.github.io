@@ -3,7 +3,7 @@ title = 'Beyond the Sales Pitch: A Practical Guide to Enterprise Tech Procuremen
 summary = 'Master enterprise tech procurement. Avoid costly RFP traps by normalizing bids, uncovering hidden TCO, and protecting your core workflows'
 date = 2026-02-01T00:00:00-00:00
 draft = false
-tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy']
+tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy', 'Procurement']
 +++
 
 {{< figure src="/posts/_images_files/high_gothic_gray.jpeg" title="Futuristic High Gothic City" alt="Futuristic High Gothic City" width="auto" >}}
