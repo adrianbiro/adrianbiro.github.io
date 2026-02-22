@@ -72,7 +72,6 @@ personas/dancing_woman.jpeg
 personas/woman_1.jpeg
 personas/woman_2.jpeg
 personas/woman_3.jpeg
-personas/woman_4.jpeg
 personas/man_1.jpeg
 personas/man_2.jpeg
 personas/man_3.jpeg
