@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'Defense', 'AI', 'CyberSecurity', 'MilitaryTech']
 +++
 
-{{< figure src="/posts/_images_files/cubism/cubistic_architecture.jpeg" title="Architecture" alt="Architecture" width="auto" >}}
+{{< figure src="/posts/_images_files/cubism/cubistic_square.jpeg" title="Architecture" alt="Architecture" width="auto" >}}
 
 The global landscape is currently defined by a sharp contradiction. Following the horrific October 7 pogrom which was the deadliest attack in Israel’s history,  the nation launched a massive military response in Gaza. This reaction has drawn intense scrutiny, leading over 150 countries to voice criticism and some to even impose sanctions or arms embargoes.
 
