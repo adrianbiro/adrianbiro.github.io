@@ -183,7 +183,7 @@ Because serverless is event-driven and distributed:
 
 These insights guide engineering teams to optimize both cost and performance.
 
-# The Bottom Line: FinOps Makes Databricks More Powerful
+## FinOps Makes Databricks More Powerful
 
 When combined with Databricks’ serverless capabilities and AI-driven workloads, FinOps becomes a strategic enabler, not merely a cost‑control mechanism.
 
