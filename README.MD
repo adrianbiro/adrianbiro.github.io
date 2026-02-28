@@ -65,7 +65,6 @@ personas/two_long_hair_woman_sitting_looking_at_me.jpeg
 personas/woman_sitting_dark_siluette.jpeg
 personas/couple_park_dog.jpeg
 personas/couple_park.jpeg
-personas/couple_caffe.jpeg
 personas/woman_caffe.jpeg
 personas/dancing_couple.jpeg
 personas/dancing_woman.jpeg
@@ -106,6 +105,5 @@ castles/castle_ruin_dark_mist.jpeg
 cubism/cubistic_caffe.jpeg
 cubism/cubistic_caffe_square_1.jpeg
 cubism/cubistic_caffe_square_2.jpeg
-cubism/cubistic_square.jpeg
 cubism/cubstic_square_people.jpeg
 ```
