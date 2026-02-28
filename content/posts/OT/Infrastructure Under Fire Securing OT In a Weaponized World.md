@@ -2,7 +2,7 @@
 title = 'Infrastructure Under Fire Securing OT In a Weaponized World'
 date = 2025-10-24T09:00:00-07:00
 summary = 'In this geopolitical landscape, your factory floor could be the first target.'
-tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure']
+tags = ['CyberSecurity', 'OTSecurity', 'OT', 'ICT', 'CyberResilience', 'CriticalInfrastructure', 'Defense']
 +++
 
 {{< figure src="/posts/_images_files/InfrastructureUnderFire.png" title="Infrastructure Under Fire Securing OT In a Weaponized World" alt="Infrastructure Under Fire Securing OT In a Weaponized World" width="auto" >}}
