@@ -19,7 +19,7 @@ For Tech Buyers, FinOps professionals, and IT leaders, the math is changing. We 
 Hyperscalers are the swiss army knives of technology. They do everything well, but they aren't optimized for any one thing. When it comes to massive AI training and high-scale inference, this generalist architecture introduces what we call the cloud tax:
 
 - **The Hypervisor Overhead:** Traditional clouds run layers of management software that eat into raw GPU performance.
-- **Capacity Constraints:** Finding 512 or 1,024 interconnected H100 GPUs on a major cloud provider is often a lesson in frustration and waitlists.
+- **Capacity Constraints:** Finding interconnected GPUs on a major cloud provider is often a lesson in frustration and waitlists.
 - **The Networking Bottleneck:** AI workloads require specialized, low-latency networking that many general-purpose data centers weren't originally designed to support at scale.
 
 ## The Rise of the Specialized Providers

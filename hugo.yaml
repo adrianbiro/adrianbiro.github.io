@@ -34,18 +34,17 @@ params:
   - name: rss
     url: "posts/index.xml"
     weight: 40
-  #  - name: github
-  #    params:
-  #      rel: external
-  #    pre: <i class="fa fa-heart"></i>
-  #    url: https://github.com/adrianbiro
-  #    weight: 50
+  - name: personal
+    url: "/tags/personal-writing/"
+    weight: 50
   - name: linkedin
     params:
       rel: external
     pre: <i class="fa fa-heart"></i>
     url: https://www.linkedin.com/in/adrianbiro/
-    weight: 50
+    weight: 60
   #- name: sk/cz
   #  url: "/SK-CZ/"
   #  weight: 60
+
+  # TODO https://gohugo.io/content-management/multilingual/
