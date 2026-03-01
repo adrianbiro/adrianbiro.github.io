@@ -3,7 +3,7 @@ title = 'On Antisemitism'
 summary = 'Discover how centuries-old psychological and historical blueprints shape modern antisemitism and the digital "performance" of hate today.'
 date = 2026-03-02T00:00:00-00:00
 draft = false
-tags = ['Personal Writing']
+tags = ['Personal']
 +++
 
 {{< figure src="/posts/_images_files/personas/man_sitting_sad.jpeg" title="Person" alt="Person" width="auto" >}}

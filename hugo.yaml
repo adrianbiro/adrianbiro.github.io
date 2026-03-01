@@ -35,7 +35,7 @@ params:
     url: "posts/index.xml"
     weight: 40
   - name: personal
-    url: "/tags/personal-writing/"
+    url: "/tags/personal/"
     weight: 50
   - name: linkedin
     params:
