@@ -73,7 +73,6 @@ personas/woman_3.jpeg
 personas/man_1.jpeg
 personas/man_2.jpeg
 personas/man_3.jpeg
-art_deco/art_deco_abstract_cross‑hatching_sepia.png
 art_deco/art_deco_abstract_pencil.png
 art_deco/art_deco_futuristic_street_pencil.png
 art_deco/art_deco_high_gotic_fusion_charcoal.png
