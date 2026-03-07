@@ -66,7 +66,6 @@ personas/couple_park_dog.jpeg
 personas/couple_park.jpeg
 personas/woman_caffe.jpeg
 personas/dancing_couple.jpeg
-personas/dancing_woman.jpeg
 personas/woman_1.jpeg
 personas/woman_2.jpeg
 personas/woman_3.jpeg
