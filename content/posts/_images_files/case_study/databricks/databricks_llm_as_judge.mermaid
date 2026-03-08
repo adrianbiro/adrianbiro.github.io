@@ -1,0 +1,35 @@
+graph TD
+    %% Step 1: Ingestion
+    A[Insurance Submission] --> B{Data Governance Layer / Enterprise Security Context}
+    B -->|PII Masking & Encryption| C[Clean Data Store / Unity Catalog Governance]
+    
+    %% Step 2: Orchestration
+    C --> D[Orchestrator Agent: The Manager]
+    D -->|Decompose Task| E[Sub-Tasks: Risk, Loss, Appetite]
+    
+    %% Step 3: Execution
+    E --> F[Specialist Agents: The Workers]
+    F -->|Tool Call| G[Unity Catalog Functions]
+    G -->|Deterministic Data| F
+    
+    %% Step 4: Internal Monitoring
+    F --> H[MLflow Tracing: Chain-of-Thought Logs]
+    
+    %% Step 5: The Evaluation Layer
+    H --> I[Evaluator Agent: The Judge]
+    subgraph "Scorer Framework for QA"
+        I --> J1[Faithfulness Check: Grounding vs. PDF]
+        I --> J2[Adherence: Underwriting Manual]
+        I --> J3[Accuracy: Loss Run Verification]
+        I --> J4[Safety & Tone Check]
+    end
+    
+    %% Step 6: Decision Logic & HITL
+    J1 & J2 & J3 & J4 --> K{Scoring & Threshold Logic}
+    
+    K -->|Score >= 4/5 & Limit Under Threshold| L[Automated Approval / Draft Issued]
+    K -->|Score < 4/5| M[ESCALATION: Human Expert Review]
+    K -->|Limit Over Threshold| M
+    
+    %% Step 7: Audit
+    L & M --> N[Final Audit Trail & Governance Report]
