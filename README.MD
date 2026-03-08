@@ -74,7 +74,6 @@ art_deco/art_deco_high_gotic_fusion_charcoal.png
 art_deco/art_deco_high_gotic_fusion_monochrome.png
 art_deco/retro‑futuristic_art_deco_concept_city_pencil.png
 art_deco/retro‑futuristic_art_deco_concept_city_sepia.png
-art_deco/art_deco_future_1.jpg
 art_deco/art_deco_future_2.jpg
 art_deco/art_deco_future_3.jpg
 art_deco/art_deco_future_4.jpg
