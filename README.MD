@@ -6,6 +6,7 @@
 
 * favicon visibility in dark mode
 * copyright
+* https://gohugo.io/content-management/diagrams/#mermaid-diagrams
 
 ### Template
 
