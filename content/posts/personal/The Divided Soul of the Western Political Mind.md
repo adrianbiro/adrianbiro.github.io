@@ -41,8 +41,9 @@ Modern Liberalism is not continuations of Athenian wisdom, but a narrowing of it
 
 ## The Vital Tension
 
-The genius of Western political thought is that neither Jerusalem nor Athens ever successfully defeated the other. When a political system tries to be all Jerusalem or all Athens, it becomes brittle and oppressive.
+The genius of Western political thought is that neither Jerusalem nor Athens ever successfully defeated the other.[^2] When a political system tries to be all Jerusalem or all Athens, it becomes brittle and oppressive.
 
 Western liberty is at its strongest when this conflict remains alive. We require the Athenian confidence in human reason to build our institutions, but we also require the Jerusalem humility to remember that we are not gods and that our power must always be limited by a moral law we did not create.
 
 [^1]: <https://www.commentary.org/articles/leo-strauss/jerusalem-and-athens-some-introductory-reflections/>
+[^2]: Let that sink in as my official response to Tertullian’s question: "Quid ergo Athenis et Hierosolymis?“
