@@ -3,7 +3,7 @@ title = """The State of Sovereign Cloud and Microsoft’s Strategic Direction"""
 summary = 'Modern sovereign cloud models provide data residency and AI governance for regulated sectors. Implement multi-layered digital autonomy.'
 date = 2026-03-18T00:00:00-00:00
 draft = false
-tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Onprem', 'CxOAgenda', 'ROI', 'CloudStrategy', 'Procurement', 'AI','CyberResilience']
+tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Onprem', 'CxOAgenda', 'CIO', 'CloudStrategy', 'Procurement', 'AI','CyberResilience']
 +++
 
 {{< figure src="/posts/_images_files/personas/english_african_hunter_safary_art_nouveau_pencil.png" title="Hunter" alt="Hunter" width="auto" >}}
