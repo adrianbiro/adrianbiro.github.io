@@ -41,7 +41,6 @@ tolkien/elven_futuristic_city_pencil.png
 tolkien/minas_tirith_abstract_night_carcoal.jpeg
 tolkien/minas_tirith_charcoal.jpeg
 tolkien/moorgoth_ink_sketch.jpeg
-personas/english_african_hunter_safary_art_nouveau_pencil.png
 personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
