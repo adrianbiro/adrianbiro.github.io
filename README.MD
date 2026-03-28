@@ -53,7 +53,6 @@ abstract_art/scifi-architecture/scifi-gothic-city-4.jpeg
 personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
-personas/nachman_chabad_ai.jpeg
 personas/man_sitting_hope.jpeg 
 personas/man_sitting_reaching.jpeg
 personas/man_squating_twist.jpeg
