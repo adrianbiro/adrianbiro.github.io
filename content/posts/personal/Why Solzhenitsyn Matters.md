@@ -6,7 +6,7 @@ draft = false
 tags = ['Personal']
 +++
 
-{{< figure src="/posts/_images_files/personas/two_long_hair_woman_sitting.jpeg" title="Sad" alt="Sad" width="auto" >}}
+{{< figure src="/posts/_images_files/personas/two_long_hair_woman_sitting.jpeg" title="Sadness" alt="Sadness" width="auto" >}}
 
 Aleksandr Solzhenitsyn was not merely a survivor of the soviet labor camp system. He was a witness to the moral collapse of the twentieth century. His importance today does not stem solely from his historical accounts of the gulag, but from his understanding of how individual choices sustain or dismantle totalitarian systems of oppression. By examining his views on the human condition and the nature of truth, it becomes clear why his voice remains a necessary corrective to modern political and social discourse.
 
