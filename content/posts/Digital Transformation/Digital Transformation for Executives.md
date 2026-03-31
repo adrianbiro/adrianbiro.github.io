@@ -6,7 +6,7 @@ draft = false
 tags = ['Technology', 'EnterpriseArchitecture', 'DigitalTransformation', 'CxOAgenda', 'ROI', 'Procurement']
 +++
 
-{{< figure src="/posts/_images_files/castles/castle_ruin.jpeg" title="Ruin" alt="Dance" width="Ruin" >}}
+{{< figure src="/posts/_images_files/castles/castle_ruin.jpeg" title="Ruin" alt="Dance" width="auto" >}}
 
 I have been involved in multiple transformation engagements, including situations where programs had to be stabilized after months of “progress” with little real value delivered. Over time, a clear pattern emerges: most problems are not caused by the technology itself. They are caused by leadership misalignment, unclear decision rights, weak governance, vendor incentives that do not match business outcomes, and insufficient readiness for the people and process change.
 

@@ -96,7 +96,7 @@ The process operates as a multi-stage funnel designed to filter out errors throu
 
 This process transforms subjective "vibe checks" into objective, repeatable metrics. By maintaining these scorers consistently from development through production, the organization ensures that every autonomous decision is grounded in actuarial reality and enterprise security standards.
 
-{{< figure src="/posts/_images_files/case_study/databricks/databricks_llm_as_judge_flow.png" title="Process Flow" alt="Process Flow" width="auto" >}}
+{{< figure src="/posts/_images_files/article_specific/case_study/databricks/databricks_llm_as_judge_flow.png" title="Process Flow" alt="Process Flow" width="auto" >}}
 
 ---
 
