@@ -61,7 +61,6 @@ personas/woman_walking.jpeg
 personas/woman_sitting.jpeg
 personas/woman_sitting_sad.jpeg
 personas/woman_arching.jpeg
-personas/woman_kneeling_short_hair.jpeg
 personas/woman_kneeling_longer_hair.jpeg
 personas/woman_sitting_sad_detailed.jpeg
 personas/woman_sitting_dark_siluette.jpeg
