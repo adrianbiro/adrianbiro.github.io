@@ -100,7 +100,6 @@ nature/animals/deer_standng.jpeg
 nature/animals/fox.jpeg 
 nature/animals/fox_sketch.jpeg 
 nature/animals/mause.jpeg 
-nature/animals/rabbit_sketch.jpeg
 coat_of_arms/cloat_of_arms_lilac_bird.jpeg 
 coat_of_arms/cloat_of_arms_lilac_bird_detailed.jpeg 
 coat_of_arms/coat_of_ arms_helmet.jpeg 
