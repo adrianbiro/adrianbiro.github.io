@@ -43,7 +43,7 @@ One often-overlooked incentive is how the software affects the balance sheet.
 
 Modern IT is heavily incentivized toward OpEx through SaaS and cloud subscriptions. It’s modern, it’s cutting-edge, and it’s an annual cost. However, many operations leaders, especially in asset-heavy industries like manufacturing, are wired for CapEx. They are used to buying an asset, depreciating it, and sweating it for a decade.
 
-When evaluating software, you must understand the CFO's incentive. Moving to a cloud-first model might be technically superior, but if it shifts the financial burden in a way that hurts the company’s EBITDA or investment strategy, you will face silent, stubborn resistance from the top.
+When evaluating software, you must understand the CFO's incentive. Moving to a cloud-first model might be technically superior, but if it shifts the financial burden in a way that hurts the company’s financial posture or investment strategy, you will face silent, stubborn resistance from the top.
 
 ## Avoiding the Technical Purity Trap
 
