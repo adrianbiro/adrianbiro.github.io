@@ -16,6 +16,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    renderHooks:
+      image:
+        useEmbedded: always
+      link:
+        useEmbedded: always
 
 buildFuture: true
 
