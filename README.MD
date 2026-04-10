@@ -42,7 +42,6 @@ tolkien/minas_tirith_abstract_night_carcoal.jpeg
 tolkien/minas_tirith_charcoal.jpeg
 tolkien/moorgoth_ink_sketch.jpeg
 abstract_art/arvo_part/arvo-part-impressions-2.jpeg
-abstract_art/arvo_part/arvo-part-impressions-5.jpeg
 abstract_art/arvo_part/arvo-part-impressions-6.jpeg
 abstract_art/scifi-architecture/scifi-gothic-city-1.jpeg
 abstract_art/scifi-architecture/scifi-gothic-city-2.jpeg
