@@ -1,0 +1,89 @@
+flowchart TD
+
+%% Pipeline: Operational AI as a decision system (not a model race)
+
+  
+
+A[Operational reality<br/> sites, languages, exceptions] --> B[Data inputs]
+
+B --> G1{Gate A<br/>Data readiness}
+
+G1 -->|Pass| C[Model<br/>LLM / ML]
+
+G1 -->|Fail| F1[Failure: Fragmented, inconsistent, unmonitored data<br/>Pilot works once, collapses at scale]
+
+  
+
+C --> D[Output<br/>recommendation / alert / forecast]
+
+D --> G2{Gate B<br/>Decision ownership}
+
+G2 -->|Pass| E[Decision & action<br/>embedded in workflow]
+
+G2 -->|Fail| F2[Failure: Output has no owner<br/>Ignored dashboard or blame generator]
+
+  
+
+E --> G3{Gate C<br/>Oversight under pressure}
+
+G3 -->|Pass| G4{Gate D<br/>Incentives & KPI guardrails}
+
+G3 -->|Fail| F3[Failure: Over-reliance under pressure<br/>Humans stop challenging the system]
+
+  
+
+G4 -->|Pass| H[Production operations]
+
+G4 -->|Fail| F4[Failure: Metric becomes the target<br/>Gaming, distorted signals, amplified bad behavior]
+
+  
+
+H --> G5{Gate E<br/>Operational control}
+
+G5 -->|Pass| I[Governance & compliance<br/>envelope]
+
+G5 -->|Fail| F5[Failure: Pilot cannot survive production<br/>No monitoring, change control, incidents, rollback]
+
+  
+
+I --> G6{Gate F<br/>Governance early}
+
+G6 -->|Pass| J[Sustained adoption]
+
+G6 -->|Fail| F6[Failure: Governance arrives late<br/>Blocked late or slowed until bypassed]
+
+  
+
+J --> G7{Gate G<br/>Operational pull}
+
+G7 -->|Pass| K[Outcomes at scale<br/>AI as managed capability]
+
+G7 -->|Fail| F7[Failure: Novelty-driven use case<br/>No enduring pain, no routines, adoption fades]
+
+  
+
+%% Callouts: the punchline
+
+N1[Model quality reduces friction] -.-> C
+
+N2[Operating model determines survival] -.-> G2
+
+N2 -.-> G5
+
+  
+
+%% Minimal styling
+
+classDef gate fill:#fff7ed,stroke:#c2410c,stroke-width:1px,color:#7c2d12;
+
+classDef fail fill:#fef2f2,stroke:#b91c1c,stroke-width:1px,color:#7f1d1d;
+
+classDef note fill:#eff6ff,stroke:#1d4ed8,stroke-width:1px,color:#1e3a8a;
+
+  
+
+class G1,G2,G3,G4,G5,G6,G7 gate;
+
+class F1,F2,F3,F4,F5,F6,F7 fail;
+
+class N1,N2 note;

@@ -80,7 +80,6 @@ art_deco/art_deco_future_4.jpg
 art_deco/art_deco_future_5.jpg
 art_deco/art_deco_future_6.jpg
 art_deco/art_deco_future_7.jpg
-art_deco/art_deco_future_8.jpg
 art_deco/art_deco_future_9.jpg
 art_deco/art_deco_future_10.jpg
 art_deco/art_deco_future_11.jpg
