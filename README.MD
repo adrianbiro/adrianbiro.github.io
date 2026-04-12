@@ -59,7 +59,6 @@ personas/woman_sitting.jpeg
 personas/woman_sitting_sad.jpeg
 personas/woman_arching.jpeg
 personas/woman_kneeling_longer_hair.jpeg
-personas/woman_sitting_sad_detailed.jpeg
 personas/woman_sitting_dark_siluette.jpeg
 personas/couple_park_dog.jpeg
 personas/couple_park.jpeg
