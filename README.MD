@@ -65,7 +65,6 @@ personas/woman_caffe.jpeg
 personas/woman_1.jpeg
 personas/woman_2.jpeg
 personas/woman_3.jpeg
-personas/man_1.jpeg
 personas/man_2.jpeg
 personas/man_3.jpeg
 art_deco/art_deco_futuristic_street_pencil.png
