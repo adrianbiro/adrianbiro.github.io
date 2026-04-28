@@ -89,7 +89,6 @@ nature/animals/deer_dark.jpeg
 nature/animals/deer_light.jpeg 
 nature/animals/deer_standng.jpeg 
 nature/animals/fox.jpeg 
-nature/animals/fox_sketch.jpeg 
 nature/animals/mause.jpeg 
 coat_of_arms/cloat_of_arms_lilac_bird.jpeg 
 coat_of_arms/cloat_of_arms_lilac_bird_detailed.jpeg 
