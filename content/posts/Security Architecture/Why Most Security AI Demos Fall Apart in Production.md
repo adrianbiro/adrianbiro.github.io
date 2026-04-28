@@ -3,7 +3,7 @@ title = 'Why Most Security AI Demos Fall Apart in Production'
 summary = 'Security AI demos look great until they hit production. Why enterprises struggle and what really reduces risk.'
 date = 2026-04-22T08:00:00-00:00
 draft = false
-tags = ['CxOAgenda', 'ROI', 'AI', 'BusinessResilience', 'Technology', 'CyberSecurity', 'Procurement']
+tags = ['CxOAgenda', 'ROI', 'AI', 'BusinessResilience', 'Technology', 'CyberSecurity', 'SecurityArchitecture', 'Procurement']
 +++
 
 {{< figure src="/posts/_images_files/personas/man_1.jpeg" title="Persona" alt="Persona" width="auto" >}}
