@@ -81,7 +81,6 @@ art_deco/art_deco_future_11.jpg
 art_deco/art_deco_future_12.jpg
 nature/animals/ant.jpeg 
 nature/animals/bee.jpeg 
-nature/animals/bobcat.jpeg 
 nature/animals/deer_dark.jpeg 
 nature/animals/deer_light.jpeg 
 nature/animals/deer_standng.jpeg 
