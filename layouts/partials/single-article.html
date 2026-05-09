@@ -5,7 +5,6 @@
     itemtype="https://schema.org/Article" >
   <meta itemprop="author" content="{{ .Site.Params.Author }}" />
   <meta itemprop="publisher" content="{{ .Site.Params.Author }}" />
-  <meta itemprop="image" content="{{ partial "feature_image" . }}" />
   <h1 itemprop="name" id="title">{{ .Title }}</h1>
   <meta itemprop="headline" content="{{ .Title }}" />
   {{ with .Params.tags }}
