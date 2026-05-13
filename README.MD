@@ -97,5 +97,4 @@ castles/castle_ruin_dark_mist.jpeg
 cubism/cubistic_caffe.jpeg
 cubism/cubistic_caffe_square_1.jpeg
 cubism/cubistic_caffe_square_2.jpeg
-cubism/cubstic_square_people.jpeg
 ```
