@@ -3,7 +3,7 @@ title = 'Surviving the Cultural Shock of Digital Transformation'
 summary = '''Learn why digital transformation fails when culture and adoption are ignored, and how early change readiness improves long-term success.'''
 date = 2026-05-16T00:00:00-00:00
 draft = false
-tags = ['Technology', 'EnterpriseArchitecture', 'DigitalTransformation', 'CxOAgenda', 'ROI', 'Procurement', 'CloudStrategy', 'AI']
+tags = ['Technology', 'DigitalTransformation', 'CxOAgenda', 'ROI', 'BusinessResilience']
 +++
 
 {{< figure src="/posts/_images_files/personas/couple_park_dog.jpeg" title="Walk" alt="Walk" width="auto" >}}
