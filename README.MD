@@ -44,7 +44,6 @@ abstract_art/arvo_part/arvo-part-impressions-6.jpeg
 abstract_art/scifi-architecture/scifi-gothic-city-1.jpeg
 abstract_art/scifi-architecture/scifi-gothic-city-2.jpeg
 abstract_art/scifi-architecture/scifi-gothic-city-3.jpeg
-abstract_art/scifi-architecture/scifi-gothic-city-4.jpeg
 personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
