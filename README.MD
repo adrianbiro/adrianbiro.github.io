@@ -82,7 +82,6 @@ abstract_art/abstract_architecture/abstract_architecture_light_3.jpeg
 abstract_art/abstract_architecture/abstract_architecture_light_4.jpeg
 abstract_art/abstract_architecture/abstract_architecture_light_5.jpeg
 abstract_art/abstract_architecture/abstract_architecture_light_6.jpeg
-abstract_art/abstract_architecture/abstract_architecture_light_7.jpeg
 nature/animals/ant.jpeg 
 nature/animals/bee.jpeg 
 nature/animals/deer_dark.jpeg 
