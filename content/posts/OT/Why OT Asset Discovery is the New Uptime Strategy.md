@@ -83,7 +83,7 @@ Based on your maturity model you should utilize  Crawl - Walk - Run approach.
 
 **Goal:** “What matters most and how do we protect it?”
 
-## Run: Operationalize & Mature
+### Run: Operationalize & Mature
 
 - Enable continuous monitoring.
 - Add anomaly detection (OT is perfect for this because traffic is predictable).
