@@ -47,7 +47,6 @@ personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
 personas/man_squating_twist.jpeg
-personas/man_running.jpeg
 personas/woman_walking.jpeg
 personas/woman_sitting.jpeg
 personas/woman_sitting_sad.jpeg
