@@ -16,6 +16,7 @@ summary = 'TODO 140 char long'
 date = 2026-01-31T00:00:00-00:00
 draft = false
 tags = ['Technology', 'FinOps', 'CostOptimization', 'DigitalTransformation', 'Governance', 'CxOAgenda', 'ROI', 'CloudStrategy']
+mermaid = true
 +++
 
 {{< figure src="/posts/_images_files/TODO" title="TODO" alt="TODO" width="auto" >}}
