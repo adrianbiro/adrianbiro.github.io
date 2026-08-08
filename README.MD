@@ -39,7 +39,6 @@ grep -oP '(?<=figure src=").*?(?=" )' -- content/posts/**/*.md | cut -d: -f2 | s
 
 ```txt
 tolkien/elven_futuristic_city_pencil.png
-tolkien/moorgoth_ink_sketch.jpeg
 abstract_art/arvo_part/arvo-part-impressions-2.jpeg
 abstract_art/arvo_part/arvo-part-impressions-6.jpeg
 abstract_art/scifi-architecture/scifi-gothic-city-1.jpeg
