@@ -1,7 +1,7 @@
 +++
 title = 'Observability Notes'
 summary = '''Master the fundamentals of observability. Explore the three telemetry signals, W3C trace context, OpenTelemetry pipeline design, and cost control strategies.'''
-date = 2026-09-08T08:00:00-00:00
+date = 2026-08-08T08:00:00-00:00
 draft = false
 tags = ['SecurityArchitecture', 'Technology', 'Obeservability', 'ROI']
 mermaid = true
