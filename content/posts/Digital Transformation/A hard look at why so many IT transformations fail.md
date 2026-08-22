@@ -3,7 +3,7 @@ title = 'Book Review: A hard look at why so many IT transformations fail (and wh
 summary = '''Cut IT program failure: executive alignment, decisive governance, realistic plans, and day-two operating readiness.'''
 date = 2026-05-03T00:00:00-00:00
 draft = false
-tags = ['Technology', 'EnterpriseArchitecture', 'DigitalTransformation', 'CxOAgenda', 'ROI', 'Procurement', 'CloudStrategy', 'AI']
+tags = ['Technology', 'EnterpriseArchitecture', 'DigitalTransformation', 'CxOAgenda', 'ROI', 'Procurement', 'CloudStrategy', 'AI', 'BookReview']
 +++
 
 {{< figure src="/posts/_images_files/art_deco/retro‑futuristic_art_deco_concept_city_sepia.png" title="Art Deco" alt="Art Deco" width="auto" >}}
