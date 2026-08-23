@@ -2,6 +2,11 @@
 
 ## <https://adrianbiro.github.io>
 
+### After clone
+
+`git submodule update --init --recursive`
+
+
 ### TODOs
 
 * favicon visibility in dark mode
