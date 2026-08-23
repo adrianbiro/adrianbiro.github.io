@@ -1,5 +1,5 @@
 +++
-title = 'DRAFT Technical State Compliance - Reference Architecture, Operating Model, and Assurance Guide'
+title = 'Technical State Compliance - Reference Architecture, Operating Model, and Assurance Guide'
 summary = '''Explore a vendor-neutral architecture for continuous technical control evaluation, enforcement, remediation, evidence, and independent assurance'''
 date = 2026-08-16T08:00:00-00:00
 draft = false
