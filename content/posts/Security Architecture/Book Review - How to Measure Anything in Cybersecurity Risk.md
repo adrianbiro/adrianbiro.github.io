@@ -8,7 +8,7 @@ tags = ['CxOAgenda', 'SecurityStrategy', 'BusinessResilience', 'CyberSecurity', 
 
 {{< figure src="/posts/_images_files/personas/woman_sitting_dark_siluette.jpeg" title="Persona" alt="Persona" width="auto" >}}
 
-*How to Measure Anything in Cybersecurity Risk*[^1] challenges one of the most common practices in cybersecurity. Assessing risks with labels such as high, medium, and low. The authors argue that these labels, usually presented in colored risk matrices, create the appearance of disciplined analysis without giving leaders a reliable basis for making decisions.
+*How to Measure Anything in Cybersecurity Risk*[^1] challenges one of the most common practices in cybersecurity, practice of assessing risks with labels such as high, medium, and low. The authors argue that these labels, usually presented in colored risk matrices, create the appearance of disciplined analysis without giving leaders a reliable basis for making decisions.
 
 Their proposed alternative is simple, describe cyber risk using probabilities, financial consequences, ranges, and evidence. The goal is not to predict the future perfectly, but to make better decisions under uncertainty.
 
