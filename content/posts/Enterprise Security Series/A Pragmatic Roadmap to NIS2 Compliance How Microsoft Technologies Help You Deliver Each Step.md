@@ -3,7 +3,7 @@ title = 'A Pragmatic Roadmap to NIS2 Compliance: How Microsoft Technologies Help
 summary = 'Drive NIS2 compliance and strengthen resilience by maximizing ROI from your existing Microsoft security ecosystem.'
 date = 2026-02-08T00:00:00-00:00
 draft = false
-tags = ['CyberSecurity', 'Governance', 'CloudSecurity', 'NIS2', 'CyberResilience', 'RiskManagement', 'Enterprise Security', 'CxOAgenda', 'Microsoft', 'BusinessResilience']
+tags = ['CyberSecurity', 'Governance', 'CloudSecurity', 'NIS2', 'CyberResilience', 'RiskManagement', 'EnterpriseSecurity', 'CxOAgenda', 'Microsoft', 'BusinessResilience']
 +++
 
 {{< figure src="/posts/_images_files/futuristic_towers_pencil_clear.jpeg" title="Futuristic Towers" alt="Futuristic Towers" width="auto" >}}

@@ -3,7 +3,7 @@ title = 'Leading Kubernetes-Enabled DevSecOps Transformation: The Executive Chan
 summary = 'Executive playbook for Kubernetes-enabled DevSecOps: align teams, governance, and security to deliver faster, safer releases at scale. '
 date = 2026-02-26T00:00:00-00:00
 draft = false
-tags = ['k8s', 'CloudStrategy', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'DevSecOps', 'ROI', 'CyberResilience', 'Enterprise Security', 'CxOAgenda', 'Enterprise DevSecOps at Scale: Strategy, Change, and ROI']
+tags = ['k8s', 'CloudStrategy', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'DevSecOps', 'ROI', 'CyberResilience', 'EnterpriseSecurity', 'CxOAgenda', 'DevSecOps']
 +++
 
 {{< figure src="/posts/_images_files/nature/early_romantic_english_park_quick_sketch.png" title="Romantic Park" alt="Romantic Park" width="auto" >}}

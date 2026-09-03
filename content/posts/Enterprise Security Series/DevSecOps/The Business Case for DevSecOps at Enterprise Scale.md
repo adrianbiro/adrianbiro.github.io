@@ -3,7 +3,7 @@ title = 'The Business Case for DevSecOps at Enterprise Scale'
 summary = 'Enterprise DevSecOps at scale: automate security, speed delivery, prove compliance, and cut risk across business units.'
 date = 2026-02-25T00:00:00-00:00
 draft = false
-tags = ['CloudStrategy', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'DevSecOps', 'CyberResilience', 'Enterprise Security', 'CxOAgenda', 'Enterprise DevSecOps at Scale: Strategy, Change, and ROI', 'ROI']
+tags = ['CloudStrategy', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'DevSecOps', 'CyberResilience', 'EnterpriseSecurity', 'CxOAgenda', 'DevSecOps', 'ROI']
 +++
 
 {{< figure src="/posts/_images_files/nature/early_romantic_english_park_detailed.png" title="Romantic Park" alt="Romantic Park" width="auto" >}}

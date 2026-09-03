@@ -3,7 +3,7 @@ title = 'Asset Discovery as the Foundation of a Modern CMDB: A Practical Guide f
 summary = 'Why Asset Discovery is the core of a reliable CMDB and the key to building real security visibility in modern, cloud‑driven environments.'
 date = 2026-02-07T00:00:00-00:00
 draft = false
-tags = ['Technology', 'CyberSecurity', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'NIS2', 'CyberResilience', 'CMDB', 'Enterprise Security']
+tags = ['Technology', 'CyberSecurity', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'NIS2', 'CyberResilience', 'CMDB', 'EnterpriseSecurity']
 +++
 
 {{< figure src="/posts/_images_files/futuristic_city_sepia_trees.jpeg" title="City" alt="City" width="auto" >}}

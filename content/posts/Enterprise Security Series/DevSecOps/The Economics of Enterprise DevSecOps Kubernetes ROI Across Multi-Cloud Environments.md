@@ -3,7 +3,7 @@ title = 'The Economics of Enterprise DevSecOps: Kubernetes ROI Across Multi-Clou
 summary = 'Kubernetes DevSecOps economics in multi-cloud: pay for what you use, reduce toil, improve resilience, and strengthen compliance at scale.'
 date = 2026-02-17T00:00:00-00:00
 draft = false
-tags = ['k8s', 'CloudStrategy', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'DevSecOps', 'CyberResilience', 'FinOps', 'Enterprise Security', 'Procurement', 'CxOAgenda', 'Enterprise DevSecOps at Scale: Strategy, Change, and ROI']
+tags = ['k8s', 'CloudStrategy', 'DigitalTransformation', 'Governance', 'CloudSecurity', 'DevSecOps', 'CyberResilience', 'FinOps', 'EnterpriseSecurity', 'Procurement', 'CxOAgenda', 'DevSecOps', 'ROI']
 +++
 
 {{< figure src="/posts/_images_files/nature/early_romantic_english_park_ruins_animals.png" title="Romantic Park" alt="Romantic Park" width="auto" >}}
