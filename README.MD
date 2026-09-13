@@ -46,7 +46,6 @@ grep -oP '(?<=figure src=").*?(?=" )' -- content/posts/**/*.md | cut -d: -f2 | s
 tolkien/elven_futuristic_city_pencil.png
 abstract_art/arvo_part/arvo-part-impressions-2.jpeg
 abstract_art/arvo_part/arvo-part-impressions-6.jpeg
-abstract_art/scifi-architecture/scifi-gothic-city-2.jpeg
 personas/english_african_hunter_safary.png
 personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
@@ -90,7 +89,6 @@ nature/animals/fox.jpeg
 nature/animals/mause.jpeg
 coat_of_arms/cloat_of_arms_lilac_bird.jpeg
 coat_of_arms/coat_of_ arms_helmet.jpeg
-coat_of_arms/coat_of_arms_owl_bees_roses.jpeg
 coat_of_arms/coat_of_arms_owl_lilac.jpeg
 castles/castle.jpeg
 castles/castle_ruin.jpeg

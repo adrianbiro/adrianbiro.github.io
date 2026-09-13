@@ -3,7 +3,7 @@ title = 'Developing a Strong Professional Presence'
 summary = """Build strong executive presence by cutting out weak habits. Learn how to speak clearly, stay calm, and lead with absolute certainty."""
 date = 2026-07-11T00:00:00-00:00
 draft = false
-tags = ['Personal']
+tags = ['Professional']
 +++
 
 {{< figure src="/posts/_images_files/abstract_art/scifi-architecture/scifi-gothic-city-3.jpeg" title="City" alt="City" width="auto" >}}
