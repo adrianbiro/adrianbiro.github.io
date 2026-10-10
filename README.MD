@@ -63,7 +63,6 @@ personas/woman_3.jpeg
 personas/man_2.jpeg
 personas/man_3.jpeg
 art_deco/art_deco_futuristic_street_pencil.png
-art_deco/art_deco_high_gotic_fusion_charcoal.png
 art_deco/retro‑futuristic_art_deco_concept_city_pencil.png
 art_deco/art_deco_future_2.jpg
 art_deco/art_deco_future_3.jpg
