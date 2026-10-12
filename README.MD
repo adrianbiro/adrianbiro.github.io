@@ -96,4 +96,13 @@ castles/castle_ruin_dark_mist.jpeg
 cubism/cubistic_caffe.jpeg
 cubism/cubistic_caffe_square_1.jpeg
 cubism/cubistic_caffe_square_2.jpeg
+abstract_art/scifi-architecture/scifi-megastructure-1.png
+abstract_art/scifi-architecture/scifi-megastructure-2.jpeg
+abstract_art/scifi-architecture/scifi-megastructure-3.png
+abstract_art/scifi-architecture/scifi-megastructure-4.png
+abstract_art/scifi-architecture/scifi-megastructure-5.png
+abstract_art/scifi-architecture/scifi-megastructure-6.png
+abstract_art/scifi-architecture/scifi-megastructure-7.png
+abstract_art/scifi-architecture/scifi-megastructure-8.png
+
 ```
