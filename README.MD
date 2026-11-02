@@ -47,7 +47,6 @@ tolkien/elven_futuristic_city_pencil.png
 abstract_art/arvo_part/arvo-part-impressions-2.jpeg
 abstract_art/arvo_part/arvo-part-impressions-6.jpeg
 personas/english_african_hunter_safary.png
-personas/romantic_era_hunter.png
 personas/rusalka_pencil.png
 personas/man_squating_twist.jpeg
 personas/woman_walking.jpeg
