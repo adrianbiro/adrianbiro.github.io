@@ -56,7 +56,6 @@ personas/woman_kneeling_longer_hair.jpeg
 personas/couple_park.jpeg
 personas/woman_caffe.jpeg
 personas/woman_1.jpeg
-personas/woman_2.jpeg
 personas/woman_3.jpeg
 personas/man_2.jpeg
 personas/man_3.jpeg
